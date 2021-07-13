@@ -468,18 +468,18 @@
 				<Property Name="Bld_buildSpecName" Type="Str">Configuration Debug</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/Ballard MIL-STD-1553</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/Ballard/MIL-STD-1553</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Utility/LLB Pre-Build CHM Build.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{ABE103FD-8E06-4287-92FA-28F9CAA41336}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">../Built/Ballard MIL-STD-1553</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/Ballard/MIL-STD-1553</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Built/Ballard MIL-STD-1553/Windows</Property>
+				<Property Name="Destination[1].path" Type="Path">../Built/Ballard/MIL-STD-1553/Windows</Property>
 				<Property Name="Destination[2].destName" Type="Str">Ballard MIL-STD-1553 Configuration LLB</Property>
-				<Property Name="Destination[2].path" Type="Path">../Built/Ballard MIL-STD-1553/Windows/Ballard MIL-STD-1553 Configuration.llb</Property>
+				<Property Name="Destination[2].path" Type="Path">../Built/Ballard/MIL-STD-1553/Windows/Ballard MIL-STD-1553 Configuration.llb</Property>
 				<Property Name="Destination[2].type" Type="Str">LLB</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Source[0].itemID" Type="Str">{786E0FC0-CAEE-449F-96A6-38A061AFD3CB}</Property>
@@ -576,16 +576,16 @@
 				<Property Name="Bld_buildSpecName" Type="Str">Engine Debug</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/Ballard MIL-STD-1553/Windows/Ballard MIL-STD-1553 Engine Windows.llb</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/Ballard/MIL-STD-1553/Windows/Ballard MIL-STD-1553 Engine Windows.llb</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{1E93022C-2E5B-4058-865F-DEB05CE955D3}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">../Built/Ballard MIL-STD-1553/Windows/Ballard MIL-STD-1553 Engine Windows.llb</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/Ballard/MIL-STD-1553/Windows/Ballard MIL-STD-1553 Engine Windows.llb</Property>
 				<Property Name="Destination[0].type" Type="Str">LLB</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Built/Ballard MIL-STD-1553/Windows</Property>
+				<Property Name="Destination[1].path" Type="Path">../Built/Ballard/MIL-STD-1553/Windows</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].itemID" Type="Str">{08BECEEA-C2C4-4262-8351-7D8564FF9CB1}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
@@ -809,7 +809,7 @@
 				<Property Name="Bld_buildSpecName" Type="Str">Engine Debug</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/Ballard MIL-STD-1553</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/Ballard/MIL-STD-1553</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F695DE45-75F7-4EEF-8A23-F09E00E4906D}</Property>
@@ -836,7 +836,7 @@
 				<Property Name="Bld_buildSpecName" Type="Str">Engine Release</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/Ballard MIL-STD-1553</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/Ballard/MIL-STD-1553</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4DDC7D17-96A1-4AE7-BF29-EC0FD60BE89D}</Property>
@@ -1064,7 +1064,7 @@
 				<Property Name="Bld_buildSpecName" Type="Str">Engine Debug</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/Ballard MIL-STD-1553</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/Ballard/MIL-STD-1553</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{3D902CDC-8910-43F8-A5F8-B975F153263F}</Property>
@@ -1091,7 +1091,7 @@
 				<Property Name="Bld_buildSpecName" Type="Str">Engine Release</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/Ballard MIL-STD-1553</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/Ballard/MIL-STD-1553</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F7A753CB-5AA6-49B3-83A7-C0336FA31893}</Property>
@@ -1320,7 +1320,7 @@
 				<Property Name="Bld_buildSpecName" Type="Str">Engine Debug</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/Ballard MIL-STD-1553</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/Ballard/MIL-STD-1553</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F8517384-886E-4E23-8DE4-15D71E4DEE23}</Property>
@@ -1347,7 +1347,7 @@
 				<Property Name="Bld_buildSpecName" Type="Str">Engine Release</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/Ballard MIL-STD-1553</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/Ballard/MIL-STD-1553</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E24CF77A-EDD5-435E-91DE-CAC6522BEA2A}</Property>
