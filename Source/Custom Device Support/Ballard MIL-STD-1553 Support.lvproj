@@ -87,9 +87,10 @@
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Communication Bus Engine" Type="Packed Library">
+			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="Engine" Type="Packed Library">
 				<Property Name="Bld_buildCacheID" Type="Str">{1292050D-A0DC-43FC-8EB3-6FC5EDB32D8A}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Communication Bus Engine</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Engine</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../Built/Support/Windows</Property>
@@ -106,7 +107,7 @@
 				<Property Name="Destination[1].path" Type="Path">../Built/Support/Windows</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E3CF041A-9E8D-48E6-B12D-5A91EFF193A1}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{AD4D8770-3E8C-4C89-833C-C61AC016CD53}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Ballard MIL-STD-1553 Engine.lvlib</Property>
@@ -117,17 +118,17 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Communication Bus Engine</Property>
-				<Property Name="TgtF_internalName" Type="Str">Communication Bus Engine</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Engine</Property>
+				<Property Name="TgtF_internalName" Type="Str">Engine</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 </Property>
-				<Property Name="TgtF_productName" Type="Str">Communication Bus Engine</Property>
+				<Property Name="TgtF_productName" Type="Str">Engine</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{42316925-79E8-4345-8D40-0BF14F60C9A2}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Ballard MIL-STD-1553 Engine.lvlibp</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Communication Bus System Explorer" Type="Packed Library">
+			<Item Name="System Explorer" Type="Packed Library">
 				<Property Name="Bld_buildCacheID" Type="Str">{9EDCC426-A584-4087-8244-A3B57E74FF5E}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Communication Bus System Explorer</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">System Explorer</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../Built/Support/Windows</Property>
@@ -144,7 +145,7 @@
 				<Property Name="Destination[1].path" Type="Path">../Built/Support/Windows</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E3CF041A-9E8D-48E6-B12D-5A91EFF193A1}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{AD4D8770-3E8C-4C89-833C-C61AC016CD53}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Ballard MIL-STD-1553 System Explorer.lvlib</Property>
@@ -323,9 +324,9 @@
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Communication Bus Engine" Type="Packed Library">
+			<Item Name="Engine" Type="Packed Library">
 				<Property Name="Bld_buildCacheID" Type="Str">{9B60B8DD-65DB-42E1-BD19-0C238DAC493D}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Communication Bus Engine</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Engine</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../Built/Support</Property>
@@ -344,7 +345,7 @@
 				<Property Name="Destination[1].path" Type="Path">/Linux_x64</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{8CE2EAF5-8ADF-4C47-A3FC-7B488CE3F50A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{5FE71B26-1E98-4DDB-B211-43885CAA168B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/Ballard MIL-STD-1553 Engine.lvlib</Property>
@@ -355,10 +356,10 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Communication Bus Engine</Property>
-				<Property Name="TgtF_internalName" Type="Str">Communication Bus Engine</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Engine</Property>
+				<Property Name="TgtF_internalName" Type="Str">Engine</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 </Property>
-				<Property Name="TgtF_productName" Type="Str">Communication Bus Engine</Property>
+				<Property Name="TgtF_productName" Type="Str">Engine</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{A8C809B0-8DE3-45F2-8238-35B4DA35C3AD}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Ballard MIL-STD-1553 Engine.lvlibp</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
@@ -508,9 +509,9 @@ DirectoryIndex index.htm
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Communication Bus Engine" Type="Packed Library">
+			<Item Name="Engine" Type="Packed Library">
 				<Property Name="Bld_buildCacheID" Type="Str">{871DE226-CFB1-492D-A47E-78B6615F1B18}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Communication Bus Engine</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Engine</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../Built/Support</Property>
@@ -529,7 +530,7 @@ DirectoryIndex index.htm
 				<Property Name="Destination[1].path" Type="Path">/Linux_32_ARM</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A81452AF-CA94-4AC1-825C-7874BE29AB1D}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9F7D17EE-1E16-42A4-A2DC-6134466D7916}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target - Linux ARM/Ballard MIL-STD-1553 Engine.lvlib</Property>
@@ -540,10 +541,10 @@ DirectoryIndex index.htm
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Communication Bus Engine</Property>
-				<Property Name="TgtF_internalName" Type="Str">Communication Bus Engine</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Engine</Property>
+				<Property Name="TgtF_internalName" Type="Str">Engine</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 </Property>
-				<Property Name="TgtF_productName" Type="Str">Communication Bus Engine</Property>
+				<Property Name="TgtF_productName" Type="Str">Engine</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{93CAC09F-3431-44D1-A488-DF8814954DC4}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Ballard MIL-STD-1553 Engine.lvlibp</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
@@ -661,9 +662,9 @@ DirectoryIndex index.htm
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Communication Bus Engine" Type="Packed Library">
+			<Item Name="Engine" Type="Packed Library">
 				<Property Name="Bld_buildCacheID" Type="Str">{60B473D7-E8D2-4EB3-9DFF-20098BFDD4AB}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Communication Bus Engine</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Engine</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../Built/Support</Property>
@@ -682,7 +683,7 @@ DirectoryIndex index.htm
 				<Property Name="Destination[1].path" Type="Path">/PharLap</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{6D3563D3-53E3-42BE-A569-FC09D7EC96BB}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D083DA76-E332-4829-90C6-6A539F9BF906}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT PXI Target - PharLap/Ballard MIL-STD-1553 Engine.lvlib</Property>
@@ -693,10 +694,10 @@ DirectoryIndex index.htm
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Communication Bus Engine</Property>
-				<Property Name="TgtF_internalName" Type="Str">Communication Bus Engine</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Engine</Property>
+				<Property Name="TgtF_internalName" Type="Str">Engine</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 </Property>
-				<Property Name="TgtF_productName" Type="Str">Communication Bus Engine</Property>
+				<Property Name="TgtF_productName" Type="Str">Engine</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{D8D00ECF-5FD6-4CB6-8612-8BF358B1E005}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Ballard MIL-STD-1553 Engine.lvlibp</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
