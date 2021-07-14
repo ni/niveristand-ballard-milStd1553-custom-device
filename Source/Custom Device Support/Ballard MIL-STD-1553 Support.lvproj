@@ -26,9 +26,7 @@
 			</Item>
 			<Item Name="Unit" Type="Folder">
 				<Item Name="Scripting" Type="Folder">
-					<Item Name="Assets" Type="Folder">
-						<Item Name="Empty.nivssdf" Type="Document" URL="../Tests/Unit/Scripting/Assets/Empty.nivssdf"/>
-					</Item>
+					<Item Name="Assets" Type="Folder"/>
 					<Item Name="Scripting.lvclass" Type="LVClass" URL="../Tests/Unit/Scripting/Scripting.lvclass"/>
 				</Item>
 			</Item>
