@@ -12,6 +12,12 @@
 	<Item Name="Channel" Type="Folder">
 		<Item Name="Add Channel.vi" Type="VI" URL="../Channel/Add Channel.vi"/>
 	</Item>
+	<Item Name="Configuration Files" Type="Folder">
+		<Item Name="Add Configuration Files Section.vi" Type="VI" URL="../Configuration Files/Add Configuration Files Section.vi"/>
+		<Item Name="Get Configuration Files Section.vi" Type="VI" URL="../Configuration Files/Get Configuration Files Section.vi"/>
+		<Item Name="Get Hardware Configuration File.vi" Type="VI" URL="../Configuration Files/Get Hardware Configuration File.vi"/>
+		<Item Name="Set Hardware Configuration File.vi" Type="VI" URL="../Configuration Files/Set Hardware Configuration File.vi"/>
+	</Item>
 	<Item Name="Custom Device" Type="Folder">
 		<Item Name="Add Custom Device.vi" Type="VI" URL="../Custom Device/Add Custom Device.vi"/>
 		<Item Name="Export Custom Device.vi" Type="VI" URL="../Custom Device/Export Custom Device.vi"/>
