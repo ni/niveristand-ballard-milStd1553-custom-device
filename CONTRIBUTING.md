@@ -47,4 +47,4 @@ copy the output files to the directory required by VeriStand.
 (taken from [developercertificate.org](https://developercertificate.org/))
 
 See [LICENSE](https://github.com/ni/niveristand-ballard-milStd1553-custom-device/blob/master/LICENSE)
-for details about how niveristand-communications-bus-template is licensed.
+for details about how niveristand-ballard-milStd1553-custom-device is licensed.
