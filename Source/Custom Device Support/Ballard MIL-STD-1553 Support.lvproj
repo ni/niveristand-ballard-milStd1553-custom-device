@@ -16,9 +16,6 @@
 			<Item Name="Initialization Method.ctl" Type="VI" URL="../Shared/Initialization Method.ctl"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
-			<Item Name="Shared SubVIs" Type="Folder">
-				<Item Name="Create New System Definition.vi" Type="VI" URL="../Tests/Shared SubVIs/Create New System Definition.vi"/>
-			</Item>
 			<Item Name="System" Type="Folder">
 				<Item Name="Deployment" Type="Folder">
 					<Item Name="Deployment.lvclass" Type="LVClass" URL="../Tests/System/Deployment/Deployment.lvclass"/>
