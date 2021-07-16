@@ -16,9 +16,6 @@
 			<Item Name="Initialization Method.ctl" Type="VI" URL="../Shared/Initialization Method.ctl"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
-			<Item Name="Shared SubVIs" Type="Folder">
-				<Item Name="Create New System Definition.vi" Type="VI" URL="../Tests/Shared SubVIs/Create New System Definition.vi"/>
-			</Item>
 			<Item Name="System" Type="Folder">
 				<Item Name="Deployment" Type="Folder">
 					<Item Name="Deployment.lvclass" Type="LVClass" URL="../Tests/System/Deployment/Deployment.lvclass"/>
@@ -695,6 +692,8 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="Ballard MIL-STD-1553 Scripting.lvlib" Type="Library" URL="../Scripting/Ballard MIL-STD-1553 Scripting.lvlib"/>
+			<Item Name="Device Parameters.ctl" Type="VI" URL="../Shared/Device Parameters.ctl"/>
+			<Item Name="Initialization Method.ctl" Type="VI" URL="../Shared/Initialization Method.ctl"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -880,6 +879,8 @@ DirectoryIndex index.htm
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="Ballard MIL-STD-1553 Scripting.lvlib" Type="Library" URL="../Scripting/Ballard MIL-STD-1553 Scripting.lvlib"/>
+			<Item Name="Device Parameters.ctl" Type="VI" URL="../Shared/Device Parameters.ctl"/>
+			<Item Name="Initialization Method.ctl" Type="VI" URL="../Shared/Initialization Method.ctl"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -1033,6 +1034,8 @@ DirectoryIndex index.htm
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="Ballard MIL-STD-1553 Scripting.lvlib" Type="Library" URL="../Scripting/Ballard MIL-STD-1553 Scripting.lvlib"/>
+			<Item Name="Device Parameters.ctl" Type="VI" URL="../Shared/Device Parameters.ctl"/>
+			<Item Name="Initialization Method.ctl" Type="VI" URL="../Shared/Initialization Method.ctl"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
