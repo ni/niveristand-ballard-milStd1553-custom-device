@@ -69,5 +69,13 @@
 		<Item Name="Set Port Database.vi" Type="VI" URL="../Port/Set Port Database.vi"/>
 		<Item Name="Set Port Number.vi" Type="VI" URL="../Port/Set Port Number.vi"/>
 	</Item>
+	<Item Name="Remote Terminal" Type="Folder">
+		<Item Name="Add Remote Terminal.vi" Type="VI" URL="../Remote Terminal/Add Remote Terminal.vi"/>
+		<Item Name="Find Remote Terminal.vi" Type="VI" URL="../Remote Terminal/Find Remote Terminal.vi"/>
+		<Item Name="Get All Remote Terminals.vi" Type="VI" URL="../Remote Terminal/Get All Remote Terminals.vi"/>
+		<Item Name="Get Terminal Address.vi" Type="VI" URL="../Remote Terminal/Get Terminal Address.vi"/>
+		<Item Name="Remove Remote Terminal.vi" Type="VI" URL="../Remote Terminal/Remove Remote Terminal.vi"/>
+		<Item Name="Set Terminal Address.vi" Type="VI" URL="../Remote Terminal/Set Terminal Address.vi"/>
+	</Item>
 	<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
 </Library>
