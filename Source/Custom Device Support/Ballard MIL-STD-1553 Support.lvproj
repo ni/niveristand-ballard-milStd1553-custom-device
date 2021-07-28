@@ -35,8 +35,7 @@
 			<Item Name="Unit" Type="Folder">
 				<Item Name="Import" Type="Folder">
 					<Item Name="Assets" Type="Folder">
-						<Item Name="1553_Parameters_AcyclicFrames.xml" Type="Document" URL="../Tests/Unit/Import/Assets/1553_Parameters_AcyclicFrames.xml"/>
-						<Item Name="1553_Parameters_Terminals.xml" Type="Document" URL="../Tests/Unit/Import/Assets/1553_Parameters_Terminals.xml"/>
+						<Item Name="1553_Parameters.xml" Type="Document" URL="../Tests/Unit/Import/Assets/1553_Parameters.xml"/>
 					</Item>
 					<Item Name="1553 Parameters Import.lvclass" Type="LVClass" URL="../Tests/Unit/Import/1553 Parameters Import.lvclass"/>
 				</Item>

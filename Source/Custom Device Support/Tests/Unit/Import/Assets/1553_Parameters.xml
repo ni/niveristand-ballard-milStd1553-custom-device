@@ -10,6 +10,22 @@
 			<terminalAddress>125</terminalAddress>
 			<name>two</name>
 		</terminal>
+		<terminal>
+			<terminalAddress>126</terminalAddress>
+			<name>three</name>
+		</terminal>
+		<acyclicFrame>
+			<createTriggerChannel>true</createTriggerChannel>
+			<name>Message Buffer 56</name>
+		</acyclicFrame>
+		<acyclicFrame>
+			<createTriggerChannel>true</createTriggerChannel>
+			<name>Message Buffer 57</name>
+		</acyclicFrame>
+		<acyclicFrame>
+			<createTriggerChannel>false</createTriggerChannel>
+			<name>Message Buffer 58</name>
+		</acyclicFrame>
 	</channel>
 	<channel>
 		<hardwareChannel>1</hardwareChannel>
@@ -21,5 +37,11 @@
 			<terminalAddress>0</terminalAddress>
 			<name>BC</name>
 		</terminal>
+		<acyclicFrame>
+			<name>Message Buffer 56</name>
+		</acyclicFrame>
+	</channel>
+	<channel>
+		<hardwareChannel>2</hardwareChannel>
 	</channel>
 </parameters>
