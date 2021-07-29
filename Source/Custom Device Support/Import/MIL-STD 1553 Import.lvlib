@@ -11,8 +11,11 @@
 	<Item Name="Get Element References by Tag Name.vi" Type="VI" URL="../Get Element References by Tag Name.vi"/>
 	<Item Name="Parse Parameters File.vi" Type="VI" URL="../Parse Parameters File.vi"/>
 	<Item Name="Read Acyclic Frames.vi" Type="VI" URL="../Read Acyclic Frames.vi"/>
+	<Item Name="Read Address.vi" Type="VI" URL="../Read Address.vi"/>
+	<Item Name="Read Message Type and Terminals.vi" Type="VI" URL="../Read Message Type and Terminals.vi"/>
 	<Item Name="Read Messages.vi" Type="VI" URL="../Read Messages.vi"/>
 	<Item Name="Read Number of Words and Parameters.vi" Type="VI" URL="../Read Number of Words and Parameters.vi"/>
+	<Item Name="Read Parameter Definition.vi" Type="VI" URL="../Read Parameter Definition.vi"/>
 	<Item Name="Read Tag Value.vim" Type="VI" URL="../Read Tag Value.vim"/>
 	<Item Name="Read Terminals.vi" Type="VI" URL="../Read Terminals.vi"/>
 </Library>
