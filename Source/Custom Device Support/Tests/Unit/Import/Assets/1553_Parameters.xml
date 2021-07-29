@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<parameters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<channel>
+		<hardwareChannel>0</hardwareChannel>
+		<terminal>
+			<terminalAddress>124</terminalAddress>
+			<name>one</name>
+		</terminal>
+		<terminal>
+			<terminalAddress>125</terminalAddress>
+			<name>two</name>
+		</terminal>
+		<terminal>
+			<terminalAddress>126</terminalAddress>
+			<name>three</name>
+		</terminal>
+		<acyclicFrame>
+			<createTriggerChannel>true</createTriggerChannel>
+			<name>Message Buffer 56</name>
+		</acyclicFrame>
+		<acyclicFrame>
+			<createTriggerChannel>true</createTriggerChannel>
+			<name>Message Buffer 57</name>
+		</acyclicFrame>
+		<acyclicFrame>
+			<createTriggerChannel>false</createTriggerChannel>
+			<name>Message Buffer 58</name>
+		</acyclicFrame>
+	</channel>
+	<channel>
+		<hardwareChannel>1</hardwareChannel>
+		<terminal>
+			<terminalAddress>31</terminalAddress>
+			<name>RT (Broadcast)</name>
+		</terminal>
+		<terminal>
+			<terminalAddress>0</terminalAddress>
+			<name>BC</name>
+		</terminal>
+		<acyclicFrame>
+			<name>Message Buffer 56</name>
+		</acyclicFrame>
+	</channel>
+	<channel>
+		<hardwareChannel>2</hardwareChannel>
+	</channel>
+</parameters>
