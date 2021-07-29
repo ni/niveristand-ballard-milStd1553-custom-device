@@ -6,4 +6,13 @@ https://github.com/ni/niveristand-ballard-milStd1553-custom-device/
 <nierror code="-732350">
 The item with the specified name is not a Ballard MIL-STD-1553 custom device.
 </nierror>
+<nierror code="-732351">
+The configuration file is missing a required element.
+</nierror>
+<nierror code="-732352">
+An imported value is not within the accepted range.
+</nierror>
+<nierror code="-732353">
+Imported parameters overlap. Configure each parameter with a unique bit range within the message.
+</nierror>
 </nidocument>
