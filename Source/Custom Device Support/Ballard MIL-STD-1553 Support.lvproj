@@ -19,9 +19,12 @@
 			<Item Name="Initialization Method.ctl" Type="VI" URL="../Shared/Initialization Method.ctl"/>
 			<Item Name="Message Definition.ctl" Type="VI" URL="../Shared/Message Definition.ctl"/>
 			<Item Name="Message Type.ctl" Type="VI" URL="../Shared/Message Type.ctl"/>
+			<Item Name="String to Value.vim" Type="VI" URL="../Shared/String to Value.vim"/>
 			<Item Name="Parameter Definition.ctl" Type="VI" URL="../Shared/Parameter Definition.ctl"/>
 			<Item Name="Terminal Endpoint.ctl" Type="VI" URL="../Shared/Terminal Endpoint.ctl"/>
 			<Item Name="Terminal Name and Address.ctl" Type="VI" URL="../Shared/Terminal Name and Address.ctl"/>
+			<Item Name="Value to String.vim" Type="VI" URL="../Shared/Value to String.vim"/>
+			<Item Name="Check Value in Range.vim" Type="VI" URL="../Shared/Check Value in Range.vim"/>
 		</Item>
 		<Item Name="Support Files" Type="Folder">
 			<Item Name="ballardMILSTD1553-errors.txt" Type="Document" URL="../Docs/ballardMILSTD1553-errors.txt"/>

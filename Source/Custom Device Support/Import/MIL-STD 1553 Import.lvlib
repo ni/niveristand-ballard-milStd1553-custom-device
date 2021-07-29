@@ -15,5 +15,4 @@
 	<Item Name="Read Number of Words and Parameters.vi" Type="VI" URL="../Read Number of Words and Parameters.vi"/>
 	<Item Name="Read Tag Value.vim" Type="VI" URL="../Read Tag Value.vim"/>
 	<Item Name="Read Terminals.vi" Type="VI" URL="../Read Terminals.vi"/>
-	<Item Name="String to Value.vim" Type="VI" URL="../String to Value.vim"/>
 </Library>
