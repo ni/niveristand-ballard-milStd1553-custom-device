@@ -15,4 +15,7 @@ An imported value is not within the accepted range.
 <nierror code="-732353">
 Imported parameters overlap. Configure each parameter with a unique bit range within the message.
 </nierror>
+<nierror code="-732354">
+Unsupported value. Compare the imported value to the published schema.
+</nierror>
 </nidocument>
