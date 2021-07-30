@@ -18,4 +18,7 @@ Imported parameters overlap. Configure each parameter with a unique bit range wi
 <nierror code="-732354">
 Unsupported value. Compare the imported value to the published schema.
 </nierror>
+<nierror code="-732355">
+The address (terminal configuration) is not consistent with the message type. 'RT to BC' messages must define one address with 'Tx' direction. 'BC to RT' messages must define one address with 'Rx' direction. 'MC' messages must define one address with direction.'RT to RT' messages must define two addresses, one with 'Tx' direction and one with 'Rx' direction.
+</nierror>
 </nidocument>
