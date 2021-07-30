@@ -18,4 +18,6 @@
 	<Item Name="Read Parameter Definition.vi" Type="VI" URL="../Read Parameter Definition.vi"/>
 	<Item Name="Read Tag Value.vim" Type="VI" URL="../Read Tag Value.vim"/>
 	<Item Name="Read Terminals.vi" Type="VI" URL="../Read Terminals.vi"/>
+	<Item Name="Verify Message Type.vi" Type="VI" URL="../Verify Message Type.vi"/>
+	<Item Name="Verify Terminals for Message Type.vi" Type="VI" URL="../Verify Terminals for Message Type.vi"/>
 </Library>
