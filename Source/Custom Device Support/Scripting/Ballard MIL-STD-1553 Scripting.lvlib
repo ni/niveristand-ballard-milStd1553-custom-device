@@ -54,6 +54,10 @@
 		<Item Name="Get Frame Port Reference.vi" Type="VI" URL="../Frame/Get Frame Port Reference.vi"/>
 		<Item Name="Set Frame Id.vi" Type="VI" URL="../Frame/Set Frame Id.vi"/>
 	</Item>
+	<Item Name="Message" Type="Folder">
+		<Item Name="Add RT to RT Message.vi" Type="VI" URL="../Message/Add RT to RT Message.vi"/>
+		<Item Name="Remove Message.vi" Type="VI" URL="../Message/Remove Message.vi"/>
+	</Item>
 	<Item Name="Port" Type="Folder">
 		<Item Name="Add Port (MIL 1553).vi" Type="VI" URL="../Port/Add Port (MIL 1553).vi"/>
 		<Item Name="Add Port Incoming Section.vi" Type="VI" URL="../Port/Add Port Incoming Section.vi"/>
