@@ -55,12 +55,15 @@
 		<Item Name="Set Frame Id.vi" Type="VI" URL="../Frame/Set Frame Id.vi"/>
 	</Item>
 	<Item Name="Message" Type="Folder">
+		<Item Name="Add Parameter Channels with Definitions.vi" Type="VI" URL="../Message/Add Parameter Channels with Definitions.vi"/>
 		<Item Name="Add RT to RT Message.vi" Type="VI" URL="../Message/Add RT to RT Message.vi"/>
+		<Item Name="Get Message Name.vi" Type="VI" URL="../Message/Get Message Name.vi"/>
 		<Item Name="Get Number of Words.vi" Type="VI" URL="../Message/Get Number of Words.vi"/>
-		<Item Name="Read Parameter Definition.vi" Type="VI" URL="../Message/Read Parameter Definition.vi"/>
+		<Item Name="Get Parameter Definition.vi" Type="VI" URL="../Message/Get Parameter Definition.vi"/>
 		<Item Name="Remove Message.vi" Type="VI" URL="../Message/Remove Message.vi"/>
+		<Item Name="Set Message Name.vi" Type="VI" URL="../Message/Set Message Name.vi"/>
 		<Item Name="Set Number of Words.vi" Type="VI" URL="../Message/Set Number of Words.vi"/>
-		<Item Name="Write Parameter Definition.vi" Type="VI" URL="../Message/Write Parameter Definition.vi"/>
+		<Item Name="Set Parameter Definition.vi" Type="VI" URL="../Message/Set Parameter Definition.vi"/>
 	</Item>
 	<Item Name="Port" Type="Folder">
 		<Item Name="Add Port (MIL 1553).vi" Type="VI" URL="../Port/Add Port (MIL 1553).vi"/>
