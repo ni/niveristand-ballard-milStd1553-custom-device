@@ -11,6 +11,7 @@
 </Property>
 	<Item Name="Bus Controller" Type="Folder">
 		<Item Name="Add Bus Controller.vi" Type="VI" URL="../Bus Controller/Add Bus Controller.vi"/>
+		<Item Name="Add Trigger for Acyclic Frame.vi" Type="VI" URL="../Bus Controller/Add Trigger for Acyclic Frame.vi"/>
 		<Item Name="Find Bus Controller.vi" Type="VI" URL="../Bus Controller/Find Bus Controller.vi"/>
 		<Item Name="Remove Bus Controller.vi" Type="VI" URL="../Bus Controller/Remove Bus Controller.vi"/>
 	</Item>
@@ -71,11 +72,16 @@
 	</Item>
 	<Item Name="Remote Terminal" Type="Folder">
 		<Item Name="Add Remote Terminal.vi" Type="VI" URL="../Remote Terminal/Add Remote Terminal.vi"/>
+		<Item Name="Add Subaddress.vi" Type="VI" URL="../Remote Terminal/Add Subaddress.vi"/>
 		<Item Name="Find Remote Terminal.vi" Type="VI" URL="../Remote Terminal/Find Remote Terminal.vi"/>
+		<Item Name="Find Subaddress.vi" Type="VI" URL="../Remote Terminal/Find Subaddress.vi"/>
 		<Item Name="Get All Remote Terminals.vi" Type="VI" URL="../Remote Terminal/Get All Remote Terminals.vi"/>
+		<Item Name="Get All Subaddresses.vi" Type="VI" URL="../Remote Terminal/Get All Subaddresses.vi"/>
 		<Item Name="Get Terminal Address.vi" Type="VI" URL="../Remote Terminal/Get Terminal Address.vi"/>
+		<Item Name="Get Terminal Subaddress.vi" Type="VI" URL="../Remote Terminal/Get Terminal Subaddress.vi"/>
 		<Item Name="Remove Remote Terminal.vi" Type="VI" URL="../Remote Terminal/Remove Remote Terminal.vi"/>
 		<Item Name="Set Terminal Address.vi" Type="VI" URL="../Remote Terminal/Set Terminal Address.vi"/>
+		<Item Name="Set Terminal Subaddress.vi" Type="VI" URL="../Remote Terminal/Set Terminal Subaddress.vi"/>
 	</Item>
 	<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
 </Library>
