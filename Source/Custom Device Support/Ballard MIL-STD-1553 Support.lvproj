@@ -59,6 +59,7 @@
 		<Item Name="Ballard MIL-STD-1553 Engine.lvlib" Type="Library" URL="../Engine/Ballard MIL-STD-1553 Engine.lvlib"/>
 		<Item Name="Ballard MIL-STD-1553 Scripting.lvlib" Type="Library" URL="../Scripting/Ballard MIL-STD-1553 Scripting.lvlib"/>
 		<Item Name="Ballard MIL-STD-1553 System Explorer.lvlib" Type="Library" URL="../System Explorer/Implementation/System Explorer/Ballard MIL-STD-1553 System Explorer.lvlib"/>
+		<Item Name="Direction.ctl" Type="VI" URL="../Shared/Direction.ctl"/>
 		<Item Name="MIL-STD 1553 Import.lvlib" Type="Library" URL="../Import/MIL-STD 1553 Import.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
