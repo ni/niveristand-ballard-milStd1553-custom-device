@@ -11,6 +11,7 @@
 </Property>
 	<Item Name="Bus Controller" Type="Folder">
 		<Item Name="Add Bus Controller.vi" Type="VI" URL="../Bus Controller/Add Bus Controller.vi"/>
+		<Item Name="Add Trigger for Acyclic Frame.vi" Type="VI" URL="../Bus Controller/Add Trigger for Acyclic Frame.vi"/>
 		<Item Name="Find Bus Controller.vi" Type="VI" URL="../Bus Controller/Find Bus Controller.vi"/>
 		<Item Name="Remove Bus Controller.vi" Type="VI" URL="../Bus Controller/Remove Bus Controller.vi"/>
 	</Item>
