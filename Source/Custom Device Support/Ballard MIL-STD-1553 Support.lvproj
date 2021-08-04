@@ -49,6 +49,9 @@
 					</Item>
 					<Item Name="Scripting.lvclass" Type="LVClass" URL="../Tests/Unit/Scripting/Scripting.lvclass"/>
 				</Item>
+				<Item Name="Shared" Type="Folder">
+					<Item Name="SharedUtilities.lvclass" Type="LVClass" URL="../Tests/Unit/Shared/SharedUtilities/SharedUtilities.lvclass"/>
+				</Item>
 			</Item>
 		</Item>
 		<Item Name="Utility" Type="Folder">
