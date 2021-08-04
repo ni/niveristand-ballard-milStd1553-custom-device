@@ -56,8 +56,10 @@
 	<Item Name="Message" Type="Folder">
 		<Item Name="Add RT to RT Message.vi" Type="VI" URL="../Message/Add RT to RT Message.vi"/>
 		<Item Name="Get Number of Words.vi" Type="VI" URL="../Message/Get Number of Words.vi"/>
+		<Item Name="Read Parameter Definition.vi" Type="VI" URL="../Message/Read Parameter Definition.vi"/>
 		<Item Name="Remove Message.vi" Type="VI" URL="../Message/Remove Message.vi"/>
 		<Item Name="Set Number of Words.vi" Type="VI" URL="../Message/Set Number of Words.vi"/>
+		<Item Name="Write Parameter Definition.vi" Type="VI" URL="../Message/Write Parameter Definition.vi"/>
 	</Item>
 	<Item Name="Port" Type="Folder">
 		<Item Name="Add Port (MIL 1553).vi" Type="VI" URL="../Port/Add Port (MIL 1553).vi"/>
