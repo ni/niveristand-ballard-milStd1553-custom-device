@@ -11,6 +11,7 @@
 </Property>
 	<Item Name="Bus Controller" Type="Folder">
 		<Item Name="Add Bus Controller.vi" Type="VI" URL="../Bus Controller/Add Bus Controller.vi"/>
+		<Item Name="Add Message.vi" Type="VI" URL="../Bus Controller/Add Message.vi"/>
 		<Item Name="Add Trigger for Acyclic Frame.vi" Type="VI" URL="../Bus Controller/Add Trigger for Acyclic Frame.vi"/>
 		<Item Name="Find Bus Controller.vi" Type="VI" URL="../Bus Controller/Find Bus Controller.vi"/>
 		<Item Name="Remove Bus Controller.vi" Type="VI" URL="../Bus Controller/Remove Bus Controller.vi"/>
@@ -54,12 +55,28 @@
 		<Item Name="Get Frame Port Reference.vi" Type="VI" URL="../Frame/Get Frame Port Reference.vi"/>
 		<Item Name="Set Frame Id.vi" Type="VI" URL="../Frame/Set Frame Id.vi"/>
 	</Item>
+	<Item Name="Message" Type="Folder">
+		<Item Name="Add BC to RT Message.vi" Type="VI" URL="../Message/Add BC to RT Message.vi"/>
+		<Item Name="Add Message (BC to RT, RT to BC).vi" Type="VI" URL="../Message/Add Message (BC to RT, RT to BC).vi"/>
+		<Item Name="Add Messages.vi" Type="VI" URL="../Message/Add Messages.vi"/>
+		<Item Name="Add Parameter Channels with Definitions.vi" Type="VI" URL="../Message/Add Parameter Channels with Definitions.vi"/>
+		<Item Name="Add RT to BC Message.vi" Type="VI" URL="../Message/Add RT to BC Message.vi"/>
+		<Item Name="Add RT to RT Message.vi" Type="VI" URL="../Message/Add RT to RT Message.vi"/>
+		<Item Name="Get Message Name.vi" Type="VI" URL="../Message/Get Message Name.vi"/>
+		<Item Name="Get Number of Words.vi" Type="VI" URL="../Message/Get Number of Words.vi"/>
+		<Item Name="Get Parameter Definition.vi" Type="VI" URL="../Message/Get Parameter Definition.vi"/>
+		<Item Name="Remove Message.vi" Type="VI" URL="../Message/Remove Message.vi"/>
+		<Item Name="Set Message Name.vi" Type="VI" URL="../Message/Set Message Name.vi"/>
+		<Item Name="Set Number of Words.vi" Type="VI" URL="../Message/Set Number of Words.vi"/>
+		<Item Name="Set Parameter Definition.vi" Type="VI" URL="../Message/Set Parameter Definition.vi"/>
+	</Item>
 	<Item Name="Port" Type="Folder">
 		<Item Name="Add Port (MIL 1553).vi" Type="VI" URL="../Port/Add Port (MIL 1553).vi"/>
 		<Item Name="Add Port Incoming Section.vi" Type="VI" URL="../Port/Add Port Incoming Section.vi"/>
 		<Item Name="Add Port Outgoing Section.vi" Type="VI" URL="../Port/Add Port Outgoing Section.vi"/>
 		<Item Name="Add Port.vi" Type="VI" URL="../Port/Add Port.vi"/>
 		<Item Name="Add Ports Section.vi" Type="VI" URL="../Port/Add Ports Section.vi"/>
+		<Item Name="Add Terminals.vi" Type="VI" URL="../Port/Add Terminals.vi"/>
 		<Item Name="Find Port.vi" Type="VI" URL="../Port/Find Port.vi"/>
 		<Item Name="Get All Ports.vi" Type="VI" URL="../Port/Get All Ports.vi"/>
 		<Item Name="Get Port Baud Rate.vi" Type="VI" URL="../Port/Get Port Baud Rate.vi"/>
