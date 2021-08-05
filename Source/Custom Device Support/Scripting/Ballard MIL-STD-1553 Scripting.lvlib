@@ -29,6 +29,7 @@
 	</Item>
 	<Item Name="Custom Device" Type="Folder">
 		<Item Name="Add Custom Device.vi" Type="VI" URL="../Custom Device/Add Custom Device.vi"/>
+		<Item Name="Add Terminals.vi" Type="VI" URL="../Custom Device/Add Terminals.vi"/>
 		<Item Name="Export Custom Device.vi" Type="VI" URL="../Custom Device/Export Custom Device.vi"/>
 		<Item Name="Find All Ballard MIL-STD-1553 Custom Devices.vi" Type="VI" URL="../Custom Device/Find All Ballard MIL-STD-1553 Custom Devices.vi"/>
 		<Item Name="Find Ballard MIL-STD-1553 Custom Device.vi" Type="VI" URL="../Custom Device/Find Ballard MIL-STD-1553 Custom Device.vi"/>
@@ -57,6 +58,7 @@
 	</Item>
 	<Item Name="Message" Type="Folder">
 		<Item Name="Add BC to RT Message.vi" Type="VI" URL="../Message/Add BC to RT Message.vi"/>
+		<Item Name="Add Messages.vi" Type="VI" URL="../Message/Add Messages.vi"/>
 		<Item Name="Add Parameter Channels with Definitions.vi" Type="VI" URL="../Message/Add Parameter Channels with Definitions.vi"/>
 		<Item Name="Add RT to BC Message.vi" Type="VI" URL="../Message/Add RT to BC Message.vi"/>
 		<Item Name="Add RT to RT Message.vi" Type="VI" URL="../Message/Add RT to RT Message.vi"/>
