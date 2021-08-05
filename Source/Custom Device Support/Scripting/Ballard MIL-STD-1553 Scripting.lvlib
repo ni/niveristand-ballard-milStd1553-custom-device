@@ -57,6 +57,7 @@
 	</Item>
 	<Item Name="Message" Type="Folder">
 		<Item Name="Add BC to RT Message.vi" Type="VI" URL="../Message/Add BC to RT Message.vi"/>
+		<Item Name="Add Message (BC to RT, RT to BC).vi" Type="VI" URL="../Message/Add Message (BC to RT, RT to BC).vi"/>
 		<Item Name="Add Messages.vi" Type="VI" URL="../Message/Add Messages.vi"/>
 		<Item Name="Add Parameter Channels with Definitions.vi" Type="VI" URL="../Message/Add Parameter Channels with Definitions.vi"/>
 		<Item Name="Add RT to BC Message.vi" Type="VI" URL="../Message/Add RT to BC Message.vi"/>
