@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nidocument>
+<nicomment>
+https://github.com/ni/niveristand-ballard-milStd1553-custom-device/
+</nicomment>
+<nierror code="-732350">
+The item with the specified name is not a Ballard MIL-STD-1553 custom device.
+</nierror>
+<nierror code="-732351">
+The configuration file is missing a required element.
+</nierror>
+<nierror code="-732352">
+An imported value is not within the accepted range.
+</nierror>
+<nierror code="-732353">
+Imported parameters overlap. Configure each parameter with a unique bit range within the message.
+</nierror>
+<nierror code="-732354">
+Unsupported value. Compare the imported value to the published schema.
+</nierror>
+<nierror code="-732355">
+The address (terminal configuration) is not consistent with the message type. 'RT to BC' messages must define one address with 'Tx' direction. 'BC to RT' messages must define one address with 'Rx' direction. 'MC' messages must define one address with direction.'RT to RT' messages must define two addresses, one with 'Tx' direction and one with 'Rx' direction.
+</nierror>
+</nidocument>
