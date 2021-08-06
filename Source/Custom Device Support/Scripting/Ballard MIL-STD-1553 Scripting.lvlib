@@ -62,6 +62,8 @@
 		<Item Name="Add Parameter Channels with Definitions.vi" Type="VI" URL="../Message/Add Parameter Channels with Definitions.vi"/>
 		<Item Name="Add RT to BC Message.vi" Type="VI" URL="../Message/Add RT to BC Message.vi"/>
 		<Item Name="Add RT to RT Message.vi" Type="VI" URL="../Message/Add RT to RT Message.vi"/>
+		<Item Name="Find Message.vi" Type="VI" URL="../Message/Find Message.vi"/>
+		<Item Name="Get All Messages.vi" Type="VI" URL="../Message/Get All Messages.vi"/>
 		<Item Name="Get Message Name.vi" Type="VI" URL="../Message/Get Message Name.vi"/>
 		<Item Name="Get Number of Words.vi" Type="VI" URL="../Message/Get Number of Words.vi"/>
 		<Item Name="Get Parameter Definition.vi" Type="VI" URL="../Message/Get Parameter Definition.vi"/>
