@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="20008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -764,6 +765,7 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Command Word.ctl" Type="VI" URL="../Shared/Command Word.ctl"/>
+			<Item Name="Create Parameter For Each Word.vi" Type="VI" URL="../Shared/Create Parameter For Each Word.vi"/>
 			<Item Name="Device Parameters.ctl" Type="VI" URL="../Shared/Device Parameters.ctl"/>
 			<Item Name="Direction.ctl" Type="VI" URL="../Shared/Direction.ctl"/>
 			<Item Name="Initialization Method.ctl" Type="VI" URL="../Shared/Initialization Method.ctl"/>
@@ -772,6 +774,7 @@
 			<Item Name="Map of Messages to Value Indexes.ctl" Type="VI" URL="../Shared/Map of Messages to Value Indexes.ctl"/>
 			<Item Name="Message Definition.ctl" Type="VI" URL="../Shared/Message Definition.ctl"/>
 			<Item Name="Message Map Key.ctl" Type="VI" URL="../Shared/Message Map Key.ctl"/>
+			<Item Name="Message Definition.ctl" Type="VI" URL="../Shared/Message Definition.ctl"/>
 			<Item Name="Message Type.ctl" Type="VI" URL="../Shared/Message Type.ctl"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -782,8 +785,11 @@
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Parameter Definition.ctl" Type="VI" URL="../Shared/Parameter Definition.ctl"/>
 			<Item Name="Rx References.ctl" Type="VI" URL="../Shared/Rx References.ctl"/>
+			<Item Name="NIVeristand_DataServices.dll" Type="Document" URL="NIVeristand_DataServices.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Parameter Definition.ctl" Type="VI" URL="../Shared/Parameter Definition.ctl"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -978,14 +984,15 @@ DirectoryIndex index.htm
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Command Word.ctl" Type="VI" URL="../Shared/Command Word.ctl"/>
+			<Item Name="Create Parameter For Each Word.vi" Type="VI" URL="../Shared/Create Parameter For Each Word.vi"/>
 			<Item Name="Device Parameters.ctl" Type="VI" URL="../Shared/Device Parameters.ctl"/>
 			<Item Name="Direction.ctl" Type="VI" URL="../Shared/Direction.ctl"/>
 			<Item Name="Initialization Method.ctl" Type="VI" URL="../Shared/Initialization Method.ctl"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="Map of Message Indexes to Tx Write Info.ctl" Type="VI" URL="../Shared/Map of Message Indexes to Tx Write Info.ctl"/>
 			<Item Name="Map of Messages to Value Indexes.ctl" Type="VI" URL="../Shared/Map of Messages to Value Indexes.ctl"/>
-			<Item Name="Message Definition.ctl" Type="VI" URL="../Shared/Message Definition.ctl"/>
 			<Item Name="Message Map Key.ctl" Type="VI" URL="../Shared/Message Map Key.ctl"/>
+			<Item Name="Message Definition.ctl" Type="VI" URL="../Shared/Message Definition.ctl"/>
 			<Item Name="Message Type.ctl" Type="VI" URL="../Shared/Message Type.ctl"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -996,8 +1003,11 @@ DirectoryIndex index.htm
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Parameter Definition.ctl" Type="VI" URL="../Shared/Parameter Definition.ctl"/>
 			<Item Name="Rx References.ctl" Type="VI" URL="../Shared/Rx References.ctl"/>
+			<Item Name="NIVeristand_DataServices.dll" Type="Document" URL="NIVeristand_DataServices.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Parameter Definition.ctl" Type="VI" URL="../Shared/Parameter Definition.ctl"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -1160,14 +1170,15 @@ DirectoryIndex index.htm
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Command Word.ctl" Type="VI" URL="../Shared/Command Word.ctl"/>
+			<Item Name="Create Parameter For Each Word.vi" Type="VI" URL="../Shared/Create Parameter For Each Word.vi"/>
 			<Item Name="Device Parameters.ctl" Type="VI" URL="../Shared/Device Parameters.ctl"/>
 			<Item Name="Direction.ctl" Type="VI" URL="../Shared/Direction.ctl"/>
 			<Item Name="Initialization Method.ctl" Type="VI" URL="../Shared/Initialization Method.ctl"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="Map of Message Indexes to Tx Write Info.ctl" Type="VI" URL="../Shared/Map of Message Indexes to Tx Write Info.ctl"/>
 			<Item Name="Map of Messages to Value Indexes.ctl" Type="VI" URL="../Shared/Map of Messages to Value Indexes.ctl"/>
-			<Item Name="Message Definition.ctl" Type="VI" URL="../Shared/Message Definition.ctl"/>
 			<Item Name="Message Map Key.ctl" Type="VI" URL="../Shared/Message Map Key.ctl"/>
+			<Item Name="Message Definition.ctl" Type="VI" URL="../Shared/Message Definition.ctl"/>
 			<Item Name="Message Type.ctl" Type="VI" URL="../Shared/Message Type.ctl"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -1178,8 +1189,11 @@ DirectoryIndex index.htm
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Parameter Definition.ctl" Type="VI" URL="../Shared/Parameter Definition.ctl"/>
 			<Item Name="Rx References.ctl" Type="VI" URL="../Shared/Rx References.ctl"/>
+			<Item Name="NIVeristand_DataServices.dll" Type="Document" URL="NIVeristand_DataServices.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Parameter Definition.ctl" Type="VI" URL="../Shared/Parameter Definition.ctl"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
