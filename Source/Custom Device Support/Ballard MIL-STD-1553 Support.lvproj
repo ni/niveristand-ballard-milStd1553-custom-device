@@ -33,6 +33,9 @@
 			<Item Name="ballardMILSTD1553-errors.txt" Type="Document" URL="../Docs/ballardMILSTD1553-errors.txt"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
+			<Item Name="subVIs" Type="Folder">
+				<Item Name="Script Empty System Definition.vi" Type="VI" URL="../Tests/subVIs/Script Empty System Definition.vi"/>
+			</Item>
 			<Item Name="System" Type="Folder">
 				<Item Name="Deployment" Type="Folder">
 					<Item Name="Deployment.lvclass" Type="LVClass" URL="../Tests/System/Deployment/Deployment.lvclass"/>
