@@ -68,6 +68,7 @@
 		<Item Name="Get Message Name.vi" Type="VI" URL="../Message/Get Message Name.vi"/>
 		<Item Name="Get Number of Words.vi" Type="VI" URL="../Message/Get Number of Words.vi"/>
 		<Item Name="Get Parameter Definition.vi" Type="VI" URL="../Message/Get Parameter Definition.vi"/>
+		<Item Name="Get Parameters.vi" Type="VI" URL="../Message/Get Parameters.vi"/>
 		<Item Name="Remove Message.vi" Type="VI" URL="../Message/Remove Message.vi"/>
 		<Item Name="Set Message Name.vi" Type="VI" URL="../Message/Set Message Name.vi"/>
 		<Item Name="Set Number of Words.vi" Type="VI" URL="../Message/Set Number of Words.vi"/>
