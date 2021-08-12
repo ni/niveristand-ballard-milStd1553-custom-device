@@ -18,6 +18,9 @@
 	</Item>
 	<Item Name="Channel" Type="Folder">
 		<Item Name="Add Channel.vi" Type="VI" URL="../Channel/Add Channel.vi"/>
+		<Item Name="Add Status Channel.vi" Type="VI" URL="../Channel/Add Status Channel.vi"/>
+		<Item Name="Add Timestamp Channel.vi" Type="VI" URL="../Channel/Add Timestamp Channel.vi"/>
+		<Item Name="Add Trigger Channel.vi" Type="VI" URL="../Channel/Add Trigger Channel.vi"/>
 	</Item>
 	<Item Name="Configuration Files" Type="Folder">
 		<Item Name="Add Configuration Files Section.vi" Type="VI" URL="../Configuration Files/Add Configuration Files Section.vi"/>
