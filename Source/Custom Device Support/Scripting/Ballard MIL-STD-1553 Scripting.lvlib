@@ -24,6 +24,7 @@
 		<Item Name="Get Configuration Files Section.vi" Type="VI" URL="../Configuration Files/Get Configuration Files Section.vi"/>
 		<Item Name="Get Hardware Configuration File.vi" Type="VI" URL="../Configuration Files/Get Hardware Configuration File.vi"/>
 		<Item Name="Get Parameters Configuration File.vi" Type="VI" URL="../Configuration Files/Get Parameters Configuration File.vi"/>
+		<Item Name="Import Configuration File.vi" Type="VI" URL="../Configuration Files/Import Configuration File.vi"/>
 		<Item Name="Set Hardware Configuration File.vi" Type="VI" URL="../Configuration Files/Set Hardware Configuration File.vi"/>
 		<Item Name="Set Parameters Configuration File.vi" Type="VI" URL="../Configuration Files/Set Parameters Configuration File.vi"/>
 	</Item>
@@ -39,6 +40,7 @@
 		<Item Name="Initialize Custom Device.vi" Type="VI" URL="../Custom Device/Initialize Custom Device.vi"/>
 		<Item Name="Remove Custom Device.vi" Type="VI" URL="../Custom Device/Remove Custom Device.vi"/>
 		<Item Name="Set Description.vi" Type="VI" URL="../Custom Device/Set Description.vi"/>
+		<Item Name="Write Configuration.vi" Type="VI" URL="../Custom Device/Write Configuration.vi"/>
 	</Item>
 	<Item Name="Database" Type="Folder">
 		<Item Name="Add Database.vi" Type="VI" URL="../Database/Add Database.vi"/>
@@ -59,6 +61,7 @@
 		<Item Name="Add BC to RT Message.vi" Type="VI" URL="../Message/Add BC to RT Message.vi"/>
 		<Item Name="Add Message (BC to RT, RT to BC).vi" Type="VI" URL="../Message/Add Message (BC to RT, RT to BC).vi"/>
 		<Item Name="Add Messages.vi" Type="VI" URL="../Message/Add Messages.vi"/>
+		<Item Name="Add Mode Code.vi" Type="VI" URL="../Message/Add Mode Code.vi"/>
 		<Item Name="Add Parameter Channels with Definitions.vi" Type="VI" URL="../Message/Add Parameter Channels with Definitions.vi"/>
 		<Item Name="Add RT to BC Message.vi" Type="VI" URL="../Message/Add RT to BC Message.vi"/>
 		<Item Name="Add RT to RT Message.vi" Type="VI" URL="../Message/Add RT to RT Message.vi"/>
