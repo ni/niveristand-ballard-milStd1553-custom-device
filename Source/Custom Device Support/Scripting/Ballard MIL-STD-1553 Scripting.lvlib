@@ -12,12 +12,13 @@
 	<Item Name="Bus Controller" Type="Folder">
 		<Item Name="Add Bus Controller.vi" Type="VI" URL="../Bus Controller/Add Bus Controller.vi"/>
 		<Item Name="Add Message.vi" Type="VI" URL="../Bus Controller/Add Message.vi"/>
-		<Item Name="Add Trigger for Acyclic Frame.vi" Type="VI" URL="../Bus Controller/Add Trigger for Acyclic Frame.vi"/>
+		<Item Name="Add Triggers for Acyclic Frames.vi" Type="VI" URL="../Bus Controller/Add Triggers for Acyclic Frames.vi"/>
 		<Item Name="Find Bus Controller.vi" Type="VI" URL="../Bus Controller/Find Bus Controller.vi"/>
 		<Item Name="Remove Bus Controller.vi" Type="VI" URL="../Bus Controller/Remove Bus Controller.vi"/>
 	</Item>
 	<Item Name="Channel" Type="Folder">
 		<Item Name="Add Channel.vi" Type="VI" URL="../Channel/Add Channel.vi"/>
+		<Item Name="Add Start and Stop Channels.vi" Type="VI" URL="../Channel/Add Start and Stop Channels.vi"/>
 		<Item Name="Add Status Channel.vi" Type="VI" URL="../Channel/Add Status Channel.vi"/>
 		<Item Name="Add Timestamp Channel.vi" Type="VI" URL="../Channel/Add Timestamp Channel.vi"/>
 		<Item Name="Add Trigger Channel.vi" Type="VI" URL="../Channel/Add Trigger Channel.vi"/>
