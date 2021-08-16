@@ -11,13 +11,19 @@
 </Property>
 	<Item Name="Bus Controller" Type="Folder">
 		<Item Name="Add Bus Controller.vi" Type="VI" URL="../Bus Controller/Add Bus Controller.vi"/>
-		<Item Name="Add Message.vi" Type="VI" URL="../Bus Controller/Add Message.vi"/>
-		<Item Name="Add Trigger for Acyclic Frame.vi" Type="VI" URL="../Bus Controller/Add Trigger for Acyclic Frame.vi"/>
+		<Item Name="Add Message Section.vi" Type="VI" URL="../Bus Controller/Add Message Section.vi"/>
+		<Item Name="Add Message to Bus Controller.vi" Type="VI" URL="../Bus Controller/Add Message to Bus Controller.vi"/>
+		<Item Name="Add Triggers for Acyclic Frames.vi" Type="VI" URL="../Bus Controller/Add Triggers for Acyclic Frames.vi"/>
 		<Item Name="Find Bus Controller.vi" Type="VI" URL="../Bus Controller/Find Bus Controller.vi"/>
 		<Item Name="Remove Bus Controller.vi" Type="VI" URL="../Bus Controller/Remove Bus Controller.vi"/>
 	</Item>
 	<Item Name="Channel" Type="Folder">
 		<Item Name="Add Channel.vi" Type="VI" URL="../Channel/Add Channel.vi"/>
+		<Item Name="Add Command Channel.vi" Type="VI" URL="../Channel/Add Command Channel.vi"/>
+		<Item Name="Add Start and Stop Channels.vi" Type="VI" URL="../Channel/Add Start and Stop Channels.vi"/>
+		<Item Name="Add Status Channel.vi" Type="VI" URL="../Channel/Add Status Channel.vi"/>
+		<Item Name="Add Timestamp Channel.vi" Type="VI" URL="../Channel/Add Timestamp Channel.vi"/>
+		<Item Name="Add Trigger Channel.vi" Type="VI" URL="../Channel/Add Trigger Channel.vi"/>
 	</Item>
 	<Item Name="Configuration Files" Type="Folder">
 		<Item Name="Add Configuration Files Section.vi" Type="VI" URL="../Configuration Files/Add Configuration Files Section.vi"/>
@@ -94,6 +100,7 @@
 		<Item Name="Set Port Number.vi" Type="VI" URL="../Port/Set Port Number.vi"/>
 	</Item>
 	<Item Name="Remote Terminal" Type="Folder">
+		<Item Name="Add Message to Remote Terminal.vi" Type="VI" URL="../Remote Terminal/Add Message to Remote Terminal.vi"/>
 		<Item Name="Add Remote Terminal.vi" Type="VI" URL="../Remote Terminal/Add Remote Terminal.vi"/>
 		<Item Name="Add Subaddress.vi" Type="VI" URL="../Remote Terminal/Add Subaddress.vi"/>
 		<Item Name="Find Remote Terminal.vi" Type="VI" URL="../Remote Terminal/Find Remote Terminal.vi"/>
