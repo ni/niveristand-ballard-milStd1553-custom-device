@@ -41,6 +41,9 @@
 				<Item Name="Deployment" Type="Folder">
 					<Item Name="Deployment.lvclass" Type="LVClass" URL="../Tests/System/Deployment/Deployment.lvclass"/>
 				</Item>
+				<Item Name="Loopback" Type="Folder">
+					<Item Name="Loopback.lvclass" Type="LVClass" URL="../Tests/System/Loopback/Loopback.lvclass"/>
+				</Item>
 			</Item>
 			<Item Name="Unit" Type="Folder">
 				<Item Name="Engine" Type="Folder">
@@ -493,6 +496,7 @@
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Encoding and Decoding.lvlib" Type="Library" URL="../../../../niveristand-ballard-arinc429-custom-device/Source/Encoding and Decoding/Encoding and Decoding.lvlib"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
@@ -710,6 +714,8 @@
 				<Item Name="BTICardLV.lvlib" Type="Library" URL="/&lt;instrlib&gt;/BTICardLib/BTICardLV.lvlib"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Assert Floating-Point Numeric Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Floating-Point Numeric Type.vim"/>
+				<Item Name="Assert Integer Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Integer Type.vim"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -721,6 +727,7 @@
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
+				<Item Name="Encoding and Decoding.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Encoding and Decoding/Encoding and Decoding.lvlib"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
@@ -738,6 +745,7 @@
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
+				<Item Name="NI_XML.lvlib" Type="Library" URL="/&lt;vilib&gt;/xml/NI_XML.lvlib"/>
 				<Item Name="NIVeristand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/data/NIVeristand_DataServices.dll"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
@@ -761,10 +769,14 @@
 			<Item Name="BTICardLV.dll" Type="Document" URL="BTICardLV.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Check Value in Range.vim" Type="VI" URL="../Shared/Check Value in Range.vim"/>
 			<Item Name="Command Word.ctl" Type="VI" URL="../Shared/Command Word.ctl"/>
 			<Item Name="Create Parameter For Each Word.vi" Type="VI" URL="../Shared/Create Parameter For Each Word.vi"/>
 			<Item Name="Device Parameters.ctl" Type="VI" URL="../Shared/Device Parameters.ctl"/>
 			<Item Name="Direction.ctl" Type="VI" URL="../Shared/Direction.ctl"/>
+			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="Initialization Method.ctl" Type="VI" URL="../Shared/Initialization Method.ctl"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="Map of Message Indexes to Tx Write Info.ctl" Type="VI" URL="../Shared/Map of Message Indexes to Tx Write Info.ctl"/>
@@ -772,6 +784,7 @@
 			<Item Name="Message Definition.ctl" Type="VI" URL="../Shared/Message Definition.ctl"/>
 			<Item Name="Message Map Key.ctl" Type="VI" URL="../Shared/Message Map Key.ctl"/>
 			<Item Name="Message Type.ctl" Type="VI" URL="../Shared/Message Type.ctl"/>
+			<Item Name="MIL-STD 1553 Import.lvlib" Type="Library" URL="../Import/MIL-STD 1553 Import.lvlib"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -782,12 +795,14 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Parameter Definition.ctl" Type="VI" URL="../Shared/Parameter Definition.ctl"/>
+			<Item Name="String to Value.vim" Type="VI" URL="../Shared/String to Value.vim"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Terminal Endpoint.ctl" Type="VI" URL="../Shared/Terminal Endpoint.ctl"/>
 			<Item Name="Terminal Name and Address.ctl" Type="VI" URL="../Shared/Terminal Name and Address.ctl"/>
 			<Item Name="Tx Write Info.ctl" Type="VI" URL="../Shared/Tx Write Info.ctl"/>
+			<Item Name="Value to String.vim" Type="VI" URL="../Shared/Value to String.vim"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine" Type="Packed Library">
@@ -922,6 +937,8 @@ DirectoryIndex index.htm
 				<Item Name="BTICardLV.lvlib" Type="Library" URL="/&lt;instrlib&gt;/BTICardLib/BTICardLV.lvlib"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Assert Floating-Point Numeric Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Floating-Point Numeric Type.vim"/>
+				<Item Name="Assert Integer Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Integer Type.vim"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -933,6 +950,7 @@ DirectoryIndex index.htm
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
+				<Item Name="Encoding and Decoding.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Encoding and Decoding/Encoding and Decoding.lvlib"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
@@ -950,6 +968,7 @@ DirectoryIndex index.htm
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
+				<Item Name="NI_XML.lvlib" Type="Library" URL="/&lt;vilib&gt;/xml/NI_XML.lvlib"/>
 				<Item Name="NIVeristand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/data/NIVeristand_DataServices.dll"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
@@ -973,10 +992,14 @@ DirectoryIndex index.htm
 			<Item Name="BTICardLV.dll" Type="Document" URL="BTICardLV.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Check Value in Range.vim" Type="VI" URL="../Shared/Check Value in Range.vim"/>
 			<Item Name="Command Word.ctl" Type="VI" URL="../Shared/Command Word.ctl"/>
 			<Item Name="Create Parameter For Each Word.vi" Type="VI" URL="../Shared/Create Parameter For Each Word.vi"/>
 			<Item Name="Device Parameters.ctl" Type="VI" URL="../Shared/Device Parameters.ctl"/>
 			<Item Name="Direction.ctl" Type="VI" URL="../Shared/Direction.ctl"/>
+			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="Initialization Method.ctl" Type="VI" URL="../Shared/Initialization Method.ctl"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="Map of Message Indexes to Tx Write Info.ctl" Type="VI" URL="../Shared/Map of Message Indexes to Tx Write Info.ctl"/>
@@ -984,6 +1007,7 @@ DirectoryIndex index.htm
 			<Item Name="Message Definition.ctl" Type="VI" URL="../Shared/Message Definition.ctl"/>
 			<Item Name="Message Map Key.ctl" Type="VI" URL="../Shared/Message Map Key.ctl"/>
 			<Item Name="Message Type.ctl" Type="VI" URL="../Shared/Message Type.ctl"/>
+			<Item Name="MIL-STD 1553 Import.lvlib" Type="Library" URL="../Import/MIL-STD 1553 Import.lvlib"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -994,12 +1018,14 @@ DirectoryIndex index.htm
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Parameter Definition.ctl" Type="VI" URL="../Shared/Parameter Definition.ctl"/>
+			<Item Name="String to Value.vim" Type="VI" URL="../Shared/String to Value.vim"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Terminal Endpoint.ctl" Type="VI" URL="../Shared/Terminal Endpoint.ctl"/>
 			<Item Name="Terminal Name and Address.ctl" Type="VI" URL="../Shared/Terminal Name and Address.ctl"/>
 			<Item Name="Tx Write Info.ctl" Type="VI" URL="../Shared/Tx Write Info.ctl"/>
+			<Item Name="Value to String.vim" Type="VI" URL="../Shared/Value to String.vim"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine" Type="Packed Library">
@@ -1102,6 +1128,8 @@ DirectoryIndex index.htm
 				<Item Name="BTICardLV.lvlib" Type="Library" URL="/&lt;instrlib&gt;/BTICardLib/BTICardLV.lvlib"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Assert Floating-Point Numeric Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Floating-Point Numeric Type.vim"/>
+				<Item Name="Assert Integer Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Integer Type.vim"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -1113,6 +1141,7 @@ DirectoryIndex index.htm
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
+				<Item Name="Encoding and Decoding.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Encoding and Decoding/Encoding and Decoding.lvlib"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
@@ -1130,6 +1159,7 @@ DirectoryIndex index.htm
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
+				<Item Name="NI_XML.lvlib" Type="Library" URL="/&lt;vilib&gt;/xml/NI_XML.lvlib"/>
 				<Item Name="NIVeristand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/data/NIVeristand_DataServices.dll"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
@@ -1153,10 +1183,14 @@ DirectoryIndex index.htm
 			<Item Name="BTICardLV.dll" Type="Document" URL="BTICardLV.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Check Value in Range.vim" Type="VI" URL="../Shared/Check Value in Range.vim"/>
 			<Item Name="Command Word.ctl" Type="VI" URL="../Shared/Command Word.ctl"/>
 			<Item Name="Create Parameter For Each Word.vi" Type="VI" URL="../Shared/Create Parameter For Each Word.vi"/>
 			<Item Name="Device Parameters.ctl" Type="VI" URL="../Shared/Device Parameters.ctl"/>
 			<Item Name="Direction.ctl" Type="VI" URL="../Shared/Direction.ctl"/>
+			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="Initialization Method.ctl" Type="VI" URL="../Shared/Initialization Method.ctl"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="Map of Message Indexes to Tx Write Info.ctl" Type="VI" URL="../Shared/Map of Message Indexes to Tx Write Info.ctl"/>
@@ -1164,6 +1198,7 @@ DirectoryIndex index.htm
 			<Item Name="Message Definition.ctl" Type="VI" URL="../Shared/Message Definition.ctl"/>
 			<Item Name="Message Map Key.ctl" Type="VI" URL="../Shared/Message Map Key.ctl"/>
 			<Item Name="Message Type.ctl" Type="VI" URL="../Shared/Message Type.ctl"/>
+			<Item Name="MIL-STD 1553 Import.lvlib" Type="Library" URL="../Import/MIL-STD 1553 Import.lvlib"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -1174,12 +1209,14 @@ DirectoryIndex index.htm
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Parameter Definition.ctl" Type="VI" URL="../Shared/Parameter Definition.ctl"/>
+			<Item Name="String to Value.vim" Type="VI" URL="../Shared/String to Value.vim"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Terminal Endpoint.ctl" Type="VI" URL="../Shared/Terminal Endpoint.ctl"/>
 			<Item Name="Terminal Name and Address.ctl" Type="VI" URL="../Shared/Terminal Name and Address.ctl"/>
 			<Item Name="Tx Write Info.ctl" Type="VI" URL="../Shared/Tx Write Info.ctl"/>
+			<Item Name="Value to String.vim" Type="VI" URL="../Shared/Value to String.vim"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine" Type="Packed Library">
