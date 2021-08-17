@@ -24,6 +24,7 @@
 		<Item Name="Add Status Channel.vi" Type="VI" URL="../Channel/Add Status Channel.vi"/>
 		<Item Name="Add Timestamp Channel.vi" Type="VI" URL="../Channel/Add Timestamp Channel.vi"/>
 		<Item Name="Add Trigger Channel.vi" Type="VI" URL="../Channel/Add Trigger Channel.vi"/>
+		<Item Name="Get Trigger Channels.vi" Type="VI" URL="../Channel/Get Trigger Channels.vi"/>
 		<Item Name="Get Start and Stop Channels.vi" Type="VI" URL="../Channel/Get Start and Stop Channels.vi"/>
 		<Item Name="Get Status Channel.vi" Type="VI" URL="../Channel/Get Status Channel.vi"/>
 	</Item>
