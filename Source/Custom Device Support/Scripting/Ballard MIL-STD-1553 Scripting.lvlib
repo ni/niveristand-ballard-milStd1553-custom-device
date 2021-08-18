@@ -80,6 +80,8 @@
 		<Item Name="Find Message.vi" Type="VI" URL="../Message/Find Message.vi"/>
 		<Item Name="Get All Messages.vi" Type="VI" URL="../Message/Get All Messages.vi"/>
 		<Item Name="Get Direction.vi" Type="VI" URL="../Message/Get Direction.vi"/>
+		<Item Name="Get Message Definition.vi" Type="VI" URL="../Message/Get Message Definition.vi"/>
+		<Item Name="Get Message Endpoint.vi" Type="VI" URL="../Message/Get Message Endpoint.vi"/>
 		<Item Name="Get Message Name.vi" Type="VI" URL="../Message/Get Message Name.vi"/>
 		<Item Name="Get Message Type.vi" Type="VI" URL="../Message/Get Message Type.vi"/>
 		<Item Name="Get Mode Code.vi" Type="VI" URL="../Message/Get Mode Code.vi"/>
