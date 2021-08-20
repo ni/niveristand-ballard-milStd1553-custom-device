@@ -24,9 +24,10 @@
 		<Item Name="Add Status Channel.vi" Type="VI" URL="../Channel/Add Status Channel.vi"/>
 		<Item Name="Add Timestamp Channel.vi" Type="VI" URL="../Channel/Add Timestamp Channel.vi"/>
 		<Item Name="Add Trigger Channel.vi" Type="VI" URL="../Channel/Add Trigger Channel.vi"/>
-		<Item Name="Get Trigger Channels.vi" Type="VI" URL="../Channel/Get Trigger Channels.vi"/>
 		<Item Name="Get Start and Stop Channels.vi" Type="VI" URL="../Channel/Get Start and Stop Channels.vi"/>
 		<Item Name="Get Status Channel.vi" Type="VI" URL="../Channel/Get Status Channel.vi"/>
+		<Item Name="Get Timestamp Channel.vi" Type="VI" URL="../Channel/Get Timestamp Channel.vi"/>
+		<Item Name="Get Trigger Channels.vi" Type="VI" URL="../Channel/Get Trigger Channels.vi"/>
 	</Item>
 	<Item Name="Configuration Files" Type="Folder">
 		<Item Name="Add Configuration Files Section.vi" Type="VI" URL="../Configuration Files/Add Configuration Files Section.vi"/>
@@ -47,6 +48,7 @@
 		<Item Name="Import Custom Device (New).vi" Type="VI" URL="../Custom Device/Import Custom Device (New).vi"/>
 		<Item Name="Import Custom Device.vi" Type="VI" URL="../Custom Device/Import Custom Device.vi"/>
 		<Item Name="Initialize Custom Device.vi" Type="VI" URL="../Custom Device/Initialize Custom Device.vi"/>
+		<Item Name="Read Configuration.vi" Type="VI" URL="../Custom Device/Read Configuration.vi"/>
 		<Item Name="Remove Custom Device.vi" Type="VI" URL="../Custom Device/Remove Custom Device.vi"/>
 		<Item Name="Set Description.vi" Type="VI" URL="../Custom Device/Set Description.vi"/>
 		<Item Name="Write Configuration.vi" Type="VI" URL="../Custom Device/Write Configuration.vi"/>
@@ -76,12 +78,21 @@
 		<Item Name="Add RT to RT Message.vi" Type="VI" URL="../Message/Add RT to RT Message.vi"/>
 		<Item Name="Find Message.vi" Type="VI" URL="../Message/Find Message.vi"/>
 		<Item Name="Get All Messages.vi" Type="VI" URL="../Message/Get All Messages.vi"/>
+		<Item Name="Get Direction.vi" Type="VI" URL="../Message/Get Direction.vi"/>
+		<Item Name="Get Message Definition.vi" Type="VI" URL="../Message/Get Message Definition.vi"/>
+		<Item Name="Get Message Endpoint.vi" Type="VI" URL="../Message/Get Message Endpoint.vi"/>
 		<Item Name="Get Message Name.vi" Type="VI" URL="../Message/Get Message Name.vi"/>
+		<Item Name="Get Message Type.vi" Type="VI" URL="../Message/Get Message Type.vi"/>
+		<Item Name="Get Mode Code.vi" Type="VI" URL="../Message/Get Mode Code.vi"/>
 		<Item Name="Get Number of Words.vi" Type="VI" URL="../Message/Get Number of Words.vi"/>
 		<Item Name="Get Parameter Definition.vi" Type="VI" URL="../Message/Get Parameter Definition.vi"/>
 		<Item Name="Get Parameters.vi" Type="VI" URL="../Message/Get Parameters.vi"/>
+		<Item Name="Read Messages.vi" Type="VI" URL="../Message/Read Messages.vi"/>
 		<Item Name="Remove Message.vi" Type="VI" URL="../Message/Remove Message.vi"/>
+		<Item Name="Set Direction.vi" Type="VI" URL="../Message/Set Direction.vi"/>
 		<Item Name="Set Message Name.vi" Type="VI" URL="../Message/Set Message Name.vi"/>
+		<Item Name="Set Message Type.vi" Type="VI" URL="../Message/Set Message Type.vi"/>
+		<Item Name="Set Mode Code.vi" Type="VI" URL="../Message/Set Mode Code.vi"/>
 		<Item Name="Set Number of Words.vi" Type="VI" URL="../Message/Set Number of Words.vi"/>
 		<Item Name="Set Parameter Definition.vi" Type="VI" URL="../Message/Set Parameter Definition.vi"/>
 	</Item>
@@ -97,6 +108,7 @@
 		<Item Name="Get Port Baud Rate.vi" Type="VI" URL="../Port/Get Port Baud Rate.vi"/>
 		<Item Name="Get Port Database.vi" Type="VI" URL="../Port/Get Port Database.vi"/>
 		<Item Name="Get Port Number.vi" Type="VI" URL="../Port/Get Port Number.vi"/>
+		<Item Name="Read Terminals and Acyclic Frame Names.vi" Type="VI" URL="../Port/Read Terminals and Acyclic Frame Names.vi"/>
 		<Item Name="Remove Port.vi" Type="VI" URL="../Port/Remove Port.vi"/>
 		<Item Name="Set Port Baud Rate.vi" Type="VI" URL="../Port/Set Port Baud Rate.vi"/>
 		<Item Name="Set Port Database.vi" Type="VI" URL="../Port/Set Port Database.vi"/>
