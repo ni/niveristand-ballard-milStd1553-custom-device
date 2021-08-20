@@ -44,7 +44,6 @@
 		<Item Name="Find All Ballard MIL-STD-1553 Custom Devices.vi" Type="VI" URL="../Custom Device/Find All Ballard MIL-STD-1553 Custom Devices.vi"/>
 		<Item Name="Find Ballard MIL-STD-1553 Custom Device.vi" Type="VI" URL="../Custom Device/Find Ballard MIL-STD-1553 Custom Device.vi"/>
 		<Item Name="Get Description.vi" Type="VI" URL="../Custom Device/Get Description.vi"/>
-		<Item Name="Get Name.vi" Type="VI" URL="../Custom Device/Get Name.vi"/>
 		<Item Name="Import Custom Device (In Place).vi" Type="VI" URL="../Custom Device/Import Custom Device (In Place).vi"/>
 		<Item Name="Import Custom Device (New).vi" Type="VI" URL="../Custom Device/Import Custom Device (New).vi"/>
 		<Item Name="Import Custom Device.vi" Type="VI" URL="../Custom Device/Import Custom Device.vi"/>
