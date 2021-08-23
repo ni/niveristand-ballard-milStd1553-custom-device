@@ -31,6 +31,7 @@
 		<Item Name="Import Frames RTM.vi" Type="VI" URL="../System Explorer/RTM/Import Frames RTM.vi"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
+		<Item Name="Device Parameters to Configuration Elements.vi" Type="VI" URL="../System Explorer/subVIs/Device Parameters to Configuration Elements.vi"/>
 		<Item Name="Load Help File.vi" Type="VI" URL="../System Explorer/Load Help File.vi"/>
 		<Item Name="Read Database.vi" Type="VI" URL="../System Explorer/Read Database.vi"/>
 		<Item Name="Write Database.vi" Type="VI" URL="../System Explorer/Write Database.vi"/>
