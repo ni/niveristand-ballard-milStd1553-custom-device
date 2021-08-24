@@ -9,6 +9,7 @@
 	<Item Name="Engine" Type="Folder">
 		<Item Name="Init" Type="Folder">
 			<Item Name="Calculate Next Index.vi" Type="VI" URL="../Calculate Next Index.vi"/>
+			<Item Name="Calculate Next Rx Indexes.vi" Type="VI" URL="../Calculate Next Rx Indexes.vi"/>
 			<Item Name="Create Map from Message Indexes to Tx Write Info.vi" Type="VI" URL="../Create Map from Message Indexes to Tx Write Info.vi"/>
 			<Item Name="Create Map from Messages to Value Indexes.vi" Type="VI" URL="../Create Map from Messages to Value Indexes.vi"/>
 			<Item Name="Initialize Hardware.vi" Type="VI" URL="../Initialize Hardware.vi"/>
