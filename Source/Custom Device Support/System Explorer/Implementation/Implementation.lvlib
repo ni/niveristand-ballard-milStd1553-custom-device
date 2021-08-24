@@ -12,8 +12,8 @@
 	</Item>
 	<Item Name="Pages" Type="Folder">
 		<Item Name="Channel.vi" Type="VI" URL="../System Explorer/Pages/Channel.vi"/>
+		<Item Name="Configuration Files.vi" Type="VI" URL="../System Explorer/Pages/Configuration Files.vi"/>
 		<Item Name="Database.vi" Type="VI" URL="../System Explorer/Pages/Database.vi"/>
-		<Item Name="Databases.vi" Type="VI" URL="../System Explorer/Pages/Databases.vi"/>
 		<Item Name="Frame.vi" Type="VI" URL="../System Explorer/Pages/Frame.vi"/>
 		<Item Name="Incoming.vi" Type="VI" URL="../System Explorer/Pages/Incoming.vi"/>
 		<Item Name="Main Page.vi" Type="VI" URL="../System Explorer/Pages/Main Page.vi"/>
