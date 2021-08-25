@@ -90,10 +90,10 @@
 		</Page>
 		<Page>
 			<Name>
-				<eng>Databases</eng>
-				<loc>Databases</loc>
+				<eng>Configuration Files</eng>
+				<loc>Configuration Files</loc>
 			</Name>
-			<GUID>034846F4-4667-4233-8BEA-E571E5EA3609</GUID>
+			<GUID>7D28FA5F-1BE9-42BA-9030-384369A394FD</GUID>
 			<Glyph>
 				<Type>To Application Data Dir</Type>
 				<Path>System Explorer\Glyphs\databases.png</Path>
