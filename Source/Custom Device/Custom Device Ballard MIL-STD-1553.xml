@@ -156,6 +156,40 @@
 		</Page>
 		<Page>
 			<Name>
+				<eng>Status Word</eng>
+				<loc>Status Word</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>7948DA20-805D-45D0-914D-274A69BA1942</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\default fpga channel.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Ballard\MIL-STD-1553\Windows\Ballard MIL-STD-1553 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Receive Time</eng>
+				<loc>Receive Time</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>4F0EA705-FD0A-4F01-AD6C-880781D6ED5B</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\NI-XNET Receive Time.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Ballard\MIL-STD-1553\Windows\Ballard MIL-STD-1553 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
 				<eng>Port %d</eng>
 				<loc>Port %d</loc>
 			</Name>
@@ -290,8 +324,8 @@
 		</Page>
 		<Page>
 			<Name>
-				<eng>Comamnd Channel</eng>
-				<loc>Comamnd Channel</loc>
+				<eng>Command Channel</eng>
+				<loc>Command Channel</loc>
 			</Name>
 			<GUID>F3C769CE-2055-47DC-98AC-89CDFED404B4</GUID>
 			<Glyph>
