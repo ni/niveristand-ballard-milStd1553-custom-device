@@ -290,10 +290,10 @@
 		</Page>
 		<Page>
 			<Name>
-				<eng>Frame</eng>
-				<loc>Frame</loc>
+				<eng>Comamnd Channel</eng>
+				<loc>Comamnd Channel</loc>
 			</Name>
-			<GUID>9DB56CC8-2412-4C6F-88A6-8D425BF81F85</GUID>
+			<GUID>F3C769CE-2055-47DC-98AC-89CDFED404B4</GUID>
 			<Glyph>
 				<Type>To Application Data Dir</Type>
 				<Path>System Explorer\Glyphs\NI-XNET SignalFrame.png</Path>
