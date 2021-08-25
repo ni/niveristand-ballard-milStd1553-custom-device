@@ -19,6 +19,7 @@
 		<Item Name="Incoming.vi" Type="VI" URL="../System Explorer/Pages/Incoming.vi"/>
 		<Item Name="Main Page.vi" Type="VI" URL="../System Explorer/Pages/Main Page.vi"/>
 		<Item Name="Outgoing.vi" Type="VI" URL="../System Explorer/Pages/Outgoing.vi"/>
+		<Item Name="Parameter.vi" Type="VI" URL="../System Explorer/Pages/Parameter.vi"/>
 		<Item Name="Port.vi" Type="VI" URL="../System Explorer/Pages/Port.vi"/>
 		<Item Name="Ports.vi" Type="VI" URL="../System Explorer/Pages/Ports.vi"/>
 		<Item Name="Protocol.vi" Type="VI" URL="../System Explorer/Pages/Protocol.vi"/>
