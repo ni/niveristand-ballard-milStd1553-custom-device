@@ -52,6 +52,118 @@
 			<messageType>RT to RT</messageType>
 			<numberOfWords>11</numberOfWords>
 			<createTimestampChannel>false</createTimestampChannel>
+			<parameters>
+				<parameter>
+					<encoding>BNR</encoding>
+					<signed>false</signed>
+					<startBit>0</startBit>
+					<numberOfBits>16</numberOfBits>
+					<scale>2</scale>
+					<offset>0.0</offset>
+					<name>Parameter 0</name>
+					<defaultValue>0.0</defaultValue>
+				</parameter>
+				<parameter>
+					<encoding>BNR</encoding>
+					<signed>false</signed>
+					<startBit>16</startBit>
+					<numberOfBits>16</numberOfBits>
+					<scale>1</scale>
+					<offset>50</offset>
+					<name>Parameter 1</name>
+					<defaultValue>0.0</defaultValue>
+				</parameter>
+				<parameter>
+					<encoding>BNR</encoding>
+					<signed>true</signed>
+					<startBit>32</startBit>
+					<numberOfBits>16</numberOfBits>
+					<scale>1</scale>
+					<offset>0.0</offset>
+					<name>Parameter 2</name>
+					<defaultValue>0.0</defaultValue>
+				</parameter>
+				<parameter>
+					<encoding>BNR</encoding>
+					<signed>false</signed>
+					<startBit>48</startBit>
+					<numberOfBits>16</numberOfBits>
+					<scale>1</scale>
+					<offset>0.0</offset>
+					<name>Parameter 3</name>
+					<defaultValue>0.0</defaultValue>
+				</parameter>
+				<parameter>
+					<encoding>BNR</encoding>
+					<signed>false</signed>
+					<startBit>64</startBit>
+					<numberOfBits>16</numberOfBits>
+					<scale>1</scale>
+					<offset>0.0</offset>
+					<name>Parameter 4</name>
+					<defaultValue>0.0</defaultValue>
+				</parameter>
+				<parameter>
+					<encoding>BNR</encoding>
+					<signed>false</signed>
+					<startBit>80</startBit>
+					<numberOfBits>16</numberOfBits>
+					<scale>1</scale>
+					<offset>0.0</offset>
+					<name>Parameter 5</name>
+					<defaultValue>0.0</defaultValue>
+				</parameter>
+				<parameter>
+					<encoding>BNR</encoding>
+					<signed>false</signed>
+					<startBit>96</startBit>
+					<numberOfBits>16</numberOfBits>
+					<scale>1</scale>
+					<offset>0.0</offset>
+					<name>Parameter 6</name>
+					<defaultValue>0.0</defaultValue>
+				</parameter>
+				<parameter>
+					<encoding>BNR</encoding>
+					<signed>false</signed>
+					<startBit>112</startBit>
+					<numberOfBits>16</numberOfBits>
+					<scale>1</scale>
+					<offset>0.0</offset>
+					<name>Parameter 7</name>
+					<defaultValue>0.0</defaultValue>
+				</parameter>
+				<parameter>
+					<encoding>BNR</encoding>
+					<signed>false</signed>
+					<startBit>128</startBit>
+					<numberOfBits>16</numberOfBits>
+					<scale>1</scale>
+					<offset>0.0</offset>
+					<name>Parameter 8</name>
+					<defaultValue>0.0</defaultValue>
+				</parameter>
+				<parameter>
+					<encoding>BNR</encoding>
+					<signed>false</signed>
+					<startBit>144</startBit>
+					<numberOfBits>16</numberOfBits>
+					<scale>1</scale>
+					<offset>0.0</offset>
+					<name>Parameter 9</name>
+					<defaultValue>0.0</defaultValue>
+				</parameter>
+				<parameter>
+					<encoding>BNR</encoding>
+					<signed>false</signed>
+					<startBit>160</startBit>
+					<numberOfBits>16</numberOfBits>
+					<scale>1</scale>
+					<offset>0.0</offset>
+					<name>Parameter 10</name>
+					<defaultValue>0.0</defaultValue>
+				</parameter>
+			</parameters>
 		</message>
 		<message>
 			<name>BC to RT 1.3</name>
