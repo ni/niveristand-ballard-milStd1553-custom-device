@@ -23,6 +23,8 @@
 		<Item Name="Port.vi" Type="VI" URL="../System Explorer/Pages/Port.vi"/>
 		<Item Name="Ports.vi" Type="VI" URL="../System Explorer/Pages/Ports.vi"/>
 		<Item Name="Protocol.vi" Type="VI" URL="../System Explorer/Pages/Protocol.vi"/>
+		<Item Name="Receive Time.vi" Type="VI" URL="../System Explorer/Pages/Receive Time.vi"/>
+		<Item Name="Status.vi" Type="VI" URL="../System Explorer/Pages/Status.vi"/>
 		<Item Name="Vendor.vi" Type="VI" URL="../System Explorer/Pages/Vendor.vi"/>
 	</Item>
 	<Item Name="RTM" Type="Folder">
