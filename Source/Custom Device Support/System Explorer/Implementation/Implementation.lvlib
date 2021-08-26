@@ -12,6 +12,7 @@
 	</Item>
 	<Item Name="Pages" Type="Folder">
 		<Item Name="Channel.vi" Type="VI" URL="../System Explorer/Pages/Channel.vi"/>
+		<Item Name="Command Channel.vi" Type="VI" URL="../System Explorer/Pages/Command Channel.vi"/>
 		<Item Name="Configuration Files.vi" Type="VI" URL="../System Explorer/Pages/Configuration Files.vi"/>
 		<Item Name="Database.vi" Type="VI" URL="../System Explorer/Pages/Database.vi"/>
 		<Item Name="Frame.vi" Type="VI" URL="../System Explorer/Pages/Frame.vi"/>
@@ -22,6 +23,8 @@
 		<Item Name="Port.vi" Type="VI" URL="../System Explorer/Pages/Port.vi"/>
 		<Item Name="Ports.vi" Type="VI" URL="../System Explorer/Pages/Ports.vi"/>
 		<Item Name="Protocol.vi" Type="VI" URL="../System Explorer/Pages/Protocol.vi"/>
+		<Item Name="Receive Time.vi" Type="VI" URL="../System Explorer/Pages/Receive Time.vi"/>
+		<Item Name="Status.vi" Type="VI" URL="../System Explorer/Pages/Status.vi"/>
 		<Item Name="Vendor.vi" Type="VI" URL="../System Explorer/Pages/Vendor.vi"/>
 	</Item>
 	<Item Name="RTM" Type="Folder">
@@ -32,6 +35,7 @@
 		<Item Name="Import Frames RTM.vi" Type="VI" URL="../System Explorer/RTM/Import Frames RTM.vi"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
+		<Item Name="Channel Cluster to Table.vi" Type="VI" URL="../System Explorer/subVIs/Channel Cluster to Table.vi"/>
 		<Item Name="Device Parameters to Configuration Elements.vi" Type="VI" URL="../System Explorer/subVIs/Device Parameters to Configuration Elements.vi"/>
 		<Item Name="Load Help File.vi" Type="VI" URL="../System Explorer/Load Help File.vi"/>
 		<Item Name="Read Database.vi" Type="VI" URL="../System Explorer/Read Database.vi"/>
