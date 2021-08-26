@@ -292,6 +292,23 @@
 		</Page>
 		<Page>
 			<Name>
+				<eng>Trigger</eng>
+				<loc>Trigger</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>9F1749FA-E57B-4A2B-A4F8-443BB28943E1</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\Triggers.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Ballard\MIL-STD-1553\Windows\Ballard MIL-STD-1553 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
 				<eng>Port %d</eng>
 				<loc>Port %d</loc>
 			</Name>
