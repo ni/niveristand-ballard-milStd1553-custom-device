@@ -96,7 +96,7 @@
 			<GUID>7D28FA5F-1BE9-42BA-9030-384369A394FD</GUID>
 			<Glyph>
 				<Type>To Application Data Dir</Type>
-				<Path>System Explorer\Glyphs\databases.png</Path>
+				<Path>System Explorer\Glyphs\file.png</Path>
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
@@ -164,7 +164,7 @@
 			<GUID>7948DA20-805D-45D0-914D-274A69BA1942</GUID>
 			<Glyph>
 				<Type>To Application Data Dir</Type>
-				<Path>System Explorer\Glyphs\default fpga channel.png</Path>
+				<Path>System Explorer\Glyphs\NI-XNET Status.png</Path>
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
@@ -198,7 +198,7 @@
 			<GUID>B770364E-A524-47A4-BD2C-84D1536BF350</GUID>
 			<Glyph>
 				<Type>To Application Data Dir</Type>
-				<Path>System Explorer\Glyphs\NI-XNET Receive Time.png</Path>
+				<Path>System Explorer\Glyphs\Warning.png</Path>
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
@@ -215,7 +215,7 @@
 			<GUID>D816BAC3-B801-4086-8FF2-44DEB0EE8E0A</GUID>
 			<Glyph>
 				<Type>To Application Data Dir</Type>
-				<Path>System Explorer\Glyphs\NI-XNET Receive Time.png</Path>
+				<Path>System Explorer\Glyphs\Warning.png</Path>
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
@@ -232,7 +232,7 @@
 			<GUID>E577908A-4C92-429B-8C68-9740E425B266</GUID>
 			<Glyph>
 				<Type>To Application Data Dir</Type>
-				<Path>System Explorer\Glyphs\NI-XNET Receive Time.png</Path>
+				<Path>System Explorer\Glyphs\Warning.png</Path>
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
@@ -249,7 +249,7 @@
 			<GUID>2151C088-5813-42CA-818D-390AC9DDD1E2</GUID>
 			<Glyph>
 				<Type>To Application Data Dir</Type>
-				<Path>System Explorer\Glyphs\NI-XNET Receive Time.png</Path>
+				<Path>System Explorer\Glyphs\NI-XNET SignalFrame.png</Path>
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
@@ -266,7 +266,7 @@
 			<GUID>7E2EB233-E0C6-4644-BE22-C64B35DA4442</GUID>
 			<Glyph>
 				<Type>To Application Data Dir</Type>
-				<Path>System Explorer\Glyphs\NI-XNET Receive Time.png</Path>
+				<Path>System Explorer\Glyphs\Warning.png</Path>
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
@@ -283,7 +283,7 @@
 			<GUID>1E0B5C0B-62AA-4583-9D0D-4E49A372EA3D</GUID>
 			<Glyph>
 				<Type>To Application Data Dir</Type>
-				<Path>System Explorer\Glyphs\NI-XNET Receive Time.png</Path>
+				<Path>System Explorer\Glyphs\NI-XNET Status.png</Path>
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
@@ -432,7 +432,7 @@
 			<GUID>F3C769CE-2055-47DC-98AC-89CDFED404B4</GUID>
 			<Glyph>
 				<Type>To Application Data Dir</Type>
-				<Path>System Explorer\Glyphs\NI-XNET SignalFrame.png</Path>
+				<Path>System Explorer\Glyphs\Warning.png</Path>
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
