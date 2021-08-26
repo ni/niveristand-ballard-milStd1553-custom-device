@@ -190,6 +190,108 @@
 		</Page>
 		<Page>
 			<Name>
+				<eng>Bus Controller</eng>
+				<loc>Bus Controller</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>B770364E-A524-47A4-BD2C-84D1536BF350</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\NI-XNET Receive Time.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Ballard\MIL-STD-1553\Windows\Ballard MIL-STD-1553 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Remote Terminal</eng>
+				<loc>Remote Terminal</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>D816BAC3-B801-4086-8FF2-44DEB0EE8E0A</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\NI-XNET Receive Time.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Ballard\MIL-STD-1553\Windows\Ballard MIL-STD-1553 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Acyclic Frames</eng>
+				<loc>Acyclic Frames</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>E577908A-4C92-429B-8C68-9740E425B266</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\NI-XNET Receive Time.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Ballard\MIL-STD-1553\Windows\Ballard MIL-STD-1553 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Message</eng>
+				<loc>Message</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>2151C088-5813-42CA-818D-390AC9DDD1E2</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\NI-XNET Receive Time.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Ballard\MIL-STD-1553\Windows\Ballard MIL-STD-1553 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Subaddress</eng>
+				<loc>Subaddress</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>7E2EB233-E0C6-4644-BE22-C64B35DA4442</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\NI-XNET Receive Time.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Ballard\MIL-STD-1553\Windows\Ballard MIL-STD-1553 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Status</eng>
+				<loc>Status</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>1E0B5C0B-62AA-4583-9D0D-4E49A372EA3D</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\NI-XNET Receive Time.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Ballard\MIL-STD-1553\Windows\Ballard MIL-STD-1553 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
 				<eng>Port %d</eng>
 				<loc>Port %d</loc>
 			</Name>
