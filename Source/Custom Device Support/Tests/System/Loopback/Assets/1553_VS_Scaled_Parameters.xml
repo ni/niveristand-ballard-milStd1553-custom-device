@@ -35,7 +35,7 @@
 			</address>
 			<messageType>BC to RT</messageType>
 			<numberOfWords>3</numberOfWords>
-			<createTimestampChannel>false</createTimestampChannel>
+			<createTimestampChannel>true</createTimestampChannel>
 		</message>
 		<message>
 			<name>RT 15.21 to RT 31.21</name>
@@ -51,7 +51,7 @@
 			</address>
 			<messageType>RT to RT</messageType>
 			<numberOfWords>11</numberOfWords>
-			<createTimestampChannel>false</createTimestampChannel>
+			<createTimestampChannel>true</createTimestampChannel>
 			<parameters>
 				<parameter>
 					<encoding>BNR</encoding>
@@ -194,6 +194,7 @@
 			</address>
 			<messageType>RT to BC</messageType>
 			<numberOfWords>2</numberOfWords>
+			<createTimestampChannel>true</createTimestampChannel>
 		</message>
 		<message>
 			<name>RT 1.20 to RT 15.20</name>
