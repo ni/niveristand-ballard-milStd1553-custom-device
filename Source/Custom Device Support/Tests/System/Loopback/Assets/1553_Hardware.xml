@@ -128,7 +128,7 @@
 					<bti:messageCommand ID="51" name="MC 17" messageBufferIDRef="54" monitor="true" retryCount="0">
 						<bti:messageMC taVal1="1" saVal1="31" modeCodeNumber="17" direction="Rx"/>
 					</bti:messageCommand>
-					<bti:messageCommand ID="52" name="MC 1" messageBufferIDRef="55" monitor="true" retryCount="0">
+					<bti:messageCommand ID="52" name="MC 01" messageBufferIDRef="55" monitor="true" retryCount="0">
 						<bti:messageMC taVal1="31" saVal1="31" modeCodeNumber="1" direction="Rx"/>
 					</bti:messageCommand>
 				</bti:messages>
@@ -364,7 +364,7 @@
 					</bti:messageBuffers>
 					<bti:subAddress ID="69" name="SA 28" messageBufferIDRef="75" monitor="true" subAddress="28" direction="Rx"/>
 					<bti:subAddress ID="76" name="SA 21" messageBufferIDRef="77" monitor="true" subAddress="21" direction="Rx"/>
-					<bti:modeCode ID="72" name="MC 1" messageBufferIDRef="73" monitor="true" modeCodeNumber="1" direction="Rx"/>					
+					<bti:modeCode ID="72" name="MC 01" messageBufferIDRef="73" monitor="true" modeCodeNumber="1" direction="Rx"/>					
 				</bti:remoteTerminal>				
 			</bti:remoteTerminals>
 		</bti:simulation>
