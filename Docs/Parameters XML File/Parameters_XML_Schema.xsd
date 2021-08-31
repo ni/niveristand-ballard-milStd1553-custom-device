@@ -1,167 +1,154 @@
-<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-	<xs:element name="parameters">
-		<xs:annotation>
-			<xs:documentation>Notes																					</xs:documentation>
-			<xs:documentation>hardwareChannel is 0-Based, range accepted is: 0-1 (refer to hardware supplier documentation)	</xs:documentation>
-			<xs:documentation>startBit is 0-Based, range accepted is: 0-511 (Tx and Rx)</xs:documentation>
-		</xs:annotation>
-	<xs:complexType>
-		<xs:sequence>
-			<xs:element name="channel" maxOccurs="2" minOccurs="1">
-			  <xs:complexType>
-				<xs:sequence>
-					<xs:element name="hardwareChannel">
-						<xs:simpleType>
-							<xs:restriction base="xs:int">
-							  <xs:minInclusive value="0"/>
-							  <xs:maxInclusive value="1"/>
-							</xs:restriction>
-						</xs:simpleType>
-					</xs:element>
-						<xs:complexType>
-							<xs:sequence>
-								<xs:element name="terminal"  maxOccurs="32" minOccurs="1">
-									<xs:complexType>
-										<xs:element name="terminalAddress" maxOccurs="1" minOccurs="1">
-											<xs:simpleType>
-												<xs:restriction base="xs:int">
-													<xs:minInclusive value="0"/>
-													<xs:maxInclusive value="31"/>
-												</xs:restriction>
-											</xs:simpleType>
-										</xs:element>
-										<xs:element type="xs:string" name="name"/>
-									</xs:complexType>
-								</xs:element>
-							</xs:sequence>
-						</xs:complexType>
-						<xs:complexType>
-							<xs:sequence>
-								<xs:element name="acyclicFrame"  maxOccurs="unbounded" minOccurs="0">
-									<xs:complexType>
-										<xs:element type="xs:boolean" name="createTriggerChannel" maxOccurs="1" minOccurs="0" default="false"/>
-										<xs:element type="xs:string" name="name"/>
-									</xs:complexType>
-								</xs:element>
-							</xs:sequence>
-						</xs:complexType>
-					<xs:sequence>
-						<xs:element name="message" maxOccurs="unbounded" minOccurs="1">
-							<xs:complexType>
-								<xs:element name="name"  maxOccurs="1" minOccurs="1"/>
-								<xs:element name="address" maxOccurs="2" minOccurs="1">
-									<xs:complexType>
-										<xs:choice maxOccurs="unbounded" minOccurs="0">
-											<xs:element name="direction" default="Rx" maxOccurs="1" minOccurs="1">
-												<xs:simpleType>
-													<xs:restriction base="xs:string">
-														<xs:enumeration value="Rx"/>
-														<xs:enumeration value="Tx"/>
-													</xs:restriction>
-												</xs:simpleType>
-											</xs:element>
-											<xs:element name="terminalAddress"  maxOccurs="1" minOccurs="1">
-												<xs:simpleType>
-													<xs:restriction base="xs:int">
-														<xs:minInclusive value="0"/>
-														<xs:maxInclusive value="31"/>
-													</xs:restriction>
-												</xs:simpleType>
-											</xs:element>
-											<xs:element name="subAddress" maxOccurs="1" minOccurs="1">
-												<xs:simpleType>
-													<xs:restriction base="xs:int">
-														<xs:minInclusive value="0"/>
-														<xs:maxInclusive value="31"/>
-													</xs:restriction>
-												</xs:simpleType>
-											</xs:element>
-										</xs:choice>
-									</xs:complexType>
-								</xs:element>
-								<xs:element name="numberOfWords" maxOccurs="1" minOccurs="0">
-									<xs:simpleType>
-										<xs:restriction base="xs:int">
-											<xs:minInclusive value="0"/>
-											<xs:maxInclusive value="32"/>
-										 </xs:restriction>
-									</xs:simpleType>
-								</xs:element>
-								<xs:element name="modeCode" maxOccurs="1" minOccurs="0">
-									<xs:simpleType>
-										<xs:restriction base="xs:int">
-											<xs:minInclusive value="0"/>
-											<xs:maxInclusive value="31"/>
-										 </xs:restriction>
-									</xs:simpleType>
-								</xs:element>
-								<xs:element name="messageType"  maxOccurs="1" minOccurs="0" default="BC to RT">
-									 <xs:simpleType>
-										<xs:restriction base="xs:string">
-											<xs:enumeration value="BC to RT" />
-											<xs:enumeration value="RT to BC" />
-											<xs:enumeration value="RT to RT" />
-											<xs:enumeration value="MC" />
-										</xs:restriction>
-									</xs:simpleType>
-								</xs:element>
-								<xs:element type="xs:boolean" name="createTimestampChannel" maxOccurs="1" minOccurs="0" default="false">
-									<xs:annotation>
-										<xs:documentation>Automatic creation of read-only VeriStand channel for timestamp is only supported for Rx messages/endpoints.</xs:documentation>
-									</xs:annotation>
-								</xs:element>
-								<xs:element name="parameter" maxOccurs="unbounded" minOccurs="1">
-									<xs:complexType>
-										<xs:choice maxOccurs="unbounded" minOccurs="0">
-											<xs:element name="encoding" default="BNR" maxOccurs="1" minOccurs="1">
-												<xs:simpleType>
-													<xs:restriction base="xs:string">
-														<xs:enumeration value="BNR"/>
-														<xs:enumeration value="BCD"/>
-														<xs:enumeration value="Discrete"/>
-													</xs:restriction>
-												</xs:simpleType>
-											</xs:element>
-											<xs:element type="xs:boolean" name="signed" maxOccurs="1" minOccurs="0" default="false"/>
-											<xs:element name="startBit"  maxOccurs="1" minOccurs="1"  default="8">
-												<xs:simpleType>
-													<xs:restriction base="xs:int">
-														<xs:minInclusive value="0"/>
-														<xs:maxInclusive value="31"/>
-													</xs:restriction>
-												</xs:simpleType>
-											</xs:element>
-											<xs:element name="numberOfBits" maxOccurs="1" minOccurs="1">
-												<xs:simpleType>
-													<xs:restriction base="xs:int">
-														<xs:minInclusive value="1"/>
-														<xs:maxInclusive value="32"/>
-													</xs:restriction>
-												</xs:simpleType>
-											</xs:element>
-											<xs:element type="xs:double" name="scale"  default="1.0" maxOccurs="1" minOccurs="0"/>
-											<xs:element type="xs:double" name="offset" default="0.0" maxOccurs="1" minOccurs="0" />
-											<xs:element type="xs:string" name="name">
-												<xs:annotation>
-													<xs:documentation>For Discrete encoding, there is one "name" element per Bit</xs:documentation>
-												</xs:annotation>
-											</xs:element>
-											<xs:element type="xs:string" name="unit" maxOccurs="1" minOccurs="0"/>
-											<xs:element type="xs:double" name="defaultValue"  default="0.0"/>
-										</xs:choice>
-									</xs:complexType>
-								</xs:element>
-							</xs:complexType>
-						</xs:element>
-					</xs:sequence>
-				</xs:sequence>
-			  </xs:complexType>
-			</xs:element>
-		</xs:sequence>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified">
+  <xs:element name="parameters">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="channel">
+          <xs:complexType>
+            <xs:sequence>
+               <xs:element name="hardwareChannel">
+                  <xs:simpleType>
+                     <xs:restriction base="xs:int">
+                       <xs:minInclusive value="0"/>
+                       <xs:maxInclusive value="1"/>
+                     </xs:restriction>
+                  </xs:simpleType>
+               </xs:element>
+               <xs:element name="terminal" minOccurs="0" maxOccurs="32">
+                <xs:complexType>
+                  <xs:sequence>
+                     <xs:element name="terminalAddress" minOccurs="1" maxOccurs="1">
+                        <xs:simpleType>
+                           <xs:restriction base="xs:int">
+                              <xs:minInclusive value="0"/>
+                              <xs:maxInclusive value="31"/>
+                           </xs:restriction>
+                        </xs:simpleType>
+                     </xs:element>
+                    <xs:element name="name" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+               </xs:element>
+               <xs:element name="acyclicFrame">
+                <xs:complexType>
+                  <xs:sequence>
+                     <xs:element name="createTriggerChannel" type="xs:boolean" minOccurs="0" maxOccurs="1" default="false"/>
+                    <xs:element name="name" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+               </xs:element>
+               <xs:element name="message" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="name" type="xs:string"/>
+                    <xs:element name="address"  minOccurs="1" maxOccurs="2">
+                      <xs:complexType>
+                        <xs:sequence>
+                           <xs:element name="terminalAddress" minOccurs="1" maxOccurs="1">
+                              <xs:simpleType>
+                                 <xs:restriction base="xs:int">
+                                    <xs:minInclusive value="0"/>
+                                    <xs:maxInclusive value="31"/>
+                                 </xs:restriction>
+                              </xs:simpleType>
+                           </xs:element>
+                           <xs:element name="subAddress" minOccurs="1" maxOccurs="1">
+                              <xs:simpleType>
+                                 <xs:restriction base="xs:int">
+                                    <xs:minInclusive value="0"/>
+                                    <xs:maxInclusive value="31"/>
+                                 </xs:restriction>
+                              </xs:simpleType>
+                           </xs:element>
+                           <xs:element name="direction" default="Rx" minOccurs="1" maxOccurs="1">
+                              <xs:simpleType>
+                                 <xs:restriction base="xs:string">
+                                    <xs:enumeration value="Rx"/>
+                                    <xs:enumeration value="Tx"/>
+                                 </xs:restriction>
+                              </xs:simpleType>
+                           </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                     <xs:element name="messageType" minOccurs="1" maxOccurs="1">
+                         <xs:simpleType>
+                           <xs:restriction base="xs:string">
+                              <xs:enumeration value="BC to RT" />
+                              <xs:enumeration value="RT to BC" />
+                              <xs:enumeration value="RT to RT" />
+                              <xs:enumeration value="MC" />
+                           </xs:restriction>
+                        </xs:simpleType>
+                     </xs:element>
+                     <xs:element name="numberOfWords" minOccurs="1" maxOccurs="1">
+                        <xs:simpleType>
+                           <xs:restriction base="xs:int">
+                              <xs:minInclusive value="0"/>
+                              <xs:maxInclusive value="32"/>
+                            </xs:restriction>
+                        </xs:simpleType>
+                     </xs:element>
+                     <xs:element name="modeCode" minOccurs="0" maxOccurs="1">
+                        <xs:simpleType>
+                           <xs:restriction base="xs:int">
+                              <xs:minInclusive value="0"/>
+                              <xs:maxInclusive value="31"/>
+                            </xs:restriction>
+                        </xs:simpleType>
+                     </xs:element>
+                     <xs:element type="xs:boolean" name="createTimestampChannel" maxOccurs="1" minOccurs="0" default="false">
+                        <xs:annotation>
+                           <xs:documentation>Automatic creation of read-only VeriStand channel for timestamp is only supported for Rx messages/endpoints.</xs:documentation>
+                        </xs:annotation>
+                     </xs:element>
+                     <xs:element name="parameter" maxOccurs="unbounded" minOccurs="1">
+                        <xs:complexType>
+                           <xs:choice maxOccurs="unbounded" minOccurs="0">
+                              <xs:element name="encoding" default="BNR" maxOccurs="1" minOccurs="1">
+                                 <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                       <xs:enumeration value="BNR"/>
+                                       <xs:enumeration value="BCD"/>
+                                       <xs:enumeration value="Discrete"/>
+                                    </xs:restriction>
+                                 </xs:simpleType>
+                              </xs:element>
+                              <xs:element type="xs:boolean" name="signed" maxOccurs="1" minOccurs="0" default="false"/>
+                              <xs:element name="startBit"  maxOccurs="1" minOccurs="1"  default="8">
+                                 <xs:simpleType>
+                                    <xs:restriction base="xs:int">
+                                       <xs:minInclusive value="0"/>
+                                       <xs:maxInclusive value="31"/>
+                                    </xs:restriction>
+                                 </xs:simpleType>
+                              </xs:element>
+                              <xs:element name="numberOfBits" maxOccurs="1" minOccurs="1">
+                              <xs:simpleType>
+                                 <xs:restriction base="xs:int">
+                                    <xs:minInclusive value="1"/>
+                                    <xs:maxInclusive value="32"/>
+                                 </xs:restriction>
+                              </xs:simpleType>
+                              </xs:element>
+                              <xs:element type="xs:double" name="scale"  default="1.0" maxOccurs="1" minOccurs="0"/>
+                              <xs:element type="xs:double" name="offset" default="0.0" maxOccurs="1" minOccurs="0" />
+                              <xs:element type="xs:string" name="name">
+                                 <xs:annotation>
+                                    <xs:documentation>For Discrete encoding, there is one "name" element per Bit</xs:documentation>
+                                 </xs:annotation>
+                              </xs:element>
+                              <xs:element type="xs:string" name="unit" maxOccurs="1" minOccurs="0"/>
+                              <xs:element type="xs:double" name="defaultValue"  default="0.0"/>
+                           </xs:choice>
+                        </xs:complexType>
+                     </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
     </xs:complexType>
-	<xs:unique name="uniquehardwareChannel">
-		<xs:selector xpath="channel"/>
-		<xs:field xpath="hardwareChannel"/>
-	</xs:unique>
-	</xs:element>
+  </xs:element>
 </xs:schema>
