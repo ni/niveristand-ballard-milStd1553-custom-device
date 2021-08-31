@@ -240,7 +240,7 @@ The following table describes the XML elements, or tags, you can use in a Parame
 |→`<acyclicFrames>`|No|complex|0/1|Opening tag for acyclic frames.|
 |→→`<acyclicFrame>`|Yes|complex|1/unbounded|Opening tag for acyclic frame definition.|
 |→→`<name>`|Yes|string|1|Specifies the acyclic frame name. This must match the name in the hardware configuration file.|
-|→→`<createTriggerChannel>`|Yes|boolean|1|Specifies whether to create a trigger channel on the bus controller for the acyclic frame. The default is true.|
+|→→`<createTriggerChannel>`|No|boolean|1|Specifies whether to create a trigger channel on the bus controller for the acyclic frame. The default is false.|
 
 Notes:
 1. For Tx parameters, `<defaultValue>` must be present.
