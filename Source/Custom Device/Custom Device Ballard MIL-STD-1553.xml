@@ -1,0 +1,416 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CustomDevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Custom Device.xsd">
+	<XSDVersion Major="2010" Minor="0" Fix="0" Build="0" />
+	<AddMenu>
+		<eng>National Instruments::Ballard MIL-STD-1553</eng>
+		<loc>National Instruments::Ballard MIL-STD-1553</loc>
+	</AddMenu>
+	<Version>1.0.0</Version>
+	<Type>Inline HW Interface</Type>
+	<MaxOccurrence>-1</MaxOccurrence>
+	<MainPageGUID>96479D8D-68C1-4D19-959D-E0FE38040076</MainPageGUID>
+	<InitializationVI>
+		<Type>Action</Type>
+		<Item2Launch>
+			<Type>To Common Doc Dir</Type>
+			<Path>Custom Devices\Ballard\MIL-STD-1553\Windows\Ballard MIL-STD-1553 Configuration.llb\Initialization VI.vi</Path>
+		</Item2Launch>
+	</InitializationVI>
+	<CustomDeviceVI>
+		<SourceDistribution>
+			<Source>
+				<SupportedTarget>Windows</SupportedTarget>
+				<Source>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\Ballard\MIL-STD-1553\Windows\Ballard MIL-STD-1553 Engine Windows.llb\RT Driver VI.vi</Path>
+				</Source>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Ballard\MIL-STD-1553\Ballard MIL-STD-1553 Engine Windows.llb\RT Driver VI.vi</RealTimeSystemDestination>
+			</Source>
+			<Source>
+				<SupportedTarget>Linux_x64</SupportedTarget>
+				<Source>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\Ballard\MIL-STD-1553\Linux_x64\Ballard MIL-STD-1553 Engine Linux64.llb\RT Driver VI.vi</Path>
+				</Source>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Ballard\MIL-STD-1553\Ballard MIL-STD-1553 Engine Linux64.llb\RT Driver VI.vi</RealTimeSystemDestination>
+			</Source>
+		</SourceDistribution>
+	</CustomDeviceVI>
+	<Dependencies>
+		<Dependency>
+			<SupportedTarget>Linux_x64</SupportedTarget>
+			<Source>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Ballard\MIL-STD-1553\Linux_x64\Ballard MIL-STD-1553 Engine.lvlibp</Path>
+			</Source>
+			<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Ballard\MIL-STD-1553\Ballard MIL-STD-1553 Engine.lvlibp</RealTimeSystemDestination>
+		</Dependency>
+	</Dependencies>
+	<Pages>
+		<Page>
+			<Name>
+				<eng>Ballard MIL-STD-1553</eng>
+				<loc>Ballard MIL-STD-1553</loc>
+			</Name>
+			<GUID>96479D8D-68C1-4D19-959D-E0FE38040076</GUID>
+			<Glyph>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Ballard\MIL-STD-1553\Windows\Glyphs\Fighter.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Ballard\MIL-STD-1553\Windows\Ballard MIL-STD-1553 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+			<RunTimeMenu>
+				<MenuItem>
+					<GUID>578CC3A5-244C-451B-B5DE-59D8A0593F48</GUID>
+					<Type>Action</Type>
+					<Execution>silent</Execution>
+					<Name>
+						<eng>Export Configuration</eng>
+						<loc>Export Configuration</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\Ballard\MIL-STD-1553\Windows\Ballard MIL-STD-1553 Configuration.llb\Export Configuration RTM.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>1138C7C9-33B0-4D4F-A2A8-5116F8B4F20E</GUID>
+					<Type>Action</Type>
+					<Execution>silent</Execution>
+					<Name>
+						<eng>Import Configuration</eng>
+						<loc>Import Configuration</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\Ballard\MIL-STD-1553\Windows\Ballard MIL-STD-1553 Configuration.llb\Import Configuration RTM.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+			</RunTimeMenu>
+			<ButtonList>
+				<Button>
+					<ID>c90d1b42-9eb1-4e89-92b6-6c073196ade9-Button</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\Export.png</Path>
+					</Glyph>
+					<Type>Action</Type>
+					<ReferencedGUID>578CC3A5-244C-451B-B5DE-59D8A0593F48</ReferencedGUID>
+					<ButtonText>
+						<eng>Export Configuration</eng>
+						<loc>Export Configuration</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Export Configuration</eng>
+						<loc>Export Configuration</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Export Custom Device Configuration</eng>
+						<loc>Export Custom Device Configuration</loc>
+					</TipStrip>
+					<Documentation>
+						<eng>Export Custom Device Configuration</eng>
+						<loc>Export Custom Device Configuration</loc>
+					</Documentation>
+				</Button>
+				<Button>
+					<ID>089728fe-9b2f-4073-8646-572ad1172b32-Button</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\Import.png</Path>
+					</Glyph>
+					<Type>Action</Type>
+					<ReferencedGUID>1138C7C9-33B0-4D4F-A2A8-5116F8B4F20E</ReferencedGUID>
+					<ButtonText>
+						<eng>Import Configuration</eng>
+						<loc>Import Configuration</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Import Configuration</eng>
+						<loc>Import Configuration</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Import Custom Device Configuration</eng>
+						<loc>Import Custom Device Configuration</loc>
+					</TipStrip>
+					<Documentation>
+						<eng>Import Custom Device Configuration</eng>
+						<loc>Import Custom Device Configuration</loc>
+					</Documentation>
+				</Button>
+			</ButtonList>
+			<ActionVIOnLoad>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Ballard\MIL-STD-1553\Windows\Ballard MIL-STD-1553 Configuration.llb\ActionVIOnLoad.vi</Path>
+			</ActionVIOnLoad>
+			<ActionVIOnCompile>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Ballard\MIL-STD-1553\Windows\Ballard MIL-STD-1553 Configuration.llb\ActionVIOnCompile.vi</Path>
+			</ActionVIOnCompile>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Configuration Files</eng>
+				<loc>Configuration Files</loc>
+			</Name>
+			<GUID>7D28FA5F-1BE9-42BA-9030-384369A394FD</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\file.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Ballard\MIL-STD-1553\Windows\Ballard MIL-STD-1553 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Ports</eng>
+				<loc>Ports</loc>
+			</Name>
+			<GUID>DF3397D5-0A83-4CFC-AD73-28ED0B1E7D7E</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\NI-XNET Port.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Ballard\MIL-STD-1553\Windows\Ballard MIL-STD-1553 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Status Word</eng>
+				<loc>Status Word</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>7948DA20-805D-45D0-914D-274A69BA1942</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\NI-XNET Status.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Ballard\MIL-STD-1553\Windows\Ballard MIL-STD-1553 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Receive Time</eng>
+				<loc>Receive Time</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>4F0EA705-FD0A-4F01-AD6C-880781D6ED5B</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\NI-XNET Receive Time.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Ballard\MIL-STD-1553\Windows\Ballard MIL-STD-1553 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Bus Controller</eng>
+				<loc>Bus Controller</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>B770364E-A524-47A4-BD2C-84D1536BF350</GUID>
+			<Glyph>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Ballard\MIL-STD-1553\Windows\Glyphs\Bus Controller.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Ballard\MIL-STD-1553\Windows\Ballard MIL-STD-1553 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Remote Terminal</eng>
+				<loc>Remote Terminal</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>D816BAC3-B801-4086-8FF2-44DEB0EE8E0A</GUID>
+			<Glyph>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Ballard\MIL-STD-1553\Windows\Glyphs\Remote Terminal.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Ballard\MIL-STD-1553\Windows\Ballard MIL-STD-1553 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Acyclic Frames</eng>
+				<loc>Acyclic Frames</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>E577908A-4C92-429B-8C68-9740E425B266</GUID>
+			<Glyph>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Ballard\MIL-STD-1553\Windows\Glyphs\Acyclic Frames.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Ballard\MIL-STD-1553\Windows\Ballard MIL-STD-1553 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Message</eng>
+				<loc>Message</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>2151C088-5813-42CA-818D-390AC9DDD1E2</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\NI-XNET SignalFrame.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Ballard\MIL-STD-1553\Windows\Ballard MIL-STD-1553 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Subaddress</eng>
+				<loc>Subaddress</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>7E2EB233-E0C6-4644-BE22-C64B35DA4442</GUID>
+			<Glyph>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Ballard\MIL-STD-1553\Windows\Glyphs\Subaddress.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Ballard\MIL-STD-1553\Windows\Ballard MIL-STD-1553 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Status</eng>
+				<loc>Status</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>1E0B5C0B-62AA-4583-9D0D-4E49A372EA3D</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\NI-XNET Status.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Ballard\MIL-STD-1553\Windows\Ballard MIL-STD-1553 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Trigger</eng>
+				<loc>Trigger</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>9F1749FA-E57B-4A2B-A4F8-443BB28943E1</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\Triggers.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Ballard\MIL-STD-1553\Windows\Ballard MIL-STD-1553 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Port %d</eng>
+				<loc>Port %d</loc>
+			</Name>
+			<Copy>Copy</Copy>
+			<GUID>E61AF0D3-0C83-483A-A06B-B537FBE76C23</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\NI-XNET Port.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Ballard\MIL-STD-1553\Windows\Ballard MIL-STD-1553 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Command Channel</eng>
+				<loc>Command Channel</loc>
+			</Name>
+			<GUID>F3C769CE-2055-47DC-98AC-89CDFED404B4</GUID>
+			<Glyph>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Ballard\MIL-STD-1553\Windows\Glyphs\Start_Stop.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Ballard\MIL-STD-1553\Windows\Ballard MIL-STD-1553 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Channel</eng>
+				<loc>Channel</loc>
+			</Name>
+			<GUID>99523C72-475C-4B9B-9BFE-43F700A8EEC0</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\NI-XNET Signal.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Ballard\MIL-STD-1553\Windows\Ballard MIL-STD-1553 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Vendor</eng>
+				<loc>Vendor</loc>
+			</Name>
+			<GUID>44D6F6BA-05E9-4FBC-A949-76A8B1E99483</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\default fpga category.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Ballard\MIL-STD-1553\Windows\Ballard MIL-STD-1553 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Protocol</eng>
+				<loc>Protocol</loc>
+			</Name>
+			<GUID>3B029940-36EA-4E62-BB8E-91C39D4BE347</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\default fpga category.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Ballard\MIL-STD-1553\Windows\Ballard MIL-STD-1553 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+		</Page>
+	</Pages>
+	<CustomXML>
+		<Dummy></Dummy>
+	</CustomXML>
+</CustomDevice>

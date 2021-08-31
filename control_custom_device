@@ -1,0 +1,15 @@
+Package: ni-ballard-mil-std-1553-veristand-{veristand_version}-support
+Version: {nipkg_version}
+Architecture: windows_x64
+Maintainer: National Instruments <support@ni.com>
+XB-Plugin: file
+Description: Ballard MIL-STD-1553 support for NI VeriStand {veristand_version}.
+XB-Eula: eula-ni-standard
+Priority: standard
+Homepage: http://www.ni.com
+XB-LanguageSupport: en
+XB-UserVisible: yes
+Section: Add-Ons
+XB-DisplayVersion: {display_version}
+XB-DisplayName: Ballard MIL-STD-1553 for VeriStand {veristand_version}
+Depends: {ni-veristand-{labview_version}} (>= {labview_short_version}.0.0)
