@@ -22,10 +22,12 @@
 	<Item Name="Channel" Type="Folder">
 		<Item Name="Add Channel.vi" Type="VI" URL="../Channel/Add Channel.vi"/>
 		<Item Name="Add Command Channel.vi" Type="VI" URL="../Channel/Add Command Channel.vi"/>
+		<Item Name="Add Error Count Channel.vi" Type="VI" URL="../Channel/Add Error Count Channel.vi"/>
 		<Item Name="Add Start and Stop Channels.vi" Type="VI" URL="../Channel/Add Start and Stop Channels.vi"/>
 		<Item Name="Add Status Channel.vi" Type="VI" URL="../Channel/Add Status Channel.vi"/>
 		<Item Name="Add Timestamp Channel.vi" Type="VI" URL="../Channel/Add Timestamp Channel.vi"/>
 		<Item Name="Add Trigger Channel.vi" Type="VI" URL="../Channel/Add Trigger Channel.vi"/>
+		<Item Name="Get Error Counter Channels.vi" Type="VI" URL="../Channel/Get Error Counter Channels.vi"/>
 		<Item Name="Get Start and Stop Channels.vi" Type="VI" URL="../Channel/Get Start and Stop Channels.vi"/>
 		<Item Name="Get Status Channel.vi" Type="VI" URL="../Channel/Get Status Channel.vi"/>
 		<Item Name="Get Timestamp Channel.vi" Type="VI" URL="../Channel/Get Timestamp Channel.vi"/>
@@ -42,6 +44,7 @@
 	</Item>
 	<Item Name="Custom Device" Type="Folder">
 		<Item Name="Add Custom Device.vi" Type="VI" URL="../Custom Device/Add Custom Device.vi"/>
+		<Item Name="Add Status Section.vi" Type="VI" URL="../Custom Device/Add Status Section.vi"/>
 		<Item Name="Export Custom Device.vi" Type="VI" URL="../Custom Device/Export Custom Device.vi"/>
 		<Item Name="Find All Ballard MIL-STD-1553 Custom Devices.vi" Type="VI" URL="../Custom Device/Find All Ballard MIL-STD-1553 Custom Devices.vi"/>
 		<Item Name="Find Ballard MIL-STD-1553 Custom Device.vi" Type="VI" URL="../Custom Device/Find Ballard MIL-STD-1553 Custom Device.vi"/>
