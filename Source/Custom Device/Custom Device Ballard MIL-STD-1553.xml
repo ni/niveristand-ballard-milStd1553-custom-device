@@ -167,21 +167,6 @@
 		</Page>
 		<Page>
 			<Name>
-				<eng>Ports</eng>
-				<loc>Ports</loc>
-			</Name>
-			<GUID>DF3397D5-0A83-4CFC-AD73-28ED0B1E7D7E</GUID>
-			<Glyph>
-				<Type>To Application Data Dir</Type>
-				<Path>System Explorer\Glyphs\NI-XNET Port.png</Path>
-			</Glyph>
-			<Item2Launch>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Ballard\MIL-STD-1553\Windows\Ballard MIL-STD-1553 Configuration.llb\Page Wrapper.vi</Path>
-			</Item2Launch>
-		</Page>
-		<Page>
-			<Name>
 				<eng>Status Word</eng>
 				<loc>Status Word</loc>
 			</Name>
@@ -373,36 +358,6 @@
 			<Glyph>
 				<Type>To Application Data Dir</Type>
 				<Path>System Explorer\Glyphs\NI-XNET Signal.png</Path>
-			</Glyph>
-			<Item2Launch>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Ballard\MIL-STD-1553\Windows\Ballard MIL-STD-1553 Configuration.llb\Page Wrapper.vi</Path>
-			</Item2Launch>
-		</Page>
-		<Page>
-			<Name>
-				<eng>Vendor</eng>
-				<loc>Vendor</loc>
-			</Name>
-			<GUID>44D6F6BA-05E9-4FBC-A949-76A8B1E99483</GUID>
-			<Glyph>
-				<Type>To Application Data Dir</Type>
-				<Path>System Explorer\Glyphs\default fpga category.png</Path>
-			</Glyph>
-			<Item2Launch>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Ballard\MIL-STD-1553\Windows\Ballard MIL-STD-1553 Configuration.llb\Page Wrapper.vi</Path>
-			</Item2Launch>
-		</Page>
-		<Page>
-			<Name>
-				<eng>Protocol</eng>
-				<loc>Protocol</loc>
-			</Name>
-			<GUID>3B029940-36EA-4E62-BB8E-91C39D4BE347</GUID>
-			<Glyph>
-				<Type>To Application Data Dir</Type>
-				<Path>System Explorer\Glyphs\default fpga category.png</Path>
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
