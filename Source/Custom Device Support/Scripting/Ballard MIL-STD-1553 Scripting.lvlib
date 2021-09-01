@@ -55,20 +55,9 @@
 		<Item Name="Set Description.vi" Type="VI" URL="../Custom Device/Set Description.vi"/>
 		<Item Name="Write Configuration.vi" Type="VI" URL="../Custom Device/Write Configuration.vi"/>
 	</Item>
-	<Item Name="Database" Type="Folder">
-		<Item Name="Add Database.vi" Type="VI" URL="../Database/Add Database.vi"/>
-		<Item Name="Add Databases Section.vi" Type="VI" URL="../Database/Add Databases Section.vi"/>
-		<Item Name="Get Database List of Names and Paths.vi" Type="VI" URL="../Database/Get Database List of Names and Paths.vi"/>
-	</Item>
 	<Item Name="Device" Type="Folder">
 		<Item Name="Get Device Parameters.vi" Type="VI" URL="../Device/Get Device Parameters.vi"/>
 		<Item Name="Set Device Parameters.vi" Type="VI" URL="../Device/Set Device Parameters.vi"/>
-	</Item>
-	<Item Name="Frame" Type="Folder">
-		<Item Name="Add Frame.vi" Type="VI" URL="../Frame/Add Frame.vi"/>
-		<Item Name="Get Frame Id.vi" Type="VI" URL="../Frame/Get Frame Id.vi"/>
-		<Item Name="Get Frame Port Reference.vi" Type="VI" URL="../Frame/Get Frame Port Reference.vi"/>
-		<Item Name="Set Frame Id.vi" Type="VI" URL="../Frame/Set Frame Id.vi"/>
 	</Item>
 	<Item Name="Message" Type="Folder">
 		<Item Name="Add BC to RT Message.vi" Type="VI" URL="../Message/Add BC to RT Message.vi"/>
@@ -99,21 +88,13 @@
 		<Item Name="Set Parameter Definition.vi" Type="VI" URL="../Message/Set Parameter Definition.vi"/>
 	</Item>
 	<Item Name="Port" Type="Folder">
-		<Item Name="Add Port (MIL 1553).vi" Type="VI" URL="../Port/Add Port (MIL 1553).vi"/>
-		<Item Name="Add Port Incoming Section.vi" Type="VI" URL="../Port/Add Port Incoming Section.vi"/>
-		<Item Name="Add Port Outgoing Section.vi" Type="VI" URL="../Port/Add Port Outgoing Section.vi"/>
 		<Item Name="Add Port.vi" Type="VI" URL="../Port/Add Port.vi"/>
-		<Item Name="Add Ports Section.vi" Type="VI" URL="../Port/Add Ports Section.vi"/>
 		<Item Name="Add Terminals.vi" Type="VI" URL="../Port/Add Terminals.vi"/>
 		<Item Name="Find Port.vi" Type="VI" URL="../Port/Find Port.vi"/>
 		<Item Name="Get All Ports.vi" Type="VI" URL="../Port/Get All Ports.vi"/>
-		<Item Name="Get Port Baud Rate.vi" Type="VI" URL="../Port/Get Port Baud Rate.vi"/>
-		<Item Name="Get Port Database.vi" Type="VI" URL="../Port/Get Port Database.vi"/>
 		<Item Name="Get Port Number.vi" Type="VI" URL="../Port/Get Port Number.vi"/>
 		<Item Name="Read Terminals and Acyclic Frame Names.vi" Type="VI" URL="../Port/Read Terminals and Acyclic Frame Names.vi"/>
 		<Item Name="Remove Port.vi" Type="VI" URL="../Port/Remove Port.vi"/>
-		<Item Name="Set Port Baud Rate.vi" Type="VI" URL="../Port/Set Port Baud Rate.vi"/>
-		<Item Name="Set Port Database.vi" Type="VI" URL="../Port/Set Port Database.vi"/>
 		<Item Name="Set Port Number.vi" Type="VI" URL="../Port/Set Port Number.vi"/>
 	</Item>
 	<Item Name="Remote Terminal" Type="Folder">
