@@ -155,6 +155,8 @@
 				<eng>Configuration Files</eng>
 				<loc>Configuration Files</loc>
 			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
 			<GUID>7D28FA5F-1BE9-42BA-9030-384369A394FD</GUID>
 			<Glyph>
 				<Type>To Application Data Dir</Type>
@@ -323,6 +325,8 @@
 				<eng>Port %d</eng>
 				<loc>Port %d</loc>
 			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
 			<Copy>Copy</Copy>
 			<GUID>E61AF0D3-0C83-483A-A06B-B537FBE76C23</GUID>
 			<Glyph>
@@ -339,6 +343,8 @@
 				<eng>Command Channel</eng>
 				<loc>Command Channel</loc>
 			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
 			<GUID>F3C769CE-2055-47DC-98AC-89CDFED404B4</GUID>
 			<Glyph>
 				<Type>To Common Doc Dir</Type>
@@ -354,6 +360,8 @@
 				<eng>Channel</eng>
 				<loc>Channel</loc>
 			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
 			<GUID>99523C72-475C-4B9B-9BFE-43F700A8EEC0</GUID>
 			<Glyph>
 				<Type>To Application Data Dir</Type>
