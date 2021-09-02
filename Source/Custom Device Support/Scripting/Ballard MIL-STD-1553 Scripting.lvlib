@@ -27,8 +27,8 @@
 		<Item Name="Add Status Channel.vi" Type="VI" URL="../Channel/Add Status Channel.vi"/>
 		<Item Name="Add Timestamp Channel.vi" Type="VI" URL="../Channel/Add Timestamp Channel.vi"/>
 		<Item Name="Add Trigger Channel.vi" Type="VI" URL="../Channel/Add Trigger Channel.vi"/>
-		<Item Name="Error Counter Channel Names.vi" Type="VI" URL="../Channel/Error Counter Channel Names.vi"/>
-		<Item Name="Get Error Counter Channels.vi" Type="VI" URL="../Channel/Get Error Counter Channels.vi"/>
+		<Item Name="Error Count Channel Names.vi" Type="VI" URL="../Channel/Error Count Channel Names.vi"/>
+		<Item Name="Get Error Count Channels.vi" Type="VI" URL="../Channel/Get Error Count Channels.vi"/>
 		<Item Name="Get Start and Stop Channels.vi" Type="VI" URL="../Channel/Get Start and Stop Channels.vi"/>
 		<Item Name="Get Status Channel.vi" Type="VI" URL="../Channel/Get Status Channel.vi"/>
 		<Item Name="Get Timestamp Channel.vi" Type="VI" URL="../Channel/Get Timestamp Channel.vi"/>
