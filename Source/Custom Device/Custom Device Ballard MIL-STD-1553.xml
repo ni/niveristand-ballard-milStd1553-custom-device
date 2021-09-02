@@ -2,8 +2,8 @@
 <CustomDevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Custom Device.xsd">
 	<XSDVersion Major="2010" Minor="0" Fix="0" Build="0" />
 	<AddMenu>
-		<eng>National Instruments::Ballard MIL-STD-1553</eng>
-		<loc>National Instruments::Ballard MIL-STD-1553</loc>
+		<eng>NI::Ballard MIL-STD-1553</eng>
+		<loc>NI::Ballard MIL-STD-1553</loc>
 	</AddMenu>
 	<Version>1.0.0</Version>
 	<Type>Inline HW Interface</Type>
@@ -155,25 +155,12 @@
 				<eng>Configuration Files</eng>
 				<loc>Configuration Files</loc>
 			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
 			<GUID>7D28FA5F-1BE9-42BA-9030-384369A394FD</GUID>
 			<Glyph>
 				<Type>To Application Data Dir</Type>
 				<Path>System Explorer\Glyphs\file.png</Path>
-			</Glyph>
-			<Item2Launch>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Ballard\MIL-STD-1553\Windows\Ballard MIL-STD-1553 Configuration.llb\Page Wrapper.vi</Path>
-			</Item2Launch>
-		</Page>
-		<Page>
-			<Name>
-				<eng>Ports</eng>
-				<loc>Ports</loc>
-			</Name>
-			<GUID>DF3397D5-0A83-4CFC-AD73-28ED0B1E7D7E</GUID>
-			<Glyph>
-				<Type>To Application Data Dir</Type>
-				<Path>System Explorer\Glyphs\NI-XNET Port.png</Path>
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
@@ -338,6 +325,8 @@
 				<eng>Port %d</eng>
 				<loc>Port %d</loc>
 			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
 			<Copy>Copy</Copy>
 			<GUID>E61AF0D3-0C83-483A-A06B-B537FBE76C23</GUID>
 			<Glyph>
@@ -354,6 +343,8 @@
 				<eng>Command Channel</eng>
 				<loc>Command Channel</loc>
 			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
 			<GUID>F3C769CE-2055-47DC-98AC-89CDFED404B4</GUID>
 			<Glyph>
 				<Type>To Common Doc Dir</Type>
@@ -369,6 +360,8 @@
 				<eng>Channel</eng>
 				<loc>Channel</loc>
 			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
 			<GUID>99523C72-475C-4B9B-9BFE-43F700A8EEC0</GUID>
 			<Glyph>
 				<Type>To Application Data Dir</Type>
@@ -381,13 +374,15 @@
 		</Page>
 		<Page>
 			<Name>
-				<eng>Vendor</eng>
-				<loc>Vendor</loc>
+				<eng>Status</eng>
+				<loc>Status</loc>
 			</Name>
-			<GUID>44D6F6BA-05E9-4FBC-A949-76A8B1E99483</GUID>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>1E0B5C0B-62AA-4583-9D0D-4E49A372EA3D</GUID>
 			<Glyph>
 				<Type>To Application Data Dir</Type>
-				<Path>System Explorer\Glyphs\default fpga category.png</Path>
+				<Path>System Explorer\Glyphs\NI-XNET Status.png</Path>
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
@@ -396,13 +391,15 @@
 		</Page>
 		<Page>
 			<Name>
-				<eng>Protocol</eng>
-				<loc>Protocol</loc>
+				<eng>Error Count</eng>
+				<loc>Error Count</loc>
 			</Name>
-			<GUID>3B029940-36EA-4E62-BB8E-91C39D4BE347</GUID>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>28D1D890-3AED-4F6D-A978-AD9A95C11628</GUID>
 			<Glyph>
 				<Type>To Application Data Dir</Type>
-				<Path>System Explorer\Glyphs\default fpga category.png</Path>
+				<Path>System Explorer\Glyphs\NI-XNET Error.png</Path>
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
