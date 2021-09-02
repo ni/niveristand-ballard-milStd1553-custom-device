@@ -2,14 +2,14 @@
   <xs:element name="parameters">
     <xs:complexType>
       <xs:sequence>
-        <xs:element name="channel">
+        <xs:element name="channel" minOccurs="1" maxOccurs="256">
           <xs:complexType>
             <xs:sequence>
                <xs:element name="hardwareChannel">
                   <xs:simpleType>
                      <xs:restriction base="xs:int">
                        <xs:minInclusive value="0"/>
-                       <xs:maxInclusive value="1"/>
+                       <xs:maxInclusive value="255"/>
                      </xs:restriction>
                   </xs:simpleType>
                </xs:element>
@@ -28,7 +28,7 @@
                   </xs:sequence>
                 </xs:complexType>
                </xs:element>
-               <xs:element name="acyclicFrame">
+               <xs:element name="acyclicFrame" minOccurs="0" maxOccurs="unbounded">
                 <xs:complexType>
                   <xs:sequence>
                      <xs:element name="createTriggerChannel" type="xs:boolean" minOccurs="0" maxOccurs="1" default="false"/>
