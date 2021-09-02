@@ -15,7 +15,7 @@
 		<Item Name="Bus Controller.vi" Type="VI" URL="../System Explorer/Pages/Bus Controller.vi"/>
 		<Item Name="Command Channel.vi" Type="VI" URL="../System Explorer/Pages/Command Channel.vi"/>
 		<Item Name="Configuration Files.vi" Type="VI" URL="../System Explorer/Pages/Configuration Files.vi"/>
-		<Item Name="Error Counter.vi" Type="VI" URL="../System Explorer/Pages/Error Counter.vi"/>
+		<Item Name="Error Count Channel.vi" Type="VI" URL="../System Explorer/Pages/Error Count Channel.vi"/>
 		<Item Name="Main Page.vi" Type="VI" URL="../System Explorer/Pages/Main Page.vi"/>
 		<Item Name="Message.vi" Type="VI" URL="../System Explorer/Pages/Message.vi"/>
 		<Item Name="Parameter.vi" Type="VI" URL="../System Explorer/Pages/Parameter.vi"/>
