@@ -3,15 +3,15 @@
 	<channel>
 		<hardwareChannel>0</hardwareChannel>
 		<terminal>
-			<terminalAddress>124</terminalAddress>
+			<terminalAddress>24</terminalAddress>
 			<name>one</name>
 		</terminal>
 		<terminal>
-			<terminalAddress>125</terminalAddress>
+			<terminalAddress>25</terminalAddress>
 			<name>two</name>
 		</terminal>
 		<terminal>
-			<terminalAddress>126</terminalAddress>
+			<terminalAddress>26</terminalAddress>
 			<name>three</name>
 		</terminal>
 		<acyclicFrame>
