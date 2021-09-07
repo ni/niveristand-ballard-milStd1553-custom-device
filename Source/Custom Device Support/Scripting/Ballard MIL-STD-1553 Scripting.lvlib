@@ -39,13 +39,18 @@
 		<Item Name="Get Configuration Files Section.vi" Type="VI" URL="../Configuration Files/Get Configuration Files Section.vi"/>
 		<Item Name="Get Hardware Configuration File.vi" Type="VI" URL="../Configuration Files/Get Hardware Configuration File.vi"/>
 		<Item Name="Get Parameters Configuration File.vi" Type="VI" URL="../Configuration Files/Get Parameters Configuration File.vi"/>
+		<Item Name="Get Property Parameters Configuration File Required.vi" Type="VI" URL="../Configuration Files/Get Property Parameters Configuration File Required.vi"/>
 		<Item Name="Import Configuration File.vi" Type="VI" URL="../Configuration Files/Import Configuration File.vi"/>
 		<Item Name="Set Hardware Configuration File.vi" Type="VI" URL="../Configuration Files/Set Hardware Configuration File.vi"/>
 		<Item Name="Set Parameters Configuration File.vi" Type="VI" URL="../Configuration Files/Set Parameters Configuration File.vi"/>
+		<Item Name="Set Property Parameters Configuration File Required.vi" Type="VI" URL="../Configuration Files/Set Property Parameters Configuration File Required.vi"/>
+		<Item Name="Update Hardware Configuration File Error.vi" Type="VI" URL="../Configuration Files/Update Hardware Configuration File Error.vi"/>
+		<Item Name="Update Parameters Configuration File Error.vi" Type="VI" URL="../Configuration Files/Update Parameters Configuration File Error.vi"/>
 	</Item>
 	<Item Name="Custom Device" Type="Folder">
 		<Item Name="Add Custom Device.vi" Type="VI" URL="../Custom Device/Add Custom Device.vi"/>
 		<Item Name="Add Status Section.vi" Type="VI" URL="../Custom Device/Add Status Section.vi"/>
+		<Item Name="Check If Error Exists.vi" Type="VI" URL="../Custom Device/Check If Error Exists.vi"/>
 		<Item Name="Export Custom Device.vi" Type="VI" URL="../Custom Device/Export Custom Device.vi"/>
 		<Item Name="Find All Ballard MIL-STD-1553 Custom Devices.vi" Type="VI" URL="../Custom Device/Find All Ballard MIL-STD-1553 Custom Devices.vi"/>
 		<Item Name="Find Ballard MIL-STD-1553 Custom Device.vi" Type="VI" URL="../Custom Device/Find Ballard MIL-STD-1553 Custom Device.vi"/>
@@ -57,6 +62,7 @@
 		<Item Name="Read Configuration.vi" Type="VI" URL="../Custom Device/Read Configuration.vi"/>
 		<Item Name="Remove Custom Device.vi" Type="VI" URL="../Custom Device/Remove Custom Device.vi"/>
 		<Item Name="Set Description.vi" Type="VI" URL="../Custom Device/Set Description.vi"/>
+		<Item Name="Update Error.vi" Type="VI" URL="../Custom Device/Update Error.vi"/>
 		<Item Name="Write Configuration.vi" Type="VI" URL="../Custom Device/Write Configuration.vi"/>
 	</Item>
 	<Item Name="Device" Type="Folder">

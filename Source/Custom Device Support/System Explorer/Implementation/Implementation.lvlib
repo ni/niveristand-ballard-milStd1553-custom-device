@@ -35,8 +35,6 @@
 		<Item Name="Channel Cluster to Table.vi" Type="VI" URL="../System Explorer/subVIs/Channel Cluster to Table.vi"/>
 		<Item Name="Device Parameters to Configuration Elements.vi" Type="VI" URL="../System Explorer/subVIs/Device Parameters to Configuration Elements.vi"/>
 		<Item Name="Load Help File.vi" Type="VI" URL="../System Explorer/Load Help File.vi"/>
-		<Item Name="Read Database.vi" Type="VI" URL="../System Explorer/Read Database.vi"/>
-		<Item Name="Write Database.vi" Type="VI" URL="../System Explorer/Write Database.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="Browse Button.ctl" Type="VI" URL="../System Explorer/Types/Browse Button.ctl"/>
