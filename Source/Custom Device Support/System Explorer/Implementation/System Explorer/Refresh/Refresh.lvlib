@@ -14,6 +14,8 @@
 	<Item Name="Change to Background Color.vi" Type="VI" URL="../Change to Background Color.vi"/>
 	<Item Name="Change Type.ctl" Type="VI" URL="../Change Type.ctl"/>
 	<Item Name="Diff Configuration.vi" Type="VI" URL="../Diff Configuration.vi"/>
+	<Item Name="Diff Message.vi" Type="VI" URL="../Diff Message.vi"/>
+	<Item Name="Diff Parameter.vi" Type="VI" URL="../Diff Parameter.vi"/>
 	<Item Name="Diff Port.vi" Type="VI" URL="../Diff Port.vi"/>
 	<Item Name="Diff Terminals and Acyclic Frames.vi" Type="VI" URL="../Diff Terminals and Acyclic Frames.vi"/>
 	<Item Name="Get Symbols.vi" Type="VI" URL="../Get Symbols.vi"/>
