@@ -24,4 +24,10 @@ The address (terminal configuration) is not consistent with the message type. 'R
 <nierror code="-732356">
 Parameter handle array size mismatch. If they exist for a given message, the number of Tx, RxRT, and RxBC parameters must be the same.
 </nierror>
+<nierror code="-732357">
+Parameter configuration file path must equal a path to an existing parameter configuration file.
+</nierror>
+<nierror code="-732358">
+Hardware configuration file path must equal a path to an existing hardware configuration file.
+</nierror>
 </nidocument>
