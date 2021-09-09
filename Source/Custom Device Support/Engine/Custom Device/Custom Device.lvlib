@@ -18,6 +18,7 @@
 			<Item Name="Launch Asynchronous Execution Units.vi" Type="VI" URL="../Launch Asynchronous Execution Units.vi"/>
 			<Item Name="Rx Message to Map Key.vi" Type="VI" URL="../Rx Message to Map Key.vi"/>
 			<Item Name="Start Inline Execution Units.vi" Type="VI" URL="../Start Inline Execution Units.vi"/>
+			<Item Name="Start Stop to Terminal Handles.vi" Type="VI" URL="../Start Stop to Terminal Handles.vi"/>
 			<Item Name="Tx Message to Map Value.vi" Type="VI" URL="../Tx Message to Map Value.vi"/>
 			<Item Name="Unflatten Asynchronous Execution Units.vi" Type="VI" URL="../Unflatten Asynchronous Execution Units.vi"/>
 			<Item Name="Unflatten Compiled Data.vi" Type="VI" URL="../Unflatten Compiled Data.vi"/>
