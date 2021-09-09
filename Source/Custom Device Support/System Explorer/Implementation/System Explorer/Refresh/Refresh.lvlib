@@ -18,6 +18,7 @@
 	<Item Name="Diff Parameter.vi" Type="VI" URL="../Diff Parameter.vi"/>
 	<Item Name="Diff Port.vi" Type="VI" URL="../Diff Port.vi"/>
 	<Item Name="Diff Terminals and Acyclic Frames.vi" Type="VI" URL="../Diff Terminals and Acyclic Frames.vi"/>
+	<Item Name="Get Parameter Definition Element Names.vi" Type="VI" URL="../Get Parameter Definition Element Names.vi"/>
 	<Item Name="Get Symbols.vi" Type="VI" URL="../Get Symbols.vi"/>
 	<Item Name="MCL Row.ctl" Type="VI" URL="../MCL Row.ctl"/>
 	<Item Name="Name to Symbol.vi" Type="VI" URL="../Name to Symbol.vi"/>
