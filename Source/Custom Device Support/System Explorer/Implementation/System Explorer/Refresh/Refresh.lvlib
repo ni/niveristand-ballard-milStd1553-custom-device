@@ -20,9 +20,11 @@
 	<Item Name="Diff Terminals and Acyclic Frames.vi" Type="VI" URL="../Diff Terminals and Acyclic Frames.vi"/>
 	<Item Name="Get Parameter Definition Element Names.vi" Type="VI" URL="../Get Parameter Definition Element Names.vi"/>
 	<Item Name="Get Symbols.vi" Type="VI" URL="../Get Symbols.vi"/>
+	<Item Name="Handle Parameter Configuration File Change.vi" Type="VI" URL="../Handle Parameter Configuration File Change.vi"/>
 	<Item Name="MCL Row.ctl" Type="VI" URL="../MCL Row.ctl"/>
 	<Item Name="Name to Symbol.vi" Type="VI" URL="../Name to Symbol.vi"/>
 	<Item Name="Parameter Channel to Strings.vi" Type="VI" URL="../Parameter Channel to Strings.vi"/>
+	<Item Name="Preview Dialog.vi" Type="VI" URL="../Preview Dialog.vi"/>
 	<Item Name="Set Change Type to Modify on Parent.vi" Type="VI" URL="../Set Change Type to Modify on Parent.vi"/>
 	<Item Name="Symbols.ctl" Type="VI" URL="../Symbols.ctl"/>
 	<Item Name="Unbundle and Filter MCL Rows.vi" Type="VI" URL="../Unbundle and Filter MCL Rows.vi"/>
