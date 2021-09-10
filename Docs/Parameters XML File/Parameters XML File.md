@@ -135,30 +135,28 @@ Notes:
 ### Example (Mode Code)
 
 ```xml
-<messages>
-	<message>
-		<name>"MC 16"</name>
-		<modeCode>16</modeCode>
-		<messageType>MC</messageType>
-		<numberOfWords>1</numberOfWords>
-		<address>
-			<terminalAddress>1</terminalAddress>
-			<subAddress>31</subAddress>
-			<direction>Tx</direction>
-		</address>
-	</message>
-	<message>
-		<name>"MC 17"</name>
-		<modeCode>17</modeCode>
-		<messageType>MC</messageType>
-		<numberOfWords>1</numberOfWords>
-		<address>
-			<terminalAddress>21</terminalAddress>
-			<subAddress>31</subAddress>
-			<direction>Rx</direction>
-		</address>
-	</message>
-<messages>
+<message>
+	<name>"MC 16"</name>
+	<modeCode>16</modeCode>
+	<messageType>MC</messageType>
+	<numberOfWords>1</numberOfWords>
+	<address>
+		<terminalAddress>1</terminalAddress>
+		<subAddress>31</subAddress>
+		<direction>Tx</direction>
+	</address>
+</message>
+<message>
+	<name>"MC 17"</name>
+	<modeCode>17</modeCode>
+	<messageType>MC</messageType>
+	<numberOfWords>1</numberOfWords>
+	<address>
+		<terminalAddress>21</terminalAddress>
+		<subAddress>31</subAddress>
+		<direction>Rx</direction>
+	</address>
+</message>
 ```
 
 Notes:
@@ -169,16 +167,14 @@ Notes:
 ```xml
 <channel>
 	<hardwareChannel>0</hardwareChannel>
-	<terminals>
-		<terminal>
-			<name>Bus Controller</name>
-			<terminalAddress>0</terminalAddress>
-		</terminal>
-		<terminal>
-			<name>Remote Terminal 1</name>
-			<terminalAddress>1</terminalAddress>
-		</terminal>
-	</terminals>
+	<terminal>
+		<name>Bus Controller</name>
+		<terminalAddress>0</terminalAddress>
+	</terminal>
+	<terminal>
+		<name>Remote Terminal 1</name>
+		<terminalAddress>1</terminalAddress>
+	</terminal>
 </channel>
 ```
 
@@ -190,12 +186,10 @@ Notes:
 ### Example (Triggers for Acyclic Frames)
 
 ```xml
-<acyclicFrames>
-	<acyclicFrame>
-		<name>acyclicFrame ID56</name>
-		<createTriggerChannel>true</createTriggerChannel>
-	</acyclicFrame>
-</acyclicFrames>
+<acyclicFrame>
+	<name>acyclicFrame ID56</name>
+	<createTriggerChannel>true</createTriggerChannel>
+</acyclicFrame>
 ```
 
 Notes:
@@ -210,35 +204,33 @@ The following table describes the XML elements, or tags, you can use in a Parame
 |`<channel>`|Yes|complex|1/unbounded|Opening tag for a channel definition.|
 |→`<hardwareChannel>`|Yes|integer|1|Specifies the Hardware Channel used. Range is: [0:1].|
 ||||||
-|→`<terminals>`|Yes|complex|1|Opening tag for terminals (bus controller and remote terminals) definition.|
-|→→`<terminal>`|Yes|complex|1/31|Opening tag for terminal (bus controller or remote terminal) definition.|
+|→`<terminal>`|Yes|complex|1/31|Opening tag for terminal (bus controller or remote terminal) definition.|
 |→→`<name>`|Yes|string|1|Specifies the remote terminal name.|
 |→→`<terminalAddress>`|Yes|integer|1|Specifies the terminal address. Range is: [0:31]. Bus controller will have value of 0. Remote terminal will have value 1..30. Value of 31 reserved for broadcast messages.|
 ||||||
-|→`<messages>`|Yes|complex|1|Opening tag for messages definitions.|
-|→→`<message>`|Yes|complex|1/unbounded|Opening tag for data message or mode code definition.|
-|→→→`<name>`|Yes|string|1|Specifies the message name.|
-|→→→`<messageType>`|Yes|string|1|Specifies the message type. Supported values:<br/>"BC to RT" - Bus Controller to Remote Terminal.<br/>"RT to BC" - Remote Terminal to Bus Controller.<br/>"RT to RT" - Remote Terminal to Remote Terminal.<br/>"MC" - Mode Code.|
-|→→→`<numberOfWords>`|Yes|integer|1|Specifies the number of words in the message at the sub-address. Range is: [1:32].|
-|→→→`<modeCode>`|No|integer|0/1|Specifies the value of the modeCode.|
-|→→→`<address>`|Yes|complex|1/2|Opening tag for address definition|
-|→→→→`<terminalAddress>`|Yes|integer|1|Specifies the remote terminal address. Range is: [0:31].|
-|→→→→`<subAddress>`|Yes|integer|1|Specifies the subaddress of the Remote terminal. Range is: [0:31].|
-|→→→→`<direction>`|Yes|string|1|Specifies whether the channel is incoming (Rx) or outgoing (Tx).|
-|→→→`<parameters>`|No|complex|0/1|Opening tag for a parameters definitions.|
-|→→→→`<parameter>`|No|complex|1/unbounded|Opening tag for a Parameter definition.|
-|→→→→→`<encoding>`|Yes|string|1|Specifies the Encoding for the Parameter. Supported values:<br/>BNR (default) - Binary Number Representation.<br/>Discrete - Individual bit.|
-|→→→→→`<signed>`|No|boolean|0/1|Specifies whether Parameter is signed. It applies only to BNR encoding.|
-|→→→→→`<startBit>`|Yes|integer|1|Specifies the Start Bit for the Parameter. Indexes are zero-based. Range is: [0:511].|
-|→→→→→`<numberOfBits>`|Yes|integer|1|Specifies the number of bits for the Parameter. Range accepted is: [1:53]. Number of bits is limited by the number of bits used to store the mantissa in a double-precision floating point number used to transfer values in VeriStand.|
-|→→→→→`<scale>`|No|xs:double|0/1|Specifies the multiplier to scale from raw data to engineering units. If no scaling is to be applied, value should be set to 1.0.|
-|→→→→→`<offset>`|No|double|0/1|Specifies the offset value to apply when scaling from raw data to engineering units. If no offset is to be applied, value should be set to 0.0.|
-|→→→→→`<name>`|Yes|string|1/32|Specifies, for each Parameter, the name to be used in VeriStand. When Parameter encoding is set to Discrete, each Parameter (each bit) must have an instance of that `<name>`.|
-|→→→→→`<unit>`|No|string|0/1|Specifies, for each Parameter, the unit to be used in VeriStand.|
-|→→→→→`<defaultValue>`|No<sup>1</sup>|double|0/1|Specifies, for each Parameter, the Default Value to be used for the associated VeriStand Channel. For explicitly defined parameters used in Tx messages, this XML Element must be present for each parameter. For Parameters used in Tx message, when Parameter `<encoding>` is set to Discrete, each Parameter (each bit) uses the specified `<defaultValue>`.|
+|→`<message>`|Yes|complex|1/unbounded|Opening tag for data message or mode code definition.|
+|→→`<name>`|Yes|string|1|Specifies the message name.|
+|→→`<messageType>`|Yes|string|1|Specifies the message type. Supported values:<br/>"BC to RT" - Bus Controller to Remote Terminal.<br/>"RT to BC" - Remote Terminal to Bus Controller.<br/>"RT to RT" - Remote Terminal to Remote Terminal.<br/>"MC" - Mode Code.|
+|→→`<numberOfWords>`|Yes|integer|1|Specifies the number of words in the message at the sub-address. Range is: [1:32].|
+|→→`<modeCode>`|No|integer|0/1|Specifies the value of the modeCode.|
+|→→`<createTimestampChannel>`|No|boolean|0/1|Specifies whether a VeriStand Channel should be created for the label timestamp. This property is supported only for a receive (Rx) label, not for a transmit (Tx) label. Default Value (if XML element is absent) is false.|
+|→→`<address>`|Yes|complex|1/2|Opening tag for address definition. RT to RT message types require two address definitions.|
+|→→→`<terminalAddress>`|Yes|integer|1|Specifies the remote terminal address. Range is: [0:31].|
+|→→→`<subAddress>`|Yes|integer|1|Specifies the subaddress of the Remote terminal. Range is: [0:31].|
+|→→→`<direction>`|Yes|string|1|Specifies whether the channel is incoming (Rx) or outgoing (Tx).|
+|→→`<parameters>`|No|complex|0/1|Opening tag for a parameters definitions.|
+|→→→`<parameter>`|No|complex|1/unbounded|Opening tag for a Parameter definition.|
+|→→→→`<encoding>`|Yes|string|1|Specifies the Encoding for the Parameter. Supported values:<br/>BNR (default) - Binary Number Representation.<br/>Discrete - Individual bit.|
+|→→→→`<signed>`|No|boolean|0/1|Specifies whether Parameter is signed. It applies only to BNR encoding.|
+|→→→→`<startBit>`|Yes|integer|1|Specifies the Start Bit for the Parameter. Indexes are zero-based. Range is: [0:511].|
+|→→→→`<numberOfBits>`|Yes|integer|1|Specifies the number of bits for the Parameter. Range accepted is: [1:53]. Number of bits is limited by the number of bits used to store the mantissa in a double-precision floating point number used to transfer values in VeriStand.|
+|→→→→`<scale>`|No|xs:double|0/1|Specifies the multiplier to scale from raw data to engineering units. If no scaling is to be applied, value should be set to 1.0.|
+|→→→→`<offset>`|No|double|0/1|Specifies the offset value to apply when scaling from raw data to engineering units. If no offset is to be applied, value should be set to 0.0.|
+|→→→→`<name>`|Yes|string|1/32|Specifies, for each Parameter, the name to be used in VeriStand. When Parameter encoding is set to Discrete, each Parameter (each bit) must have an instance of that `<name>`.|
+|→→→→`<unit>`|No|string|0/1|Specifies, for each Parameter, the unit to be used in VeriStand.|
+|→→→→`<defaultValue>`|No<sup>1</sup>|double|0/1|Specifies, for each Parameter, the Default Value to be used for the associated VeriStand Channel. For explicitly defined parameters used in Tx messages, this XML Element must be present for each parameter. For Parameters used in Tx message, when Parameter `<encoding>` is set to Discrete, each Parameter (each bit) uses the specified `<defaultValue>`.|
 ||||||
-|→`<acyclicFrames>`|No|complex|0/1|Opening tag for acyclic frames.|
-|→→`<acyclicFrame>`|Yes|complex|1/unbounded|Opening tag for acyclic frame definition.|
+|→`<acyclicFrame>`|Yes|complex|1/unbounded|Opening tag for acyclic frame definition.|
 |→→`<name>`|Yes|string|1|Specifies the acyclic frame name. This must match the name in the hardware configuration file.|
 |→→`<createTriggerChannel>`|No|boolean|1|Specifies whether to create a trigger channel on the bus controller for the acyclic frame. The default is false.|
 
