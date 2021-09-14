@@ -30,4 +30,7 @@ Parameter configuration file path must equal a path to an existing parameter con
 <nierror code="-732358">
 Hardware configuration file path must equal a path to an existing hardware configuration file.
 </nierror>
+<nierror code="-732359">
+Parameter configuration file MD5 checksum is not equal to the MD5 checksum saved in the system definition. This difference indicates that the parameter configuration file has changed since import.
+</nierror>
 </nidocument>
