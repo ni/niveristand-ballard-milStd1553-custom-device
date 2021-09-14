@@ -14,6 +14,7 @@
 		<Item Name="Add Message Section.vi" Type="VI" URL="../Bus Controller/Add Message Section.vi"/>
 		<Item Name="Add Message to Bus Controller.vi" Type="VI" URL="../Bus Controller/Add Message to Bus Controller.vi"/>
 		<Item Name="Add Triggers for Acyclic Frames.vi" Type="VI" URL="../Bus Controller/Add Triggers for Acyclic Frames.vi"/>
+		<Item Name="Find Acyclic Frames.vi" Type="VI" URL="../Bus Controller/Find Acyclic Frames.vi"/>
 		<Item Name="Find Bus Controller.vi" Type="VI" URL="../Bus Controller/Find Bus Controller.vi"/>
 		<Item Name="Get Acyclic Buffer ID.vi" Type="VI" URL="../Bus Controller/Get Acyclic Buffer ID.vi"/>
 		<Item Name="Remove Bus Controller.vi" Type="VI" URL="../Bus Controller/Remove Bus Controller.vi"/>
