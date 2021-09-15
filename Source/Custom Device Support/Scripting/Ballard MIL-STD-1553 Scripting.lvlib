@@ -88,6 +88,7 @@
 		<Item Name="Get Number of Words.vi" Type="VI" URL="../Message/Get Number of Words.vi"/>
 		<Item Name="Get Parameter Definition.vi" Type="VI" URL="../Message/Get Parameter Definition.vi"/>
 		<Item Name="Get Parameters.vi" Type="VI" URL="../Message/Get Parameters.vi"/>
+		<Item Name="Get Status Channels for Tx Message.vi" Type="VI" URL="../Message/Get Status Channels for Tx Message.vi"/>
 		<Item Name="Read Messages.vi" Type="VI" URL="../Message/Read Messages.vi"/>
 		<Item Name="Remove Message.vi" Type="VI" URL="../Message/Remove Message.vi"/>
 		<Item Name="Set Direction.vi" Type="VI" URL="../Message/Set Direction.vi"/>
