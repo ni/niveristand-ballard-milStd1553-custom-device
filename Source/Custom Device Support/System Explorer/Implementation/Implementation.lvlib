@@ -38,8 +38,6 @@
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="Browse Button.ctl" Type="VI" URL="../System Explorer/Types/Browse Button.ctl"/>
-		<Item Name="Database.ctl" Type="VI" URL="../System Explorer/Types/Database.ctl"/>
-		<Item Name="Path Control.ctl" Type="VI" URL="../System Explorer/Types/Path Control.ctl"/>
 	</Item>
 	<Item Name="Refresh.lvlib" Type="Library" URL="../System Explorer/Refresh/Refresh.lvlib"/>
 	<Item Name="System Explorer Dispatcher.lvclass" Type="LVClass" URL="../System Explorer Dispatcher/System Explorer Dispatcher.lvclass"/>
