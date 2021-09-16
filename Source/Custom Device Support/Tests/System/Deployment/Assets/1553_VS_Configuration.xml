@@ -2,26 +2,13 @@
 <parameters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<channel>
 		<hardwareChannel>0</hardwareChannel>
-		<terminal>
+		<terminals>
 			<terminalAddress>0</terminalAddress>
-			<name>BC</name>
-		</terminal>
-		<terminal>
 			<terminalAddress>1</terminalAddress>
-			<name>RTA 1</name>
-		</terminal>
-		<terminal>
 			<terminalAddress>15</terminalAddress>
-			<name>RTA 15</name>
-		</terminal>
-		<terminal>
 			<terminalAddress>21</terminalAddress>
-			<name>RTA 21</name>
-		</terminal>
-		<terminal>
 			<terminalAddress>31</terminalAddress>
-			<name>RTA 31 (Broadcast)</name>
-		</terminal>
+		</terminals>
 		<acyclicFrame>
 			<createTriggerChannel>true</createTriggerChannel>
 			<name>acyclicFrame ID56</name>
