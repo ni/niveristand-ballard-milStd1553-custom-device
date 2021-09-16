@@ -167,21 +167,17 @@ Notes:
 ```xml
 <channel>
 	<hardwareChannel>0</hardwareChannel>
-	<terminal>
-		<name>Bus Controller</name>
+	<terminals>
 		<terminalAddress>0</terminalAddress>
-	</terminal>
-	<terminal>
-		<name>Remote Terminal 1</name>
 		<terminalAddress>1</terminalAddress>
-	</terminal>
+	</terminals>
 </channel>
 ```
 
 Notes:
 - Defines terminals (BC and RTs) to populate.
 - Messages may refer to terminals not explicitly included in this section. It is assumed that these terminals are implemented by other software or by physical nodes connected to the 1553 hardware channel.
-- Subaddresses are not defined explicitly in the terminals definition; instead, subaddresses are implicitly defined when a message defines an endpoint on a simulated terminal. 
+- Subaddresses are not defined explicitly in the `terminals` definition; instead, subaddresses are implicitly defined when a message defines an endpoint on a simulated terminal. 
 
 ### Example (Triggers for Acyclic Frames)
 
@@ -204,8 +200,7 @@ The following table describes the XML elements, or tags, you can use in a Parame
 |`<channel>`|Yes|complex|1/unbounded|Opening tag for a channel definition.|
 |→`<hardwareChannel>`|Yes|integer|1|Specifies the Hardware Channel used. Range is: [0:1].|
 ||||||
-|→`<terminal>`|Yes|complex|1/31|Opening tag for terminal (bus controller or remote terminal) definition.|
-|→→`<name>`|Yes|string|1|Specifies the remote terminal name.|
+|→`<terminals>`|Yes|complex|0/1|Opening tag for terminals (bus controller and remote terminals) definition.|
 |→→`<terminalAddress>`|Yes|integer|1|Specifies the terminal address. Range is: [0:31]. Bus controller will have value of 0. Remote terminal will have value 1..30. Value of 31 reserved for broadcast messages.|
 ||||||
 |→`<message>`|Yes|complex|1/unbounded|Opening tag for data message or mode code definition.|
