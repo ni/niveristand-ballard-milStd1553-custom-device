@@ -2,18 +2,11 @@
 <parameters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<channel>
 		<hardwareChannel>0</hardwareChannel>
-		<terminal>
+		<terminals>
 			<terminalAddress>24</terminalAddress>
-			<name>one</name>
-		</terminal>
-		<terminal>
 			<terminalAddress>25</terminalAddress>
-			<name>two</name>
-		</terminal>
-		<terminal>
 			<terminalAddress>26</terminalAddress>
-			<name>three</name>
-		</terminal>
+		</terminals>
 		<acyclicFrame>
 			<createTriggerChannel>true</createTriggerChannel>
 			<name>Message Buffer 56</name>
@@ -116,14 +109,10 @@
 	</channel>
 	<channel>
 		<hardwareChannel>1</hardwareChannel>
-		<terminal>
+		<terminals>
 			<terminalAddress>31</terminalAddress>
-			<name>RT (Broadcast)</name>
-		</terminal>
-		<terminal>
 			<terminalAddress>0</terminalAddress>
-			<name>BC</name>
-		</terminal>
+		</terminals>
 		<acyclicFrame>
 			<name>Message Buffer 56</name>
 		</acyclicFrame>
