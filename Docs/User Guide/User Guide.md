@@ -27,6 +27,17 @@ This example uses simple example Parameters and Hardware files found in the `Ass
 
 The files are configured with two ARINC 429 channels each containing the same two labels. The following XML snippet shows the Parameters file configuration of the transmit channel: Label 07 is an acyclic label with one BNR parameter, and Label 23 is a cyclic label with one BNR parameter. The receive channel contains two labels configured identically.
 
+The files are configured with three simulated terminals:
+- **0**: Bus Controller
+- **1**: Remote Terminal 1
+- **2**: Remote Terminal 2
+
+These terminals send and receive messages of each type supported by the Custom Device:
+- **BC to RT** - Bus Controller to Remote Terminal.
+- **RT to BC** - Remote Terminal to Bus Controller.
+- **RT to RT** - Remote Terminal to Remote Terminal.
+- **MC** - Mode Code.
+
 ```
 	<channel>
 		<hardwareChannel>16</hardwareChannel>
