@@ -30,7 +30,7 @@
 		<Item Name="Error Count Channel Names.vi" Type="VI" URL="../Channel/Error Count Channel Names.vi"/>
 		<Item Name="Get Error Count Channels.vi" Type="VI" URL="../Channel/Get Error Count Channels.vi"/>
 		<Item Name="Get Start and Stop Channels.vi" Type="VI" URL="../Channel/Get Start and Stop Channels.vi"/>
-		<Item Name="Get Status Channel.vi" Type="VI" URL="../Channel/Get Status Channel.vi"/>
+		<Item Name="Get Status Channels.vi" Type="VI" URL="../Channel/Get Status Channels.vi"/>
 		<Item Name="Get Timestamp Channel.vi" Type="VI" URL="../Channel/Get Timestamp Channel.vi"/>
 		<Item Name="Get Trigger Channels.vi" Type="VI" URL="../Channel/Get Trigger Channels.vi"/>
 	</Item>
