@@ -31,7 +31,7 @@
 		<Item Name="Error Count Channel Names.vi" Type="VI" URL="../Channel/Error Count Channel Names.vi"/>
 		<Item Name="Get Error Count Channels.vi" Type="VI" URL="../Channel/Get Error Count Channels.vi"/>
 		<Item Name="Get Start and Stop Channels.vi" Type="VI" URL="../Channel/Get Start and Stop Channels.vi"/>
-		<Item Name="Get Status Channel.vi" Type="VI" URL="../Channel/Get Status Channel.vi"/>
+		<Item Name="Get Status Channels.vi" Type="VI" URL="../Channel/Get Status Channels.vi"/>
 		<Item Name="Get Timestamp Channel.vi" Type="VI" URL="../Channel/Get Timestamp Channel.vi"/>
 		<Item Name="Get Trigger Channels.vi" Type="VI" URL="../Channel/Get Trigger Channels.vi"/>
 	</Item>
@@ -89,6 +89,7 @@
 		<Item Name="Get Number of Words.vi" Type="VI" URL="../Message/Get Number of Words.vi"/>
 		<Item Name="Get Parameter Definition.vi" Type="VI" URL="../Message/Get Parameter Definition.vi"/>
 		<Item Name="Get Parameters.vi" Type="VI" URL="../Message/Get Parameters.vi"/>
+		<Item Name="Get Rx and Tx Status Channels for Message.vi" Type="VI" URL="../Message/Get Rx and Tx Status Channels for Message.vi"/>
 		<Item Name="Read Messages.vi" Type="VI" URL="../Message/Read Messages.vi"/>
 		<Item Name="Remove Message.vi" Type="VI" URL="../Message/Remove Message.vi"/>
 		<Item Name="Set Direction.vi" Type="VI" URL="../Message/Set Direction.vi"/>
