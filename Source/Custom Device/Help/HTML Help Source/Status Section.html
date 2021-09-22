@@ -28,5 +28,17 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 				<li><strong>Description</strong>&#8212;Describes the section.</li>
 			</ul>
 		</p>
+		<p>This section contains the following channels which count the receive (Rx) errors detected in hardware and returned in the status word:
+			<ul>
+				<li><strong>General Protocol Error Count</strong>&#8212;Count of words where a <strong>Protocol Error</strong> detected.</li>
+				<li><strong>Improper Number of Words Error Count</strong>&#8212;Count of errors that occurred because the number of detected words differed from the number of configured words for a message.</li>
+				<li><strong>Manchester Error Count</strong>&#8212;Count of Manchester encoding errors. Manchester encoding requires that each bit has at least one transition and occupies the same time.</li>
+				<li><strong>Monitor Error Count</strong>&#8212;Count of words in which any of the following errors occurred: <strong>General Protocol Error</strong>, <strong>Wrong Sync Error</strong>, <strong>Improper Number of Data Words Error</strong>, <strong>Manchester Error</strong>, <strong>Parity Error</strong>, or <strong>Word Error</strong>.</li>
+				<li><strong>Parity Error Count</strong>&#8212;Count of words where a <strong>Parity Error</strong> detected.</li>
+				<li><strong>Unconfigured Frames Error Count</strong>&#8212;Count of frames received that were not configured in the <strong>hardware configuration file</strong>.</li>
+				<li><strong>Word Error Count</strong>&#8212;Count of messages where a <strong>Word Error</strong> detected.</li>
+				<li><strong>Wrong Sync Error Count</strong>&#8212;Count of words where the <strong>Wrong Sync Error</strong> detected.</li>
+			</ul>
+		</p>
 	</body>
 </html> 
