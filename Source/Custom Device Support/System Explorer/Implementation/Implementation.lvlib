@@ -35,6 +35,8 @@
 		<Item Name="Channel Cluster to Table.vi" Type="VI" URL="../System Explorer/subVIs/Channel Cluster to Table.vi"/>
 		<Item Name="Device Parameters to Configuration Elements.vi" Type="VI" URL="../System Explorer/subVIs/Device Parameters to Configuration Elements.vi"/>
 		<Item Name="Load Help File.vi" Type="VI" URL="../System Explorer/Load Help File.vi"/>
+		<Item Name="Set System Explorer Busy.vi" Type="VI" URL="../System Explorer/subVIs/Set System Explorer Busy.vi"/>
+		<Item Name="Unset System Explorer Busy.vi" Type="VI" URL="../System Explorer/subVIs/Unset System Explorer Busy.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="Browse Button.ctl" Type="VI" URL="../System Explorer/Types/Browse Button.ctl"/>
