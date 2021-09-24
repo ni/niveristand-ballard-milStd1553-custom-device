@@ -16,6 +16,13 @@ target = 'My Computer'
 build_spec = 'Scripting API'
 
 [[build.steps]]
+name = 'Encoding and Decoding Library'
+type = 'lvBuildSpec'
+project = '{support}'
+target = 'My Computer'
+build_spec = 'Encoding and Decoding'
+
+[[build.steps]]
 name = 'System Explorer PPL'
 type = 'lvBuildSpec'
 project = '{support}'
