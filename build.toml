@@ -25,7 +25,6 @@ project = '{scripting_examples}'
 target = 'My Computer'
 build_spec = 'Examples'
 
-
 [[build.steps]]
 name = 'System Explorer PPL'
 type = 'lvBuildSpec'
