@@ -17,6 +17,7 @@
 		</Item>
 		<Item Name="Ballard MIL-STD-1553 Scripting Example Support.lvlib" Type="Library" URL="../Ballard MIL-STD-1553 Scripting Example Support.lvlib"/>
 		<Item Name="Ballard MIL-STD-1553 Scripting.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/Ballard MIL-STD-1553/Scripting/Ballard MIL-STD-1553 Scripting.lvlib"/>
+		<Item Name="Build New Ballard MIL-STD-1553 Custom Device.vi" Type="VI" URL="../Build New Ballard MIL-STD-1553 Custom Device.vi"/>
 		<Item Name="Import Parameters Configuration to New Ballard MIL-STD-1553 Custom Device.vi" Type="VI" URL="../Import Parameters Configuration to New Ballard MIL-STD-1553 Custom Device.vi"/>
 		<Item Name="MIL-STD 1553 Import.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/Ballard MIL-STD-1553/Import/MIL-STD 1553 Import.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
