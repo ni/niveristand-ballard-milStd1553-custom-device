@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<parameters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<channel>
+		<hardwareChannel>0</hardwareChannel>
+		<terminals>
+			<terminalAddress>0</terminalAddress>
+			<terminalAddress>1</terminalAddress>
+			<terminalAddress>15</terminalAddress>
+		</terminals>
+		<message>
+			<name>BC to RT1 (SA2)</name>
+			<address>
+				<terminalAddress>1</terminalAddress>
+				<subAddress>2</subAddress>
+				<direction>Rx</direction>
+			</address>
+			<numberOfWords>4</numberOfWords>
+			<createTimestampChannel>true</createTimestampChannel>
+		</message>
+	</channel>
+</parameters>
