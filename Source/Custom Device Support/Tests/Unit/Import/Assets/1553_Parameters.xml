@@ -135,5 +135,8 @@
 	</channel>
 	<channel>
 		<hardwareChannel>2</hardwareChannel>
+		<terminals>
+			<terminalAddress>1</terminalAddress>
+		</terminals>
 	</channel>
 </parameters>

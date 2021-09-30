@@ -68,15 +68,6 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 	</Item>
-	<Item Name="test Deployment Cluster Configuration.vi" Type="VI" URL="../test Deployment Cluster Configuration.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%7!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#R!=!!?!!!5%E2F='RP?7VF&lt;H1O&lt;(:D&lt;'&amp;T=Q!!$&amp;2F=X2$98.F)'^V&gt;!!!&amp;E"1!!-!!!!"!!)):8*S&lt;X)A;7Y!!#J!=!!?!!!5%E2F='RP?7VF&lt;H1O&lt;(:D&lt;'&amp;T=Q!!#V2F=X2$98.F)'FO!'%!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"!!(!Q!!?!!!$1A!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!3!!!.!!!!$!!!!!!!!!!!!!!"!!A!!!!!</Property>
-		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
-		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1115685392</Property>
-	</Item>
 	<Item Name="globalSetUp.vi" Type="VI" URL="../globalSetUp.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%.!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#Z!=!!?!!!5%E2F='RP?7VF&lt;H1O&lt;(:D&lt;'&amp;T=Q!!$E2F='RP?7VF&lt;H1A&lt;X6U!!!71&amp;!!!Q!!!!%!!ABF=H*P=C"J&lt;A!!,%"Q!"Y!!"132'6Q&lt;'^Z&lt;76O&gt;#ZM&gt;G.M98.T!!!.2'6Q&lt;'^Z&lt;76O&gt;#"J&lt;A"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q-!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!EA!!!!!"!!A!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
