@@ -98,25 +98,25 @@
 					</bti:messageBuffer>
 				</bti:messageBuffers>
 				<bti:messages>
-					<bti:messageCommand ID="5" name="BC to RT 1.2" messageBufferIDRef="14" monitor="true" retryCount="0">
+					<bti:messageCommand ID="5" name="BC to RT 1.02" messageBufferIDRef="14" monitor="true" retryCount="0">
 						<bti:messageBCRT taVal1="1" saVal1="2" wordCount1="3"/>
 					</bti:messageCommand>
-					<bti:messageCommand ID="6" name="BC to RT 1.3" messageBufferIDRef="15" monitor="true" retryCount="0">
+					<bti:messageCommand ID="6" name="BC to RT 1.03" messageBufferIDRef="15" monitor="true" retryCount="0">
 						<bti:messageBCRT taVal1="1" saVal1="3" wordCount1="4"/>
 					</bti:messageCommand>
-					<bti:messageCommand ID="12" name="BC 2 RT 3" messageBufferIDRef="16" monitor="true" retryCount="0">
+					<bti:messageCommand ID="12" name="BC to RT 1.04" messageBufferIDRef="16" monitor="true" retryCount="0">
 						<bti:messageBCRT taVal1="1" saVal1="4" wordCount1="3"/>
 					</bti:messageCommand>
-					<bti:messageCommand ID="13" name="RT 2 BC 1" messageBufferIDRef="17" monitor="true" retryCount="0">
+					<bti:messageCommand ID="13" name="RT 1.05 to BC" messageBufferIDRef="17" monitor="true" retryCount="0">
 						<bti:messageRTBC taVal1="1" saVal1="5" wordCount1="6"/>
 					</bti:messageCommand>
-					<bti:messageCommand ID="18" name="RT 2 BC 2" messageBufferIDRef="19" monitor="true" retryCount="0">
+					<bti:messageCommand ID="18" name="RT 1.06 to BC" messageBufferIDRef="19" monitor="true" retryCount="0">
 						<bti:messageRTBC taVal1="1" saVal1="6" wordCount1="2"/>
 					</bti:messageCommand>
-					<bti:messageCommand ID="40" name="RT 2 RT 1" messageBufferIDRef="42" monitor="true" retryCount="0">
+					<bti:messageCommand ID="40" name="RT 1.20 to RT 15.20" messageBufferIDRef="42" monitor="true" retryCount="0">
 						<bti:messageRTRT taVal1="15" saVal1="20" wordCount1="4" taVal2="1" saVal2="20" wordCount2="4"/>
 					</bti:messageCommand>
-					<bti:messageCommand ID="41" name="RT 2 RT 2" messageBufferIDRef="43" monitor="true" retryCount="0">
+					<bti:messageCommand ID="41" name="RT 15.21 to RT 31.21" messageBufferIDRef="43" monitor="true" retryCount="0">
 						<bti:messageRTRT taVal1="31" saVal1="21" wordCount1="11" taVal2="15" saVal2="21" wordCount2="11"/>
 					</bti:messageCommand>
 					<bti:messageCommand ID="44" name="BC to RT 31.28" messageBufferIDRef="45" monitor="true" retryCount="0">

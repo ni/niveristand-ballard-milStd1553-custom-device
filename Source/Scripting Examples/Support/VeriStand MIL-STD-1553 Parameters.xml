@@ -14,7 +14,7 @@
 			<name>acyclicFrame ID56</name>
 		</acyclicFrame>
 		<message>
-			<name>BC to RT 1.2</name>
+			<name>BC to RT 1.02</name>
 			<address>
 				<terminalAddress>1</terminalAddress>
 				<subAddress>2</subAddress>
@@ -153,7 +153,7 @@
 			</parameters>
 		</message>
 		<message>
-			<name>BC to RT 1.3</name>
+			<name>BC to RT 1.03</name>
 			<address>
 				<terminalAddress>1</terminalAddress>
 				<subAddress>3</subAddress>
@@ -163,7 +163,7 @@
 			<numberOfWords>4</numberOfWords>
 		</message>
 		<message>
-			<name>RT 1.5 to BC</name>
+			<name>RT 1.05 to BC</name>
 			<address>
 				<terminalAddress>1</terminalAddress>
 				<subAddress>5</subAddress>
@@ -173,7 +173,7 @@
 			<numberOfWords>6</numberOfWords>
 		</message>
 		<message>
-			<name>RT 1.6 to BC</name>
+			<name>RT 1.06 to BC</name>
 			<address>
 				<terminalAddress>1</terminalAddress>
 				<subAddress>6</subAddress>
@@ -200,6 +200,16 @@
 			<createTimestampChannel>false</createTimestampChannel>
 		</message>
 		<message>
+			<name>BC to RT 31.28</name>
+			<address>
+				<terminalAddress>31</terminalAddress>
+				<subAddress>28</subAddress>
+				<direction>Rx</direction>
+			</address>
+			<messageType>BC to RT</messageType>
+			<numberOfWords>6</numberOfWords>
+		</message>
+		<message>
 			<name>MC 16</name>
 			<address>
 				<terminalAddress>1</terminalAddress>
@@ -220,16 +230,6 @@
 			<messageType>MC</messageType>
 			<numberOfWords>1</numberOfWords>
 			<modeCode>17</modeCode>
-		</message>
-		<message>
-			<name>BC to RT 31.28</name>
-			<address>
-				<terminalAddress>31</terminalAddress>
-				<subAddress>28</subAddress>
-				<direction>Rx</direction>
-			</address>
-			<messageType>BC to RT</messageType>
-			<numberOfWords>6</numberOfWords>
 		</message>
 		<message>
 			<name>MC 01</name>
