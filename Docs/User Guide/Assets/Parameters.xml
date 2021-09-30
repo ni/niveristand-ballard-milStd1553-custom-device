@@ -100,32 +100,32 @@
 			</parameters>
 		</message>
 		<message>
-			<name>RT15 to RT1 (SA20)</name>
+			<name>RT1 to RT15 (SA20)</name>
 			<address>
 				<terminalAddress>15</terminalAddress>
 				<subAddress>20</subAddress>
-				<direction>Tx</direction>
+				<direction>Rx</direction>
 			</address>
 			<address>
 				<terminalAddress>1</terminalAddress>
 				<subAddress>20</subAddress>
-				<direction>Rx</direction>
+				<direction>Tx</direction>
 			</address>
 			<messageType>RT to RT</messageType>
 			<numberOfWords>4</numberOfWords>
 			<createTimestampChannel>true</createTimestampChannel>
 		</message>
 		<message>
-			<name>RT1 to RT15 (SA21)</name>
+			<name>RT15 to RT1 (SA21)</name>
 			<address>
 				<terminalAddress>1</terminalAddress>
 				<subAddress>21</subAddress>
-				<direction>Tx</direction>
+				<direction>Rx</direction>
 			</address>
 			<address>
 				<terminalAddress>15</terminalAddress>
 				<subAddress>21</subAddress>
-				<direction>Rx</direction>
+				<direction>Tx</direction>
 			</address>
 			<messageType>RT to RT</messageType>
 			<numberOfWords>4</numberOfWords>
