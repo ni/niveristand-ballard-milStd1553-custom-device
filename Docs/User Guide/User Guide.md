@@ -25,8 +25,6 @@ This example uses simple example Parameters and Hardware files found in the `Ass
 - `Assets/Parameters.xml`
 - `Assets/Hardware.xml`
 
-The files are configured with two ARINC 429 channels each containing the same two labels. The following XML snippet shows the Parameters file configuration of the transmit channel: Label 07 is an acyclic label with one BNR parameter, and Label 23 is a cyclic label with one BNR parameter. The receive channel contains two labels configured identically.
-
 The files are configured with three simulated terminals:
 - **0**: Bus Controller
 - **1**: Remote Terminal 1
@@ -38,42 +36,56 @@ These terminals send and receive messages of each type supported by the Custom D
 - **RT to RT** - Remote Terminal to Remote Terminal.
 - **MC** - Mode Code.
 
+Each pair of messages (BC to RT, RT to BC, and RT to RT) are configured with similar settings. One does not define parameters under the message, which will result in VeriStand channels for as many U16 datatype words as are found in the `<numberOfWords>` tag. The second message defines two unscaled 32-bit parameters with BNR encoding, one signed and the other unsigned. Below is the configuration of the two BC to RT messages:
+
 ```
-	<channel>
-		<hardwareChannel>16</hardwareChannel>
-		<direction>outgoing</direction>
-		<label>
-			<labelDecimal>07</labelDecimal>
-			<transferType>1</transferType>
-			<parameter>
-				<encoding>BNR</encoding>
-				<signed>true</signed>
-				<startBit>10</startBit>
-				<numberOfBits>19</numberOfBits>
-				<scale>1.0</scale>
-				<offset>0.0</offset>
-				<name>07_Parameter 0</name>
-				<unit>psi</unit>
-				<defaultValue>50.0</defaultValue>
-			</parameter>
-		</label>
-		<label>
-			<labelDecimal>23</labelDecimal>
-			<transferType>0</transferType>
-			<parameter>
-				<encoding>BNR</encoding>
-				<signed>true</signed>
-				<startBit>10</startBit>
-				<numberOfBits>19</numberOfBits>
-				<scale>1.0</scale>
-				<offset>0.0</offset>
-				<name>23_Parameter 0</name>
-				<unit>psi</unit>
-				<defaultValue>52.0</defaultValue>
-			</parameter>
-		</label>
-	</channel>
+		<message>
+			<name>BC to RT1 (SA2)</name>
+			<address>
+				<terminalAddress>1</terminalAddress>
+				<subAddress>2</subAddress>
+				<direction>Rx</direction>
+			</address>
+			<messageType>BC to RT</messageType>
+			<numberOfWords>4</numberOfWords>
+			<createTimestampChannel>true</createTimestampChannel>
+		</message>
+		<message>
+			<name>BC to RT15 (SA3)</name>
+			<address>
+				<terminalAddress>15</terminalAddress>
+				<subAddress>3</subAddress>
+				<direction>Rx</direction>
+			</address>
+			<messageType>BC to RT</messageType>
+			<numberOfWords>4</numberOfWords>
+			<createTimestampChannel>true</createTimestampChannel>
+			<parameters>
+				<parameter>
+					<encoding>BNR</encoding>
+					<signed>true</signed>
+					<startBit>0</startBit>
+					<numberOfBits>32</numberOfBits>
+					<scale>1</scale>
+					<offset>0.0</offset>
+					<name>Parameter 0</name>
+					<defaultValue>0</defaultValue>
+				</parameter>
+				<parameter>
+					<encoding>BNR</encoding>
+					<signed>false</signed>
+					<startBit>32</startBit>
+					<numberOfBits>32</numberOfBits>
+					<scale>1</scale>
+					<offset>0.0</offset>
+					<name>Parameter 1</name>
+					<defaultValue>0</defaultValue>
+				</parameter>
+			</parameters>
+		</message>
 ```
+
+For each message in the Parameters configuration file, the Custom Device creates corresponding VeriStand channels under the simulated terminals contained in the file. For these two example messages, the Bus Controller has the Tx channels, so the words and parameters under the Bus Controller are outputs. The same channels are created under the Remote Terminal 1 and 15, but these are inputs. The resulting System Definition tree and screen contents can be seen in later sections of this guide.
 
 #### Configure the Custom Device in System Explorer
 
@@ -84,22 +96,22 @@ These terminals send and receive messages of each type supported by the Custom D
 ![System Explorer Main Page](Screenshots/System_Explorer_main_configured.PNG)
 5. Navigate to the **Configuration Files** page.
 6. Use the browse button next to each box to select the example files used for this example.
-   1. Hardware file: `niveristand-ballard-arinc429-custom-device\Docs\User Guide\Assets\Hardware.xml`
-   2. Parameters file: `niveristand-ballard-arinc429-custom-device\Docs\User Guide\Assets\Parameters.xml`
+   1. Hardware file: `niveristand-ballard-milStd1553-custom-device\Docs\User Guide\Assets\Hardware.xml`
+   2. Parameters file: `niveristand-ballard-milStd1553-custom-device\Docs\User Guide\Assets\Parameters.xml`
 ![System Explorer Configuration Files](Screenshots/System_Explorer_configuration_files_configured.PNG)
 
-Note: After configuring the custom device, all of the configuration under `Ports` is read-only except for the `Description` field on each page.
+Note: After configuring the custom device, all of the configuration under `Channel` is read-only except for the `Description` field on each page.
 
 ![System Explorer Parameter](Screenshots/System_Explorer_parameter_configured.PNG)
 
 #### Scripting the Custom Device Configuration
 
-The Ballard MIL-STD-1553 custom device includes a LabVIEW scripting API to configure the custom device programmatically. This allows users to parse an existing ARINC 429 database into a working custom device configuration without the need to create a Parameters file. It also allows importing a Parameters file programmatically instead of through System Explorer.
+The Ballard MIL-STD-1553 custom device includes a LabVIEW scripting API to configure the custom device programmatically. This allows users to parse an existing MIL-STD-1553 database into a working custom device configuration without the need to create a Parameters file. It also allows importing a Parameters file programmatically instead of through System Explorer.
 
 To use the scripting API, the optional scripting package must be installed:
-`ni-ballard-arinc-429-veristand-20xx-labview-support`
+`ni-ballard-mil-std-1553-veristand-20xx-labview-support`
 
-The scripting API includes two example files inside a LabVIEW example project found at the following directory: `C:\Program Files (x86)\National Instruments\LabVIEW 20xx\examples\NI VeriStand Custom Devices\Ballard\ARINC 429\Support`. It contains two example VIs:
+The scripting API includes two example files inside a LabVIEW example project found at the following directory: `C:\Program Files (x86)\National Instruments\LabVIEW 20xx\examples\NI VeriStand Custom Devices\Ballard MIL-STD-1553\Support`. It contains two example VIs:
 
 - `Import Parameters Configuration to New Ballard MIL-STD-1553 Custom Device.vi` - Demonstrates using the Ballard MIL-STD-1553 scripting API to configure the custom device by importing a parameters configuration file.
 - `Build New Ballard MIL-STD-1553 Custom Device.vi` - Demonstrates using the Ballard MIL-STD-1553 scripting API to configure the custom device by building from configuration clusters.
@@ -112,12 +124,14 @@ After configuring the System Definition with the custom device, deploy the Syste
 
 1. Open a VeriStand Screen
 2. Highlight the **System Definition** tree in the left rail
-3. Expand the tree to `Targets\Controller\Hardware\Custom Devices\Ballard MIL-STD-1553\Ports`
-4. Drag the **Ports** item onto the screen
-5. Change the values written to the outgoing channel 16 (**07_Parameter 0** and **23_Parameter 0**)
-6. Toggle the **Trigger** and **Disable** VeriStand channels under each label to see the behavior reflected to the incoming channels
+3. Expand the tree to `Targets\Controller\Hardware\Custom Devices\Ballard MIL-STD-1553\CH00`
+4. Drag the **Bus Controller\BC to RT1 (SA2)** item onto the screen
+5. Drag the **Remote Terminal 01\Subaddress 02** item onto the screen
+6. Change the values written to the words in the outgoing message (**Bus Controller\BC to RT1 (SA2)\Word 0x**) and see the values received by the Remote Terminal
 
 ![VeriStand Screen](Screenshots/VeriStand_screen_deployed.PNG)
+
+This example set of Hardware and Parameters files contains other message types, as well as Acyclic Frames. The minor frame that sends the RT to RT messages is tied to the frame trigger in the system definition. To send the RT to RT messages, toggle the **Bus Controller\Acyclic Frames\Trigger (acyclicFrame ID24)** value to non-zero.
 
 ### Modifying the Custom Device Configuration
 
