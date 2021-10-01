@@ -1,6 +1,6 @@
 # Using the Ballard MIL-STD-1553 Custom Device
 
-This guide demonstrates how to configure and deploy the Ballard MIL-STD-1553 custom device. Using the receive/transmit channels on the first pin pair of the Ballard MIL-STD-1553 PXI module, it is possible to use the custom device to send and receive data without external wiring.
+This guide demonstrates how to configure and deploy the Ballard MIL-STD-1553 custom device. Using simulated Bus Controller and Remote Terminals on the Ballard MIL-STD-1553 PXIe module, it is possible to use the custom device to send and receive data without external wiring.
 
 ## Configure the Ballard MIL-STD-1553 Hardware
 
@@ -111,7 +111,7 @@ The Ballard MIL-STD-1553 custom device includes a LabVIEW scripting API to confi
 To use the scripting API, the optional scripting package must be installed:
 `ni-ballard-mil-std-1553-veristand-20xx-labview-support`
 
-The scripting API includes two example files inside a LabVIEW example project found at the following directory: `C:\Program Files (x86)\National Instruments\LabVIEW 20xx\examples\NI VeriStand Custom Devices\Ballard MIL-STD-1553\Support`. It contains two example VIs:
+The scripting API includes two example files inside a LabVIEW example project found at the following directory: `C:\Program Files (x86)\National Instruments\LabVIEW 20xx\examples\NI VeriStand Custom Devices\Ballard MIL-STD-1553`. It contains two example VIs:
 
 - `Import Parameters Configuration to New Ballard MIL-STD-1553 Custom Device.vi` - Demonstrates using the Ballard MIL-STD-1553 scripting API to configure the custom device by importing a parameters configuration file.
 - `Build New Ballard MIL-STD-1553 Custom Device.vi` - Demonstrates using the Ballard MIL-STD-1553 scripting API to configure the custom device by building from configuration clusters.
