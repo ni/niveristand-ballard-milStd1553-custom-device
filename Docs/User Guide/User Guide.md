@@ -36,7 +36,7 @@ These terminals send and receive messages of each type supported by the Custom D
 - **RT to RT** - Remote Terminal to Remote Terminal.
 - **MC** - Mode Code.
 
-Each pair of messages (BC to RT, RT to BC, and RT to RT) are configured with similar settings. One does not define parameters under the message, which will result in VeriStand channels for as many U16 datatype words as are found in the `<numberOfWords>` tag. The second message defines two unscaled 32-bit parameters with BNR encoding, one signed and the other unsigned. Below is the configuration of the two BC to RT messages:
+Each pair of messages (BC to RT, RT to BC, and RT to RT) are configured with similar settings. Message `BC to RT1 (SA2)` does not define parameters under the message, which will result in VeriStand channels for as many U16 datatype words as are found in the `<numberOfWords>` tag. Message `BC to RT15 (SA3)` defines two unscaled 32-bit parameters with BNR encoding, one signed and the other unsigned. Below is the configuration of the two BC to RT messages:
 
 ```
 		<message>
@@ -85,7 +85,7 @@ Each pair of messages (BC to RT, RT to BC, and RT to RT) are configured with sim
 		</message>
 ```
 
-For each message in the Parameters configuration file, the Custom Device creates corresponding VeriStand channels under the simulated terminals contained in the file. For these two example messages, the Bus Controller has the Tx channels, so the words and parameters under the Bus Controller are outputs. The same channels are created under the Remote Terminal 1 and 15, but these are inputs. The resulting System Definition tree and screen contents can be seen in later sections of this guide.
+For each message in the Parameters configuration file, the Custom Device creates corresponding VeriStand channels under the simulated terminals contained in the file. For these two example messages, the Bus Controller has the Tx channels, so the words and parameters under the Bus Controller are outputs. Corresponding input channels are created under Remote Terminal 1 and Remote Terminal 15. The resulting System Definition tree and screen contents can be seen in later sections of this guide.
 
 #### Configure the Custom Device in System Explorer
 
