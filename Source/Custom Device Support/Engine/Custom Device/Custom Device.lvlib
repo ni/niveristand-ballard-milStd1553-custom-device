@@ -14,6 +14,7 @@
 			<Item Name="Create Map from Messages to Value Indexes.vi" Type="VI" URL="../Create Map from Messages to Value Indexes.vi"/>
 			<Item Name="Initialize Hardware.vi" Type="VI" URL="../Initialize Hardware.vi"/>
 			<Item Name="Initialize Inline Execution Units.vi" Type="VI" URL="../Initialize Inline Execution Units.vi"/>
+			<Item Name="Initialize Logging.vi" Type="VI" URL="../Initialize Logging.vi"/>
 			<Item Name="Initialize Shared Resources.vi" Type="VI" URL="../Initialize Shared Resources.vi"/>
 			<Item Name="Launch Asynchronous Execution Units.vi" Type="VI" URL="../Launch Asynchronous Execution Units.vi"/>
 			<Item Name="Rx Message to Map Key.vi" Type="VI" URL="../Rx Message to Map Key.vi"/>
@@ -33,6 +34,7 @@
 		<Item Name="Shut Down" Type="Folder">
 			<Item Name="Close Hardware Session.vi" Type="VI" URL="../Close Hardware Session.vi"/>
 			<Item Name="Finalize Inline Execution Units.vi" Type="VI" URL="../Finalize Inline Execution Units.vi"/>
+			<Item Name="Finalize Shared Resources.vi" Type="VI" URL="../Finalize Shared Resources.vi"/>
 		</Item>
 	</Item>
 	<Item Name="Types" Type="Folder">
@@ -43,6 +45,7 @@
 		<Item Name="Hardware Handles.ctl" Type="VI" URL="../Hardware Handles.ctl"/>
 		<Item Name="Inline Execution Unit Compiled Information.ctl" Type="VI" URL="../Inline Execution Unit Compiled Information.ctl"/>
 		<Item Name="Inline Execution Unit Runtime Information.ctl" Type="VI" URL="../Inline Execution Unit Runtime Information.ctl"/>
+		<Item Name="Logging Configuration.ctl" Type="VI" URL="../Logging Configuration.ctl"/>
 		<Item Name="RTStateVariables.ctl" Type="VI" URL="../RTStateVariables.ctl"/>
 	</Item>
 	<Item Name="RT Driver VI.vi" Type="VI" URL="../RT Driver VI.vi"/>
