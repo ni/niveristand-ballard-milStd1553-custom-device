@@ -25,6 +25,7 @@
 		<Item Name="Status Section.vi" Type="VI" URL="../System Explorer/Pages/Status Section.vi"/>
 		<Item Name="Status.vi" Type="VI" URL="../System Explorer/Pages/Status.vi"/>
 		<Item Name="Subaddress.vi" Type="VI" URL="../System Explorer/Pages/Subaddress.vi"/>
+		<Item Name="Terminal Status.vi" Type="VI" URL="../System Explorer/Pages/Terminal Status.vi"/>
 		<Item Name="Trigger Channel.vi" Type="VI" URL="../System Explorer/Pages/Trigger Channel.vi"/>
 	</Item>
 	<Item Name="RTM" Type="Folder">
