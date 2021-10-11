@@ -25,13 +25,11 @@
 		<Item Name="Add Command Channel.vi" Type="VI" URL="../Channel/Add Command Channel.vi"/>
 		<Item Name="Add Error Count Channel.vi" Type="VI" URL="../Channel/Add Error Count Channel.vi"/>
 		<Item Name="Add Start and Stop Channels.vi" Type="VI" URL="../Channel/Add Start and Stop Channels.vi"/>
-		<Item Name="Add Status Channel.vi" Type="VI" URL="../Channel/Add Status Channel.vi"/>
 		<Item Name="Add Timestamp Channel.vi" Type="VI" URL="../Channel/Add Timestamp Channel.vi"/>
 		<Item Name="Add Trigger Channel.vi" Type="VI" URL="../Channel/Add Trigger Channel.vi"/>
 		<Item Name="Error Count Channel Names.vi" Type="VI" URL="../Channel/Error Count Channel Names.vi"/>
 		<Item Name="Get Error Count Channels.vi" Type="VI" URL="../Channel/Get Error Count Channels.vi"/>
 		<Item Name="Get Start and Stop Channels.vi" Type="VI" URL="../Channel/Get Start and Stop Channels.vi"/>
-		<Item Name="Get Status Channels.vi" Type="VI" URL="../Channel/Get Status Channels.vi"/>
 		<Item Name="Get Timestamp Channel.vi" Type="VI" URL="../Channel/Get Timestamp Channel.vi"/>
 		<Item Name="Get Trigger Channels.vi" Type="VI" URL="../Channel/Get Trigger Channels.vi"/>
 	</Item>
@@ -73,6 +71,7 @@
 	<Item Name="Message" Type="Folder">
 		<Item Name="Add BC to RT Message.vi" Type="VI" URL="../Message/Add BC to RT Message.vi"/>
 		<Item Name="Add Message (BC to RT, RT to BC).vi" Type="VI" URL="../Message/Add Message (BC to RT, RT to BC).vi"/>
+		<Item Name="Add Message Status Channel.vi" Type="VI" URL="../Message/Add Message Status Channel.vi"/>
 		<Item Name="Add Messages.vi" Type="VI" URL="../Message/Add Messages.vi"/>
 		<Item Name="Add Mode Code.vi" Type="VI" URL="../Message/Add Mode Code.vi"/>
 		<Item Name="Add Parameter Channels with Definitions.vi" Type="VI" URL="../Message/Add Parameter Channels with Definitions.vi"/>
@@ -84,6 +83,7 @@
 		<Item Name="Get Message Definition.vi" Type="VI" URL="../Message/Get Message Definition.vi"/>
 		<Item Name="Get Message Endpoint.vi" Type="VI" URL="../Message/Get Message Endpoint.vi"/>
 		<Item Name="Get Message Name.vi" Type="VI" URL="../Message/Get Message Name.vi"/>
+		<Item Name="Get Message Status Channels.vi" Type="VI" URL="../Message/Get Message Status Channels.vi"/>
 		<Item Name="Get Message Type.vi" Type="VI" URL="../Message/Get Message Type.vi"/>
 		<Item Name="Get Mode Code.vi" Type="VI" URL="../Message/Get Mode Code.vi"/>
 		<Item Name="Get Number of Words.vi" Type="VI" URL="../Message/Get Number of Words.vi"/>
@@ -113,11 +113,13 @@
 		<Item Name="Add Message to Remote Terminal.vi" Type="VI" URL="../Remote Terminal/Add Message to Remote Terminal.vi"/>
 		<Item Name="Add Remote Terminal.vi" Type="VI" URL="../Remote Terminal/Add Remote Terminal.vi"/>
 		<Item Name="Add Subaddress.vi" Type="VI" URL="../Remote Terminal/Add Subaddress.vi"/>
+		<Item Name="Add Terminal Status Channel.vi" Type="VI" URL="../Remote Terminal/Add Terminal Status Channel.vi"/>
 		<Item Name="Find Remote Terminal.vi" Type="VI" URL="../Remote Terminal/Find Remote Terminal.vi"/>
 		<Item Name="Find Subaddress.vi" Type="VI" URL="../Remote Terminal/Find Subaddress.vi"/>
 		<Item Name="Get All Remote Terminals.vi" Type="VI" URL="../Remote Terminal/Get All Remote Terminals.vi"/>
 		<Item Name="Get All Subaddresses.vi" Type="VI" URL="../Remote Terminal/Get All Subaddresses.vi"/>
 		<Item Name="Get Terminal Address.vi" Type="VI" URL="../Remote Terminal/Get Terminal Address.vi"/>
+		<Item Name="Get Terminal Status Channel.vi" Type="VI" URL="../Remote Terminal/Get Terminal Status Channel.vi"/>
 		<Item Name="Get Terminal Subaddress.vi" Type="VI" URL="../Remote Terminal/Get Terminal Subaddress.vi"/>
 		<Item Name="Remove Remote Terminal.vi" Type="VI" URL="../Remote Terminal/Remove Remote Terminal.vi"/>
 		<Item Name="Set Terminal Address.vi" Type="VI" URL="../Remote Terminal/Set Terminal Address.vi"/>
