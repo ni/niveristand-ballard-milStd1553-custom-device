@@ -186,6 +186,23 @@
 		</Page>
 		<Page>
 			<Name>
+				<eng>Terminal Status</eng>
+				<loc>Terminal Status</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>0F870ECF-35C5-439F-BB42-1EAD787F3B9B</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\NI-XNET Status.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Ballard\MIL-STD-1553\Windows\Ballard MIL-STD-1553 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
 				<eng>Receive Time</eng>
 				<loc>Receive Time</loc>
 			</Name>
