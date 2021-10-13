@@ -168,8 +168,13 @@ Notes:
 <channel>
 	<hardwareChannel>0</hardwareChannel>
 	<terminals>
-		<terminalAddress>0</terminalAddress>
-		<terminalAddress>1</terminalAddress>
+		<terminal>
+			<terminalAddress>0</terminalAddress>
+		</terminal>
+		<terminal>
+			<terminalAddress>1</terminalAddress>
+			<terminalName>"LRU Altimeter"</terminalName>
+		</terminal>	
 	</terminals>
 </channel>
 ```
@@ -177,6 +182,8 @@ Notes:
 Notes:
 - Defines terminals (BC and RTs) to populate.
 - Messages may refer to terminals not explicitly included in this section. It is assumed that these terminals are implemented by other software or by physical nodes connected to the 1553 hardware channel.
+- Terminal at terminalAddress = 0 is the bus controller.
+- Terminal at terminalAddress = 1 is given a custom name "LRU Altimeter". By default, remote terminals are named according to the terminal address-specific format: 'Remote Terminal <%02d>'
 - Subaddresses are not defined explicitly in the `terminals` definition; instead, subaddresses are implicitly defined when a message defines an endpoint on a simulated terminal. 
 
 ### Example (Triggers for Acyclic Frames)
@@ -201,7 +208,9 @@ The following table describes the XML elements, or tags, you can use in a Parame
 |→`<hardwareChannel>`|Yes|integer|1|Specifies the Hardware Channel used. Range is: [0:1].|
 ||||||
 |→`<terminals>`|Yes|complex|0/1|Opening tag for terminals (bus controller and remote terminals) definition.|
-|→→`<terminalAddress>`|Yes|integer|1|Specifies the terminal address. Range is: [0:31]. Bus controller will have value of 0. Remote terminal will have value 1..30. Value of 31 reserved for broadcast messages.|
+|→→`<terminal>`|Yes|complex|0/1|Opening tag for terminal definition.|
+|→→→`<terminalAddress>`|Yes|integer|1|Specifies the terminal address. Range is: [0:31]. Bus controller will have value of 0. Remote terminal will have value 1..30. Value of 31 reserved for broadcast messages.|
+|→→→`<terminalName>`|No|string|0/1|Specifies the terminal name. If this tag is empty or not found, the default terminal name is "Bus Controller" for terminalAddress = 0 and 'Remote Terminal <%02d>' for all other values of terminalAddress.|
 ||||||
 |→`<message>`|Yes|complex|1/unbounded|Opening tag for data message or mode code definition.|
 |→→`<name>`|Yes|string|1|Specifies the message name.|
