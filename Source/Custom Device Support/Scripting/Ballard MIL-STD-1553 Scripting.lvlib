@@ -68,6 +68,20 @@
 		<Item Name="Get Device Parameters.vi" Type="VI" URL="../Device/Get Device Parameters.vi"/>
 		<Item Name="Set Device Parameters.vi" Type="VI" URL="../Device/Set Device Parameters.vi"/>
 	</Item>
+	<Item Name="Logging" Type="Folder">
+		<Item Name="Add Logging Section.vi" Type="VI" URL="../Logging/Add Logging Section.vi"/>
+		<Item Name="Find Logging Section.vi" Type="VI" URL="../Logging/Find Logging Section.vi"/>
+		<Item Name="Get Data Word Format.vi" Type="VI" URL="../Logging/Get Data Word Format.vi"/>
+		<Item Name="Get Logging Directory.vi" Type="VI" URL="../Logging/Get Logging Directory.vi"/>
+		<Item Name="Get Logging Enabled.vi" Type="VI" URL="../Logging/Get Logging Enabled.vi"/>
+		<Item Name="Get Logging File Name.vi" Type="VI" URL="../Logging/Get Logging File Name.vi"/>
+		<Item Name="Get Logging Timestamp in File Name.vi" Type="VI" URL="../Logging/Get Logging Timestamp in File Name.vi"/>
+		<Item Name="Set Data Word Format.vi" Type="VI" URL="../Logging/Set Data Word Format.vi"/>
+		<Item Name="Set Logging Directory.vi" Type="VI" URL="../Logging/Set Logging Directory.vi"/>
+		<Item Name="Set Logging Enabled.vi" Type="VI" URL="../Logging/Set Logging Enabled.vi"/>
+		<Item Name="Set Logging File Name.vi" Type="VI" URL="../Logging/Set Logging File Name.vi"/>
+		<Item Name="Set Logging Timestamp in File Name.vi" Type="VI" URL="../Logging/Set Logging Timestamp in File Name.vi"/>
+	</Item>
 	<Item Name="Message" Type="Folder">
 		<Item Name="Add BC to RT Message.vi" Type="VI" URL="../Message/Add BC to RT Message.vi"/>
 		<Item Name="Add Message (BC to RT, RT to BC).vi" Type="VI" URL="../Message/Add Message (BC to RT, RT to BC).vi"/>
