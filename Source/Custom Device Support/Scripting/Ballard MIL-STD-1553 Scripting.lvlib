@@ -133,10 +133,12 @@
 		<Item Name="Get All Remote Terminals.vi" Type="VI" URL="../Remote Terminal/Get All Remote Terminals.vi"/>
 		<Item Name="Get All Subaddresses.vi" Type="VI" URL="../Remote Terminal/Get All Subaddresses.vi"/>
 		<Item Name="Get Terminal Address.vi" Type="VI" URL="../Remote Terminal/Get Terminal Address.vi"/>
+		<Item Name="Get Terminal Name.vi" Type="VI" URL="../Remote Terminal/Get Terminal Name.vi"/>
 		<Item Name="Get Terminal Status Channel.vi" Type="VI" URL="../Remote Terminal/Get Terminal Status Channel.vi"/>
 		<Item Name="Get Terminal Subaddress.vi" Type="VI" URL="../Remote Terminal/Get Terminal Subaddress.vi"/>
 		<Item Name="Remove Remote Terminal.vi" Type="VI" URL="../Remote Terminal/Remove Remote Terminal.vi"/>
 		<Item Name="Set Terminal Address.vi" Type="VI" URL="../Remote Terminal/Set Terminal Address.vi"/>
+		<Item Name="Set Terminal Name.vi" Type="VI" URL="../Remote Terminal/Set Terminal Name.vi"/>
 		<Item Name="Set Terminal Subaddress.vi" Type="VI" URL="../Remote Terminal/Set Terminal Subaddress.vi"/>
 	</Item>
 	<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
