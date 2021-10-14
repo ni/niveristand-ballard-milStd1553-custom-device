@@ -3,9 +3,15 @@
 	<channel>
 		<hardwareChannel>0</hardwareChannel>
 		<terminals>
-			<terminalAddress>24</terminalAddress>
-			<terminalAddress>25</terminalAddress>
-			<terminalAddress>26</terminalAddress>
+			<terminal>
+				<terminalAddress>24</terminalAddress>
+			</terminal>
+			<terminal>
+				<terminalAddress>25</terminalAddress>
+			</terminal>
+			<terminal>
+				<terminalAddress>26</terminalAddress>
+			</terminal>
 		</terminals>
 		<acyclicFrame>
 			<createTriggerChannel>true</createTriggerChannel>
@@ -110,8 +116,12 @@
 	<channel>
 		<hardwareChannel>1</hardwareChannel>
 		<terminals>
-			<terminalAddress>31</terminalAddress>
-			<terminalAddress>0</terminalAddress>
+			<terminal>
+				<terminalAddress>31</terminalAddress>
+			</terminal>
+			<terminal>
+				<terminalAddress>0</terminalAddress>
+			</terminal>
 		</terminals>
 		<acyclicFrame>
 			<name>Message Buffer 56</name>
@@ -136,7 +146,9 @@
 	<channel>
 		<hardwareChannel>2</hardwareChannel>
 		<terminals>
-			<terminalAddress>1</terminalAddress>
+			<terminal>
+				<terminalAddress>1</terminalAddress>
+			</terminal>
 		</terminals>
 	</channel>
 </parameters>

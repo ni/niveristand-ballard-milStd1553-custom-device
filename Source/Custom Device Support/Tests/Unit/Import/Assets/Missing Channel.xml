@@ -2,11 +2,17 @@
 <parameters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<chanel>
 		<hardwareChannel>0</hardwareChannel>
-		<terminal>
-			<terminalAddress>0</terminalAddress>
-			<terminalAddress>1</terminalAddress>
-			<terminalAddress>15</terminalAddress>
-		</terminal>
+		<terminals>
+			<terminal>
+				<terminalAddress>0</terminalAddress>
+			</terminal>
+			<terminal>
+				<terminalAddress>1</terminalAddress>
+			</terminal>
+			<terminal>
+				<terminalAddress>15</terminalAddress>
+			</terminal>
+		</terminals>
 		<message>
 			<name>BC to RT1 (SA2)</name>
 			<messageType>BC to RT</messageType>

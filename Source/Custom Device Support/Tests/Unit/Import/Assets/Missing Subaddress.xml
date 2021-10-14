@@ -3,9 +3,15 @@
 	<channel>
 		<hardwareChannel>0</hardwareChannel>
 		<terminals>
-			<terminalAddress>0</terminalAddress>
-			<terminalAddress>1</terminalAddress>
-			<terminalAddress>15</terminalAddress>
+			<terminal>
+				<terminalAddress>0</terminalAddress>
+			</terminal>
+			<terminal>
+				<terminalAddress>1</terminalAddress>
+			</terminal>
+			<terminal>
+				<terminalAddress>15</terminalAddress>
+			</terminal>
 		</terminals>
 		<message>
 			<name>BC to RT1 (SA2)</name>
