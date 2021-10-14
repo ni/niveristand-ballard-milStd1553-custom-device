@@ -141,5 +141,6 @@
 		<Item Name="Set Terminal Name.vi" Type="VI" URL="../Remote Terminal/Set Terminal Name.vi"/>
 		<Item Name="Set Terminal Subaddress.vi" Type="VI" URL="../Remote Terminal/Set Terminal Subaddress.vi"/>
 	</Item>
+	<Item Name="Conditionally Create Default Terminal Name.vi" Type="VI" URL="../Remote Terminal/Conditionally Create Default Terminal Name.vi"/>
 	<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
 </Library>
