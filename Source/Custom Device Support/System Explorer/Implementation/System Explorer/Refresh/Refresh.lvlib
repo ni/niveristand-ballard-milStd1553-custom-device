@@ -11,6 +11,7 @@
 </Property>
 	<Item Name="Append Changed Item.vi" Type="VI" URL="../Append Changed Item.vi"/>
 	<Item Name="Append Changed Items.vi" Type="VI" URL="../Append Changed Items.vi"/>
+	<Item Name="Categorize Terminals and Names.vi" Type="VI" URL="../Categorize Terminals and Names.vi"/>
 	<Item Name="Change to Background Color.vi" Type="VI" URL="../Change to Background Color.vi"/>
 	<Item Name="Change Type.ctl" Type="VI" URL="../Change Type.ctl"/>
 	<Item Name="Diff Configuration.vi" Type="VI" URL="../Diff Configuration.vi"/>
