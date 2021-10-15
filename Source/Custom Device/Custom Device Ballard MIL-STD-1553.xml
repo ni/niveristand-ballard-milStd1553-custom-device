@@ -240,7 +240,6 @@
 				<eng>Remote Terminal</eng>
 				<loc>Remote Terminal</loc>
 			</Name>
-			<DisallowRenaming>true</DisallowRenaming>
 			<DeleteProtection>true</DeleteProtection>
 			<GUID>D816BAC3-B801-4086-8FF2-44DEB0EE8E0A</GUID>
 			<Glyph>
