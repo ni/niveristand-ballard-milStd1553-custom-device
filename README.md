@@ -37,6 +37,7 @@ LabVIEW 2020
 ### Developing or building from source
 
 - [VeriStand Custom Device Development Tools](https://github.com/ni/niveristand-custom-device-development-tools)
+- [NI VeriStand Custom Device Message Library](https://github.com/ni/niveristand-custom-device-message-library)
 - [NI VeriStand Custom Device Testing Tools](https://github.com/ni/niveristand-custom-device-testing-tools)
 - [Astronics Ballard Avionics Driver and LabVIEW API](https://www.ni.com/en-us/support/downloads/drivers/download.astronics-ballard-avionics-driver.html#370805)
 
