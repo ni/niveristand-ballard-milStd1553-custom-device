@@ -128,6 +128,7 @@
 		<Item Name="Add Remote Terminal.vi" Type="VI" URL="../Remote Terminal/Add Remote Terminal.vi"/>
 		<Item Name="Add Subaddress.vi" Type="VI" URL="../Remote Terminal/Add Subaddress.vi"/>
 		<Item Name="Add Terminal Status Channel.vi" Type="VI" URL="../Remote Terminal/Add Terminal Status Channel.vi"/>
+		<Item Name="Conditionally Create Default Terminal Name.vi" Type="VI" URL="../Remote Terminal/Conditionally Create Default Terminal Name.vi"/>
 		<Item Name="Find Remote Terminal.vi" Type="VI" URL="../Remote Terminal/Find Remote Terminal.vi"/>
 		<Item Name="Find Subaddress.vi" Type="VI" URL="../Remote Terminal/Find Subaddress.vi"/>
 		<Item Name="Get All Remote Terminals.vi" Type="VI" URL="../Remote Terminal/Get All Remote Terminals.vi"/>
@@ -141,6 +142,5 @@
 		<Item Name="Set Terminal Name.vi" Type="VI" URL="../Remote Terminal/Set Terminal Name.vi"/>
 		<Item Name="Set Terminal Subaddress.vi" Type="VI" URL="../Remote Terminal/Set Terminal Subaddress.vi"/>
 	</Item>
-	<Item Name="Conditionally Create Default Terminal Name.vi" Type="VI" URL="../Remote Terminal/Conditionally Create Default Terminal Name.vi"/>
 	<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
 </Library>
