@@ -29,6 +29,7 @@
 			<Item Name="Execution Unit.Async.vi" Type="VI" URL="../Execution Unit.Async.vi"/>
 			<Item Name="Initialize VeriStand Globals.vi" Type="VI" URL="../Initialize VeriStand Globals.vi"/>
 			<Item Name="Read from Inline Execution Units.vi" Type="VI" URL="../Read from Inline Execution Units.vi"/>
+			<Item Name="Write Error to System Log.vi" Type="VI" URL="../Write Error to System Log.vi"/>
 			<Item Name="Write to Inline Execution Units.vi" Type="VI" URL="../Write to Inline Execution Units.vi"/>
 		</Item>
 		<Item Name="Shut Down" Type="Folder">
