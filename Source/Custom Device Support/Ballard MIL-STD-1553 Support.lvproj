@@ -62,6 +62,9 @@
 				</Item>
 			</Item>
 			<Item Name="Unit" Type="Folder">
+				<Item Name="Create Execution Unit" Type="Folder">
+					<Item Name="Create Execution Unit.lvclass" Type="LVClass" URL="../Tests/Unit/Create Execution Unit/Create Execution Unit.lvclass"/>
+				</Item>
 				<Item Name="Engine" Type="Folder">
 					<Item Name="Engine.lvclass" Type="LVClass" URL="../Tests/Unit/Engine/Engine.lvclass"/>
 				</Item>
