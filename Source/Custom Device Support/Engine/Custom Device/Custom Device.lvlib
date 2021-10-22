@@ -12,6 +12,7 @@
 			<Item Name="Calculate Next Rx Indexes.vi" Type="VI" URL="../Calculate Next Rx Indexes.vi"/>
 			<Item Name="Create Map from Message Indexes to Tx Write Info.vi" Type="VI" URL="../Create Map from Message Indexes to Tx Write Info.vi"/>
 			<Item Name="Create Map from Messages to Value Indexes.vi" Type="VI" URL="../Create Map from Messages to Value Indexes.vi"/>
+			<Item Name="Get Bus Controller and Remote Terminals Handles from BTI Channel.vi" Type="VI" URL="../Get Bus Controller and Remote Terminals Handles from BTI Channel.vi"/>
 			<Item Name="Initialize Hardware.vi" Type="VI" URL="../Initialize Hardware.vi"/>
 			<Item Name="Initialize Inline Execution Units.vi" Type="VI" URL="../Initialize Inline Execution Units.vi"/>
 			<Item Name="Initialize Logging.vi" Type="VI" URL="../Initialize Logging.vi"/>
