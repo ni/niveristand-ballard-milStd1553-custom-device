@@ -71,6 +71,11 @@
 				<Item Name="Import" Type="Folder">
 					<Item Name="Assets" Type="Folder">
 						<Item Name="1553_Parameters.xml" Type="Document" URL="../Tests/Unit/Import/Assets/1553_Parameters.xml"/>
+						<Item Name="Missing Address.xml" Type="Document" URL="../Tests/Unit/Import/Assets/Missing Address.xml"/>
+						<Item Name="Missing Channel.xml" Type="Document" URL="../Tests/Unit/Import/Assets/Missing Channel.xml"/>
+						<Item Name="Missing Message Type.xml" Type="Document" URL="../Tests/Unit/Import/Assets/Missing Message Type.xml"/>
+						<Item Name="Missing Subaddress.xml" Type="Document" URL="../Tests/Unit/Import/Assets/Missing Subaddress.xml"/>
+						<Item Name="Missing Terminals.xml" Type="Document" URL="../Tests/Unit/Import/Assets/Missing Terminals.xml"/>
 					</Item>
 					<Item Name="1553 Parameters Import.lvclass" Type="LVClass" URL="../Tests/Unit/Import/1553 Parameters Import.lvclass"/>
 				</Item>
