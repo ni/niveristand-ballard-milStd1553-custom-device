@@ -1,0 +1,216 @@
+<bti:core xmlns:bti="http://www.ballardtech.com/DatabusSchemas/" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" ID="0" name="CoreName" schemaVersion="1.1">
+	<bti:coreConfiguration>
+		<bti:sequentialLog perChannelStreaming="false"/>
+		<bti:builtInTest/>
+		<bti:pxi/>
+		<bti:sysMon/>
+		<bti:timing/>
+	</bti:coreConfiguration>
+	<bti:channel1553 ID="2" hardwareChannel="0" amplitudePercent="50" broadcast="true">
+		<bti:simulation>
+			<bti:busController ID="3" scheduleIDRef="23" defaultGap="8" timeout="19">
+				<bti:messageBuffers>
+					<bti:messageBuffer ID="4" name="messageBuffer ID4">
+						<bti:messageData>
+							<bti:messageDataWord>0000</bti:messageDataWord>
+							<bti:messageDataWord>0000</bti:messageDataWord>
+							<bti:messageDataWord>0000</bti:messageDataWord>
+							<bti:messageDataWord>0000</bti:messageDataWord>
+						</bti:messageData>
+					</bti:messageBuffer>
+					<bti:messageBuffer ID="5" name="messageBuffer ID5">
+						<bti:messageData>
+							<bti:messageDataWord>0000</bti:messageDataWord>
+							<bti:messageDataWord>0000</bti:messageDataWord>
+							<bti:messageDataWord>0000</bti:messageDataWord>
+							<bti:messageDataWord>0000</bti:messageDataWord>
+						</bti:messageData>
+					</bti:messageBuffer>
+					<bti:messageBuffer ID="6" name="messageBuffer ID6">
+						<bti:messageData>
+							<bti:messageDataWord>0000</bti:messageDataWord>
+							<bti:messageDataWord>0000</bti:messageDataWord>
+							<bti:messageDataWord>0000</bti:messageDataWord>
+							<bti:messageDataWord>0000</bti:messageDataWord>
+						</bti:messageData>
+					</bti:messageBuffer>
+					<bti:messageBuffer ID="7" name="messageBuffer ID7">
+						<bti:messageData>
+							<bti:messageDataWord>0000</bti:messageDataWord>
+							<bti:messageDataWord>0000</bti:messageDataWord>
+							<bti:messageDataWord>0000</bti:messageDataWord>
+							<bti:messageDataWord>0000</bti:messageDataWord>
+						</bti:messageData>
+					</bti:messageBuffer>
+					<bti:messageBuffer ID="8" name="messageBuffer ID8">
+						<bti:messageData>
+							<bti:messageDataWord>0000</bti:messageDataWord>
+							<bti:messageDataWord>0000</bti:messageDataWord>
+							<bti:messageDataWord>0000</bti:messageDataWord>
+							<bti:messageDataWord>0000</bti:messageDataWord>
+						</bti:messageData>
+					</bti:messageBuffer>
+					<bti:messageBuffer ID="9" name="messageBuffer ID9">
+						<bti:messageData>
+							<bti:messageDataWord>0000</bti:messageDataWord>
+							<bti:messageDataWord>0000</bti:messageDataWord>
+							<bti:messageDataWord>0000</bti:messageDataWord>
+							<bti:messageDataWord>0000</bti:messageDataWord>
+						</bti:messageData>
+					</bti:messageBuffer>
+					<bti:messageBuffer ID="10" name="messageBuffer ID10">
+						<bti:messageData>
+							<bti:messageDataWord>0000</bti:messageDataWord>
+						</bti:messageData>
+					</bti:messageBuffer>
+					<bti:messageBuffer ID="11" name="messageBuffer ID11">
+						<bti:messageData>
+							<bti:messageDataWord>0000</bti:messageDataWord>
+						</bti:messageData>
+					</bti:messageBuffer>
+				</bti:messageBuffers>
+				<bti:messages>
+					<bti:messageCommand ID="13" name="BC to RT1 (SA2)" messageBufferIDRef="4" monitor="true" retryCount="0">
+						<bti:messageBCRT taVal1="1" saVal1="2" wordCount1="4"/>
+					</bti:messageCommand>
+					<bti:messageCommand ID="14" name="BC to RT15 (SA3)" messageBufferIDRef="5" monitor="true" retryCount="0">
+						<bti:messageBCRT taVal1="15" saVal1="3" wordCount1="4"/>
+					</bti:messageCommand>
+					<bti:messageCommand ID="15" name="RT1 to BC (SA5)" messageBufferIDRef="6" monitor="true" retryCount="0">
+						<bti:messageRTBC taVal1="1" saVal1="5" wordCount1="4"/>
+					</bti:messageCommand>
+					<bti:messageCommand ID="16" name="RT15 to BC (SA6)" messageBufferIDRef="7" monitor="true" retryCount="0">
+						<bti:messageRTBC taVal1="15" saVal1="6" wordCount1="4"/>
+					</bti:messageCommand>
+					<bti:messageCommand ID="17" name="RT1 to RT15 (SA20)" messageBufferIDRef="8" monitor="true" retryCount="0">
+						<bti:messageRTRT taVal1="15" saVal1="20" wordCount1="4" taVal2="1" saVal2="20" wordCount2="4"/>
+					</bti:messageCommand>
+					<bti:messageCommand ID="18" name="RT15 to RT1 (SA21)" messageBufferIDRef="9" monitor="true" retryCount="0">
+						<bti:messageRTRT taVal1="1" saVal1="21" wordCount1="4" taVal2="15" saVal2="21" wordCount2="4"/>
+					</bti:messageCommand>
+					<bti:messageCommand ID="19" name="MC 16" messageBufferIDRef="10" monitor="true" retryCount="0">
+						<bti:messageMC taVal1="1" saVal1="31" modeCodeNumber="16" direction="Tx"/>
+					</bti:messageCommand>
+					<bti:messageCommand ID="20" name="MC 17" messageBufferIDRef="11" monitor="true" retryCount="0">
+						<bti:messageMC taVal1="1" saVal1="31" modeCodeNumber="17" direction="Rx"/>
+					</bti:messageCommand>
+				</bti:messages>
+				<bti:minorFrames>
+					<bti:minorFrame ID="22" name="MinorFrame1" frameTime="100000">
+						<bti:commandMessageRef messageIDRef="19"/>
+						<bti:commandMessageRef messageIDRef="20"/>
+						<bti:commandMessageRef messageIDRef="13"/>
+						<bti:commandMessageRef messageIDRef="14"/>
+						<bti:commandMessageRef messageIDRef="17"/>
+						<bti:commandMessageRef messageIDRef="18"/>
+					</bti:minorFrame>
+				</bti:minorFrames>
+				<bti:majorFrames>
+					<bti:majorFrame ID="23" name="majorFrame" loopCount="0">
+						<bti:minorFrameRef minorFrameIDRef="22"/>
+					</bti:majorFrame>
+				</bti:majorFrames>
+				<bti:acyclicFrames>
+					<bti:acyclicFrame ID="24" name="acyclicFrame ID24">
+						<bti:commandMessageRef messageIDRef="15"/>
+						<bti:commandMessageRef messageIDRef="16"/>
+					</bti:acyclicFrame>
+				</bti:acyclicFrames>
+			</bti:busController>
+			<bti:remoteTerminals>
+				<bti:remoteTerminal ID="25" name="RT TA1" rtAddress="1" initialSwd="0201" responseTime="9">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="26" name="messageBuffer ID26">
+							<bti:messageData>
+								<bti:messageDataWord>0000</bti:messageDataWord>
+								<bti:messageDataWord>0000</bti:messageDataWord>
+								<bti:messageDataWord>0000</bti:messageDataWord>
+								<bti:messageDataWord>0000</bti:messageDataWord>
+							</bti:messageData>
+						</bti:messageBuffer>
+						<bti:messageBuffer ID="27" name="messageBuffer ID27">
+							<bti:messageData>
+								<bti:messageDataWord>0000</bti:messageDataWord>
+								<bti:messageDataWord>0000</bti:messageDataWord>
+								<bti:messageDataWord>0000</bti:messageDataWord>
+								<bti:messageDataWord>0000</bti:messageDataWord>
+							</bti:messageData>
+						</bti:messageBuffer>
+						<bti:messageBuffer ID="28" name="messageBuffer ID28">
+							<bti:messageData>
+								<bti:messageDataWord>0000</bti:messageDataWord>
+								<bti:messageDataWord>0000</bti:messageDataWord>
+								<bti:messageDataWord>0000</bti:messageDataWord>
+								<bti:messageDataWord>0000</bti:messageDataWord>
+							</bti:messageData>
+						</bti:messageBuffer>
+						<bti:messageBuffer ID="29" name="messageBuffer ID29">
+							<bti:messageData>
+								<bti:messageDataWord>0000</bti:messageDataWord>
+								<bti:messageDataWord>0000</bti:messageDataWord>
+								<bti:messageDataWord>0000</bti:messageDataWord>
+								<bti:messageDataWord>0000</bti:messageDataWord>
+							</bti:messageData>
+						</bti:messageBuffer>
+						<bti:messageBuffer ID="30" name="messageBuffer ID30">
+							<bti:messageData>
+								<bti:messageDataWord>0000</bti:messageDataWord>
+							</bti:messageData>
+						</bti:messageBuffer>
+						<bti:messageBuffer ID="31" name="messageBuffer ID31">
+							<bti:messageData>
+								<bti:messageDataWord>0000</bti:messageDataWord>
+							</bti:messageData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+					<bti:subAddress ID="32" name="SA 2" messageBufferIDRef="26" monitor="true" subAddress="2" direction="Rx"/>
+					<bti:subAddress ID="33" name="SA 5" messageBufferIDRef="27" monitor="true" subAddress="5" direction="Tx"/>
+					<bti:subAddress ID="34" name="SA 20" messageBufferIDRef="28" monitor="true" subAddress="20" direction="Tx"/>
+					<bti:subAddress ID="35" name="SA 21" messageBufferIDRef="29" monitor="true" subAddress="21" direction="Rx"/>
+					<bti:modeCode ID="36" name="MC 17" messageBufferIDRef="30" monitor="true" modeCodeNumber="17" direction="Rx"/>
+					<bti:modeCode ID="37" name="MC 16" messageBufferIDRef="31" monitor="true" modeCodeNumber="16" direction="Tx"/>
+				</bti:remoteTerminal>
+				<bti:remoteTerminal ID="39" name="RT TA15" rtAddress="15" responseTime="9">
+					<bti:messageBuffers>
+						<bti:messageBuffer ID="40" name="messageBuffer ID40">
+							<bti:messageData>
+								<bti:messageDataWord>0000</bti:messageDataWord>
+								<bti:messageDataWord>0000</bti:messageDataWord>
+								<bti:messageDataWord>0000</bti:messageDataWord>
+								<bti:messageDataWord>0000</bti:messageDataWord>
+							</bti:messageData>
+						</bti:messageBuffer>
+						<bti:messageBuffer ID="41" name="messageBuffer ID41">
+							<bti:messageData>
+								<bti:messageDataWord>0000</bti:messageDataWord>
+								<bti:messageDataWord>0000</bti:messageDataWord>
+								<bti:messageDataWord>0000</bti:messageDataWord>
+								<bti:messageDataWord>0000</bti:messageDataWord>
+							</bti:messageData>
+						</bti:messageBuffer>
+						<bti:messageBuffer ID="42" name="messageBuffer ID42">
+							<bti:messageData>
+								<bti:messageDataWord>0000</bti:messageDataWord>
+								<bti:messageDataWord>0000</bti:messageDataWord>
+								<bti:messageDataWord>0000</bti:messageDataWord>
+								<bti:messageDataWord>0000</bti:messageDataWord>
+							</bti:messageData>
+						</bti:messageBuffer>
+						<bti:messageBuffer ID="43" name="messageBuffer ID43">
+							<bti:messageData>
+								<bti:messageDataWord>0000</bti:messageDataWord>
+								<bti:messageDataWord>0000</bti:messageDataWord>
+								<bti:messageDataWord>0000</bti:messageDataWord>
+								<bti:messageDataWord>0000</bti:messageDataWord>
+							</bti:messageData>
+						</bti:messageBuffer>
+					</bti:messageBuffers>
+					<bti:subAddress ID="44" name="SA 3" messageBufferIDRef="40" monitor="true" subAddress="3" direction="Rx"/>
+					<bti:subAddress ID="45" name="SA 6" messageBufferIDRef="41" monitor="true" subAddress="6" direction="Tx"/>
+					<bti:subAddress ID="46" name="SA 20" messageBufferIDRef="42" monitor="true" subAddress="20" direction="Rx"/>
+					<bti:subAddress ID="47" name="SA 21" messageBufferIDRef="43" monitor="true" subAddress="21" direction="Tx"/>
+				</bti:remoteTerminal>
+			</bti:remoteTerminals>
+		</bti:simulation>
+	</bti:channel1553>
+</bti:core>

@@ -63,6 +63,14 @@
 			</Item>
 			<Item Name="Unit" Type="Folder">
 				<Item Name="Create Execution Unit" Type="Folder">
+					<Item Name="Assets" Type="Folder">
+						<Item Name="Hardware - BC.xml" Type="Document" URL="../Tests/Unit/Create Execution Unit/Assets/Hardware - BC.xml"/>
+						<Item Name="Hardware - RT.xml" Type="Document" URL="../Tests/Unit/Create Execution Unit/Assets/Hardware - RT.xml"/>
+						<Item Name="Hardware.xml" Type="Document" URL="../Tests/Unit/Create Execution Unit/Assets/Hardware.xml"/>
+						<Item Name="Parameters - BC.xml" Type="Document" URL="../Tests/Unit/Create Execution Unit/Assets/Parameters - BC.xml"/>
+						<Item Name="Parameters - RT.xml" Type="Document" URL="../Tests/Unit/Create Execution Unit/Assets/Parameters - RT.xml"/>
+						<Item Name="Parameters.xml" Type="Document" URL="../Tests/Unit/Create Execution Unit/Assets/Parameters.xml"/>
+					</Item>
 					<Item Name="Create Execution Unit.lvclass" Type="LVClass" URL="../Tests/Unit/Create Execution Unit/Create Execution Unit.lvclass"/>
 				</Item>
 				<Item Name="Engine" Type="Folder">
