@@ -45,6 +45,7 @@
 			<Item Name="Value to String.vim" Type="VI" URL="../Shared/Value to String.vim"/>
 			<Item Name="Data Word Format.ctl" Type="VI" URL="../Shared/Data Word Format.ctl"/>
 			<Item Name="Build Linux Log File Path.vi" Type="VI" URL="../Shared/Build Linux Log File Path.vi"/>
+			<Item Name="NI VeriStand - Set Custom Device Channel Value Table_offline.vi" Type="VI" URL="../Shared/NI VeriStand - Set Custom Device Channel Value Table_offline.vi"/>
 		</Item>
 		<Item Name="Support Files" Type="Folder">
 			<Item Name="ballardMILSTD1553-errors.txt" Type="Document" URL="../Docs/ballardMILSTD1553-errors.txt"/>
