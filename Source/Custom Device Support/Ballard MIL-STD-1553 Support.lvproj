@@ -63,12 +63,28 @@
 				</Item>
 			</Item>
 			<Item Name="Unit" Type="Folder">
+				<Item Name="Create Execution Unit" Type="Folder">
+					<Item Name="Assets" Type="Folder">
+						<Item Name="Hardware - BC.xml" Type="Document" URL="../Tests/Unit/Create Execution Unit/Assets/Hardware - BC.xml"/>
+						<Item Name="Hardware - RT.xml" Type="Document" URL="../Tests/Unit/Create Execution Unit/Assets/Hardware - RT.xml"/>
+						<Item Name="Hardware.xml" Type="Document" URL="../Tests/Unit/Create Execution Unit/Assets/Hardware.xml"/>
+						<Item Name="Parameters - BC.xml" Type="Document" URL="../Tests/Unit/Create Execution Unit/Assets/Parameters - BC.xml"/>
+						<Item Name="Parameters - RT.xml" Type="Document" URL="../Tests/Unit/Create Execution Unit/Assets/Parameters - RT.xml"/>
+						<Item Name="Parameters.xml" Type="Document" URL="../Tests/Unit/Create Execution Unit/Assets/Parameters.xml"/>
+					</Item>
+					<Item Name="Create Execution Unit.lvclass" Type="LVClass" URL="../Tests/Unit/Create Execution Unit/Create Execution Unit.lvclass"/>
+				</Item>
 				<Item Name="Engine" Type="Folder">
 					<Item Name="Engine.lvclass" Type="LVClass" URL="../Tests/Unit/Engine/Engine.lvclass"/>
 				</Item>
 				<Item Name="Import" Type="Folder">
 					<Item Name="Assets" Type="Folder">
 						<Item Name="1553_Parameters.xml" Type="Document" URL="../Tests/Unit/Import/Assets/1553_Parameters.xml"/>
+						<Item Name="Missing Address.xml" Type="Document" URL="../Tests/Unit/Import/Assets/Missing Address.xml"/>
+						<Item Name="Missing Channel.xml" Type="Document" URL="../Tests/Unit/Import/Assets/Missing Channel.xml"/>
+						<Item Name="Missing Message Type.xml" Type="Document" URL="../Tests/Unit/Import/Assets/Missing Message Type.xml"/>
+						<Item Name="Missing Subaddress.xml" Type="Document" URL="../Tests/Unit/Import/Assets/Missing Subaddress.xml"/>
+						<Item Name="Missing Terminals.xml" Type="Document" URL="../Tests/Unit/Import/Assets/Missing Terminals.xml"/>
 					</Item>
 					<Item Name="1553 Parameters Import.lvclass" Type="LVClass" URL="../Tests/Unit/Import/1553 Parameters Import.lvclass"/>
 				</Item>
