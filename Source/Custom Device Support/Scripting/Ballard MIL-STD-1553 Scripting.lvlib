@@ -103,7 +103,9 @@
 		<Item Name="Get Number of Words.vi" Type="VI" URL="../Message/Get Number of Words.vi"/>
 		<Item Name="Get Parameter Definition.vi" Type="VI" URL="../Message/Get Parameter Definition.vi"/>
 		<Item Name="Get Parameters.vi" Type="VI" URL="../Message/Get Parameters.vi"/>
+		<Item Name="Get Remote Terminal Endpoint.vi" Type="VI" URL="../Message/Get Remote Terminal Endpoint.vi"/>
 		<Item Name="Get Rx and Tx Status Channels for Message.vi" Type="VI" URL="../Message/Get Rx and Tx Status Channels for Message.vi"/>
+		<Item Name="Get Terminal Type.vi" Type="VI" URL="../Message/Get Terminal Type.vi"/>
 		<Item Name="Read Messages.vi" Type="VI" URL="../Message/Read Messages.vi"/>
 		<Item Name="Remove Message.vi" Type="VI" URL="../Message/Remove Message.vi"/>
 		<Item Name="Set Direction.vi" Type="VI" URL="../Message/Set Direction.vi"/>
@@ -112,6 +114,7 @@
 		<Item Name="Set Mode Code.vi" Type="VI" URL="../Message/Set Mode Code.vi"/>
 		<Item Name="Set Number of Words.vi" Type="VI" URL="../Message/Set Number of Words.vi"/>
 		<Item Name="Set Parameter Definition.vi" Type="VI" URL="../Message/Set Parameter Definition.vi"/>
+		<Item Name="Set Remote Terminal Endpoint.vi" Type="VI" URL="../Message/Set Remote Terminal Endpoint.vi"/>
 	</Item>
 	<Item Name="Port" Type="Folder">
 		<Item Name="Add Port.vi" Type="VI" URL="../Port/Add Port.vi"/>
