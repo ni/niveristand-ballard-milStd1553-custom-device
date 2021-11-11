@@ -22,4 +22,5 @@
 	<Item Name="Shared Resources Factory.lvclass" Type="LVClass" URL="../Shared Resources Factory/Shared Resources Factory.lvclass"/>
 	<Item Name="Shared Resources.lvclass" Type="LVClass" URL="../Shared Resources/Shared Resources.lvclass"/>
 	<Item Name="Tx Execution Unit.lvclass" Type="LVClass" URL="../Tx Execution Unit/Tx Execution Unit.lvclass"/>
+	<Item Name="Logging Execution Unit.lvclass" Type="LVClass" URL="../Logging Execution Unit/Logging Execution Unit.lvclass"/>
 </Library>
