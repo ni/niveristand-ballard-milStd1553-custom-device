@@ -62,4 +62,13 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1082143232</Property>
 	</Item>
+	<Item Name="Finalize.vi" Type="VI" URL="../Finalize.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'J!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!(R!=!!?!!"8)5*B&lt;'RB=G1A45F-,6.52#UR.45T)%6O:WFO:3ZM&gt;GRJ9B2*&lt;8"M:7VF&lt;H2B&gt;'FP&lt;CZM&gt;GRJ9BZ-&lt;W&gt;H;7ZH)%6Y:7.V&gt;'FP&lt;C"6&lt;GFU,GRW9WRB=X-!'GRP:W&gt;J&lt;G=A:8BF9X6U;7^O)(6O;81A&lt;X6U!!!71&amp;!!!Q!!!!%!!ABF=H*P=C"J&lt;A!!?E"Q!"Y!!&amp;=B1G&amp;M&lt;'&amp;S:#".35QN5V2%,4%V.4-A27ZH;7ZF,GRW&lt;'FC&amp;%FN='RF&lt;76O&gt;'&amp;U;7^O,GRW&lt;'FC(ERP:W&gt;J&lt;G=A28BF9X6U;7^O)&amp;6O;81O&lt;(:D&lt;'&amp;T=Q!:&lt;'^H:WFO:S"F?'6D&gt;82J&lt;WYA&gt;7ZJ&gt;#"J&lt;A"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q-!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!EA!!!!!"!!A!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
+	</Item>
 </LVClass>
