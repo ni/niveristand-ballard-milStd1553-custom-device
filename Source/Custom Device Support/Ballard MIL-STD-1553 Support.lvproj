@@ -48,6 +48,7 @@
 			<Item Name="Value to String.vim" Type="VI" URL="../Shared/Value to String.vim"/>
 			<Item Name="Data Word Format.ctl" Type="VI" URL="../Shared/Data Word Format.ctl"/>
 			<Item Name="Build Linux Log File Path.vi" Type="VI" URL="../Shared/Build Linux Log File Path.vi"/>
+			<Item Name="Rx Read Info.ctl" Type="VI" URL="../Shared/Rx Read Info.ctl"/>
 			<Item Name="NI VeriStand - Set Custom Device Channel Value Table_offline.vi" Type="VI" URL="../Shared/NI VeriStand - Set Custom Device Channel Value Table_offline.vi"/>
 		</Item>
 		<Item Name="Support Files" Type="Folder">
@@ -901,6 +902,7 @@
 			</Item>
 			<Item Name="NI VeriStand - Set Custom Device Channel Value Table_offline.vi" Type="VI" URL="../Shared/NI VeriStand - Set Custom Device Channel Value Table_offline.vi"/>
 			<Item Name="Parameter Definition.ctl" Type="VI" URL="../Shared/Parameter Definition.ctl"/>
+			<Item Name="Rx Read Info.ctl" Type="VI" URL="../Shared/Rx Read Info.ctl"/>
 			<Item Name="String to Value.vim" Type="VI" URL="../Shared/String to Value.vim"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
