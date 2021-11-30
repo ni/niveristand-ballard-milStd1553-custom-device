@@ -19,7 +19,8 @@
 			<Item Name="Initialize Shared Resources.vi" Type="VI" URL="../Initialize Shared Resources.vi"/>
 			<Item Name="Launch Asynchronous Execution Units.vi" Type="VI" URL="../Launch Asynchronous Execution Units.vi"/>
 			<Item Name="Rx Message to Map Key.vi" Type="VI" URL="../Rx Message to Map Key.vi"/>
-			<Item Name="Rx Message to Transfer Handle.vi" Type="VI" URL="../Rx Message to Transfer Handle.vi"/>
+			<Item Name="Rx Message to Transfer Handle - BC.vi" Type="VI" URL="../Rx Message to Transfer Handle - BC.vi"/>
+			<Item Name="Rx Message to Transfer Handle - RT.vi" Type="VI" URL="../Rx Message to Transfer Handle - RT.vi"/>
 			<Item Name="Start Inline Execution Units.vi" Type="VI" URL="../Start Inline Execution Units.vi"/>
 			<Item Name="Tx Message to Map Value.vi" Type="VI" URL="../Tx Message to Map Value.vi"/>
 			<Item Name="Unflatten Asynchronous Execution Units.vi" Type="VI" URL="../Unflatten Asynchronous Execution Units.vi"/>
