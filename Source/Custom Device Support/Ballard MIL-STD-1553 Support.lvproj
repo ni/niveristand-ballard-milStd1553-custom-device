@@ -707,7 +707,7 @@
 				<Property Name="Destination[2].destName" Type="Str">Top Level</Property>
 				<Property Name="Destination[2].path" Type="Path">../Built/Scripting</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{67D88039-3767-4461-BA6A-1D66A732B0C8}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2E6826BB-AFF0-422A-AE0A-88806846BF2E}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Ballard MIL-STD-1553 Scripting.lvlib</Property>
@@ -717,6 +717,10 @@
 				<Property Name="Source[10].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Palettes/Logging.mnu</Property>
 				<Property Name="Source[10].lvfile" Type="Bool">true</Property>
+				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/MIL-STD 1553 Import.lvlib/Read Tag Value.vim</Property>
+				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[11].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Ballard MIL-STD-1553 Engine.lvlib</Property>
 				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
@@ -748,7 +752,7 @@
 				<Property Name="Source[9].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Palettes/Remote Terminal.mnu</Property>
 				<Property Name="Source[9].lvfile" Type="Bool">true</Property>
-				<Property Name="SourceCount" Type="Int">11</Property>
+				<Property Name="SourceCount" Type="Int">12</Property>
 			</Item>
 		</Item>
 	</Item>
