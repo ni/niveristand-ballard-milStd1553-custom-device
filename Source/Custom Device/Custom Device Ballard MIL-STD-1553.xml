@@ -63,6 +63,133 @@
 			</Item2Launch>
 			<RunTimeMenu>
 				<MenuItem>
+					<GUID>FC4134F5-F6E1-498E-BE2C-70048666CD6C</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Disable</eng>
+						<loc>Disable</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\Ballard\MIL-STD-1553\Windows\Ballard MIL-STD-1553 Configuration.llb\EnableDisable RTM.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>578CC3A5-244C-451B-B5DE-59D8A0593F48</GUID>
+					<Type>Action</Type>
+					<Execution>silent</Execution>
+					<Name>
+						<eng>Export Configuration</eng>
+						<loc>Export Configuration</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\Ballard\MIL-STD-1553\Windows\Ballard MIL-STD-1553 Configuration.llb\Export Configuration RTM.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>1138C7C9-33B0-4D4F-A2A8-5116F8B4F20E</GUID>
+					<Type>Action</Type>
+					<Execution>silent</Execution>
+					<Name>
+						<eng>Import Configuration</eng>
+						<loc>Import Configuration</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\Ballard\MIL-STD-1553\Windows\Ballard MIL-STD-1553 Configuration.llb\Import Configuration RTM.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+			</RunTimeMenu>
+			<ButtonList>
+				<Button>
+					<ID>c90d1b42-9eb1-4e89-92b6-6c073196ade9-Button</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\Export.png</Path>
+					</Glyph>
+					<Type>Action</Type>
+					<ReferencedGUID>578CC3A5-244C-451B-B5DE-59D8A0593F48</ReferencedGUID>
+					<ButtonText>
+						<eng>Export Configuration</eng>
+						<loc>Export Configuration</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Export Configuration</eng>
+						<loc>Export Configuration</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Export Custom Device Configuration</eng>
+						<loc>Export Custom Device Configuration</loc>
+					</TipStrip>
+					<Documentation>
+						<eng>Export Custom Device Configuration</eng>
+						<loc>Export Custom Device Configuration</loc>
+					</Documentation>
+				</Button>
+				<Button>
+					<ID>089728fe-9b2f-4073-8646-572ad1172b32-Button</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\Import.png</Path>
+					</Glyph>
+					<Type>Action</Type>
+					<ReferencedGUID>1138C7C9-33B0-4D4F-A2A8-5116F8B4F20E</ReferencedGUID>
+					<ButtonText>
+						<eng>Import Configuration</eng>
+						<loc>Import Configuration</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Import Configuration</eng>
+						<loc>Import Configuration</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Import Custom Device Configuration</eng>
+						<loc>Import Custom Device Configuration</loc>
+					</TipStrip>
+					<Documentation>
+						<eng>Import Custom Device Configuration</eng>
+						<loc>Import Custom Device Configuration</loc>
+					</Documentation>
+				</Button>
+			</ButtonList>
+			<ActionVIOnLoad>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Ballard\MIL-STD-1553\Windows\Ballard MIL-STD-1553 Configuration.llb\ActionVIOnLoad.vi</Path>
+			</ActionVIOnLoad>
+			<ActionVIOnCompile>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Ballard\MIL-STD-1553\Windows\Ballard MIL-STD-1553 Configuration.llb\ActionVIOnCompile.vi</Path>
+			</ActionVIOnCompile>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Ballard MIL-STD-1553</eng>
+				<loc>Ballard MIL-STD-1553</loc>
+			</Name>
+			<GUID>761B115A-86B7-47EB-B23B-3D19352FD247</GUID>
+			<Glyph>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Ballard\MIL-STD-1553\Windows\Glyphs\Disabled.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Ballard\MIL-STD-1553\Windows\Ballard MIL-STD-1553 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+			<RunTimeMenu>
+				<MenuItem>
+					<GUID>FC4134F5-F6E1-498E-BE2C-70048666CD6C</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Enable</eng>
+						<loc>Enable</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\Ballard\MIL-STD-1553\Windows\Ballard MIL-STD-1553 Configuration.llb\EnableDisable RTM.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
 					<GUID>578CC3A5-244C-451B-B5DE-59D8A0593F48</GUID>
 					<Type>Action</Type>
 					<Execution>silent</Execution>
