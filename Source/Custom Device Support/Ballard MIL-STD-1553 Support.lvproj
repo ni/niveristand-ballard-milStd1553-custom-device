@@ -59,6 +59,9 @@
 				<Item Name="Deployment" Type="Folder">
 					<Item Name="Deployment.lvclass" Type="LVClass" URL="../Tests/System/Deployment/Deployment.lvclass"/>
 				</Item>
+				<Item Name="Disabled Custom Device" Type="Folder">
+					<Item Name="Disabled Custom Device.lvclass" Type="LVClass" URL="../Tests/System/Disabled Custom Device/Disabled Custom Device.lvclass"/>
+				</Item>
 				<Item Name="Logging Loopback" Type="Folder">
 					<Item Name="Logging Loopback.lvclass" Type="LVClass" URL="../Tests/System/Logging Loopback/Logging Loopback.lvclass"/>
 				</Item>
