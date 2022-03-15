@@ -23,9 +23,9 @@ The custom device supports the following functionality:
 - PXI Linux RT Controller
 - Supported Ballard MIL-STD-1553 PXI Module
 
-**Notes**: Only NI-keyed PXI modules are supported by the custom device. The part number should have the form `LV-222-###-###`, where `###` stands for the core configuration. **510**, **511**, **550**, and **555** core models are supported. See the mapping between NI and Ballard part numbers on [ni.com](https://www.ni.com/en-us/support/documentation/supplemental/17/astronics-ballard-and-national-instruments-part-number-mapping.html).
+**Note**: Only NI-keyed PXI modules are supported by the custom device. The part number should have the form `LV-222-###-###`, where `###` stands for the core configuration. **510**, **511**, **550**, and **555** core models are supported. See the mapping between NI and Ballard part numbers on [ni.com](https://www.ni.com/en-us/support/documentation/supplemental/17/astronics-ballard-and-national-instruments-part-number-mapping.html).
 
-### Custom Devices features based on core configuration
+### Custom Device features based on core configuration
 
 | Core type | 510/511 | 550/555 |
 | --- | --- | --- |
