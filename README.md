@@ -10,18 +10,30 @@ The custom device supports the following functionality:
    - Scheduled and Acyclic
    - Multiple parameters per message
    - Multiple messages on one or both channels per core
+- Log all messages per core (on compatible modules)
+
+## Using the Custom Device
+
+- Download the latest release package from the [Releases page](https://github.com/ni/niveristand-ballard-milStd1553-custom-device/releases).
+- See the [User Guide](Docs/User%20Guide/User%20Guide.md) for a walkthrough of using the Custom Device.
+- See the [Parameters XML File Schema documentation](Docs/Parameters%20XML%20File/Parameters%20XML%20File.md) for configuring the custom device.
 
 ## Requirements
 
 - PXI Linux RT Controller
 - Supported Ballard MIL-STD-1553 PXI Module
 
-**Note**: Only NI-keyed PXI modules are supported by the custom device. The part number should have the form `LV-222-###-###`, where `###` stands for the core configuration. **550** and **555** core models are supported. See the mapping between NI and Ballard part numbers on [ni.com](https://www.ni.com/en-us/support/documentation/supplemental/17/astronics-ballard-and-national-instruments-part-number-mapping.html).
+**Note**: Only NI-keyed PXI modules are supported by the custom device. The part number should have the form `LV-222-###-###`, where `###` stands for the core configuration. **510**, **511**, **550**, and **555** core models are supported. See the mapping between NI and Ballard part numbers on [ni.com](https://www.ni.com/en-us/support/documentation/supplemental/17/astronics-ballard-and-national-instruments-part-number-mapping.html).
 
-## Getting Started Documentation
+### Custom Device features based on core configuration
 
-- [User Guide](Docs/User%20Guide/User%20Guide.md)
-- [Parameters XML File Schema](Docs/Parameters%20XML%20File/Parameters%20XML%20File.md)
+| Core type | 510/511 | 550/555 |
+| --- | --- | --- |
+| Logging | No | Yes |
+| Simulate RTs | Yes | Yes |
+| Simulate BC | Yes | Yes |
+| Simulate BC and RTs concurrently | No | Yes |
+| Supports example assets | No | Yes |
 
 ## LabVIEW Source Code Version
 
@@ -34,12 +46,22 @@ LabVIEW 2020
 - [VeriStand 2020 or later](https://www.ni.com/ro-ro/support/downloads/software-products/download.veristand.html#382072)
 - Optional: [Astronics Ballard Avionics Driver](https://www.ni.com/en-us/support/downloads/drivers/download.astronics-ballard-avionics-driver.html#370805)
 
+### Real-Time target software components
+
+- Astronics Ballard Avionics Driver
+  - Must enable the `ni-third-party` feed in MAX to install
+
 ### Developing or building from source
 
-- [VeriStand Custom Device Development Tools](https://github.com/ni/niveristand-custom-device-development-tools)
-- [NI VeriStand Custom Device Message Library](https://github.com/ni/niveristand-custom-device-message-library)
-- [NI VeriStand Custom Device Testing Tools](https://github.com/ni/niveristand-custom-device-testing-tools)
+- [LabVIEW 2020 or later](https://www.ni.com/en-us/support/downloads/software-products/download.labview.html)
+- [LabVIEW Real-Time Module](https://www.ni.com/en-us/support/downloads/software-products/download.labview-real-time-module.html)
 - [Astronics Ballard Avionics Driver and LabVIEW API](https://www.ni.com/en-us/support/downloads/drivers/download.astronics-ballard-avionics-driver.html#370805)
+- [VeriStand Custom Device Development Tools](https://github.com/ni/niveristand-custom-device-development-tools)
+  - Install the latest package from the [release page](https://github.com/ni/niveristand-custom-device-development-tools/releases)
+- [VeriStand Custom Device Message Library](https://github.com/ni/niveristand-custom-device-message-library)
+  - Install the latest package from the [release page](https://github.com/ni/niveristand-custom-device-message-library/releases)
+- [VeriStand Custom Device Testing Tools](https://github.com/ni/niveristand-custom-device-testing-tools)
+  - To link correctly, this repository should be cloned as source to the same directory level as this repository
 
 ## Git History & Rebasing Policy
 
