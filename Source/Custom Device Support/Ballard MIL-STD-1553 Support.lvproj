@@ -55,12 +55,21 @@
 			<Item Name="ballardMILSTD1553-errors.txt" Type="Document" URL="../Docs/ballardMILSTD1553-errors.txt"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
+			<Item Name="Shared" Type="Folder">
+				<Property Name="NI.SortType" Type="Int">3</Property>
+				<Item Name="Get Class Data File Path.vi" Type="VI" URL="../Tests/Shared/Get Class Data File Path.vi"/>
+				<Item Name="Get Shared Assets Paths.vi" Type="VI" URL="../Tests/Shared/Get Shared Assets Paths.vi"/>
+				<Item Name="Script Custom Device.vi" Type="VI" URL="../Tests/Shared/Script Custom Device.vi"/>
+				<Item Name="Hardware - BC.xml" Type="Document" URL="../Tests/Shared/Hardware - BC.xml"/>
+				<Item Name="Hardware - RT.xml" Type="Document" URL="../Tests/Shared/Hardware - RT.xml"/>
+				<Item Name="Hardware.xml" Type="Document" URL="../Tests/Shared/Hardware.xml"/>
+				<Item Name="Parameters - BC.xml" Type="Document" URL="../Tests/Shared/Parameters - BC.xml"/>
+				<Item Name="Parameters - RT.xml" Type="Document" URL="../Tests/Shared/Parameters - RT.xml"/>
+				<Item Name="Parameters.xml" Type="Document" URL="../Tests/Shared/Parameters.xml"/>
+			</Item>
 			<Item Name="System" Type="Folder">
 				<Item Name="Deployment" Type="Folder">
 					<Item Name="Deployment.lvclass" Type="LVClass" URL="../Tests/System/Deployment/Deployment.lvclass"/>
-				</Item>
-				<Item Name="Disabled Custom Device" Type="Folder">
-					<Item Name="Disabled Custom Device.lvclass" Type="LVClass" URL="../Tests/System/Disabled Custom Device/Disabled Custom Device.lvclass"/>
 				</Item>
 				<Item Name="Logging Loopback" Type="Folder">
 					<Item Name="Logging Loopback.lvclass" Type="LVClass" URL="../Tests/System/Logging Loopback/Logging Loopback.lvclass"/>
@@ -71,14 +80,6 @@
 			</Item>
 			<Item Name="Unit" Type="Folder">
 				<Item Name="Create Execution Unit" Type="Folder">
-					<Item Name="Assets" Type="Folder">
-						<Item Name="Hardware - BC.xml" Type="Document" URL="../Tests/Unit/Create Execution Unit/Assets/Hardware - BC.xml"/>
-						<Item Name="Hardware - RT.xml" Type="Document" URL="../Tests/Unit/Create Execution Unit/Assets/Hardware - RT.xml"/>
-						<Item Name="Hardware.xml" Type="Document" URL="../Tests/Unit/Create Execution Unit/Assets/Hardware.xml"/>
-						<Item Name="Parameters - BC.xml" Type="Document" URL="../Tests/Unit/Create Execution Unit/Assets/Parameters - BC.xml"/>
-						<Item Name="Parameters - RT.xml" Type="Document" URL="../Tests/Unit/Create Execution Unit/Assets/Parameters - RT.xml"/>
-						<Item Name="Parameters.xml" Type="Document" URL="../Tests/Unit/Create Execution Unit/Assets/Parameters.xml"/>
-					</Item>
 					<Item Name="Create Execution Unit.lvclass" Type="LVClass" URL="../Tests/Unit/Create Execution Unit/Create Execution Unit.lvclass"/>
 				</Item>
 				<Item Name="Engine" Type="Folder">
@@ -99,9 +100,6 @@
 					<Item Name="Refresh.lvclass" Type="LVClass" URL="../Tests/Unit/Refresh/Refresh.lvclass"/>
 				</Item>
 				<Item Name="Scripting" Type="Folder">
-					<Item Name="Assets" Type="Folder">
-						<Item Name="1553_HW_Reference_007.xml" Type="Document" URL="../Tests/Unit/Scripting/Assets/1553_HW_Reference_007.xml"/>
-					</Item>
 					<Item Name="Scripting.lvclass" Type="LVClass" URL="../Tests/Unit/Scripting/Scripting.lvclass"/>
 				</Item>
 				<Item Name="Shared" Type="Folder">
