@@ -79,15 +79,6 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1082143234</Property>
 		</Item>
-		<Item Name="Script Custom Device.vi" Type="VI" URL="../Script Custom Device.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!+4!!!!$1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!&lt;!$R!!!!!!!!!!)81X6T&gt;'^N)%2F&gt;GFD:3""5%EO&lt;(:M;7);1X6T&gt;'^N)%2F&gt;GFD:3"*&gt;'6N)&amp;*F:CZD&gt;'Q!-5!)!#:#97RM98*E)%V*4#V46%1A-45V-S"D&gt;8.U&lt;WUA:'6W;7.F)'^V&gt;!!!W%"Q!"A!!!!"!!!!O%ZB&gt;'FP&lt;G&amp;M37ZT&gt;(*V&lt;76O&gt;(-O6G6S;6.U97ZE,F.Z=X2F&lt;52F:GFO;82J&lt;WZ"5%EO5XFT&gt;'6N2'6G;7ZJ&gt;'FP&lt;CQA4G&amp;U;7^O97R*&lt;H.U=H6N:7ZU=SZ7:8*J5X2B&lt;G1O5XFT&gt;'6N2'6G;7ZJ&gt;'FP&lt;E&amp;133QA6G6S=WFP&lt;DUQ,D!O-#YQ,#"$&gt;7RU&gt;8*F07ZF&gt;82S97QM)&amp;"V9GRJ9UNF?62P;W6O07%W:$9Z-'-T/$"E97%T-$A25XFT&gt;'6N)%2F:GFO;82J&lt;WY!*%!S`````RJT?8.U:7UA:'6G;7ZJ&gt;'FP&lt;C"Q982I)'^V&gt;!!!"!!!!":!5!!$!!!!!1!##'6S=G^S)'FO!!!M1$,`````)H"B=G&amp;N:82F=H-A9W^O:GFH&gt;8*B&gt;'FP&lt;C"G;7RF)("B&gt;'A!!#J!-P````]A;'&amp;S:(&gt;B=G5A9W^O:GFH&gt;8*B&gt;'FP&lt;C"G;7RF)("B&gt;'A!!#*!-P````]:=XFT&gt;'6N)'2F:GFO;82J&lt;WYA='&amp;U;#"J&lt;A"5!0!!$!!$!!1!"1!'!!=!"Q!(!!=!#!!*!!I!#Q-!!(A!!!U)!!!*!!!!#1!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!")!!!!3!!!!%!!!!!!"!!Q!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
-		</Item>
 	</Item>
 	<Item Name="protected" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">3</Property>

@@ -99,8 +99,8 @@
 					<bti:minorFrame ID="22" name="MinorFrame1" frameTime="100000">
 						<bti:commandMessageRef messageIDRef="19"/>
 						<bti:commandMessageRef messageIDRef="20"/>
-						<bti:commandMessageRef messageIDRef="15"/>
-						<bti:commandMessageRef messageIDRef="16"/>
+						<bti:commandMessageRef messageIDRef="13"/>
+						<bti:commandMessageRef messageIDRef="14"/>
 						<bti:commandMessageRef messageIDRef="17"/>
 						<bti:commandMessageRef messageIDRef="18"/>
 					</bti:minorFrame>
@@ -112,8 +112,8 @@
 				</bti:majorFrames>
 				<bti:acyclicFrames>
 					<bti:acyclicFrame ID="24" name="acyclicFrame ID24">
-						<bti:commandMessageRef messageIDRef="13"/>
-						<bti:commandMessageRef messageIDRef="14"/>
+						<bti:commandMessageRef messageIDRef="15"/>
+						<bti:commandMessageRef messageIDRef="16"/>
 					</bti:acyclicFrame>
 				</bti:acyclicFrames>
 			</bti:busController>
