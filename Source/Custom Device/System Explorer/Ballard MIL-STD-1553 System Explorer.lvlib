@@ -11,17 +11,19 @@
 		<Item Name="Dynamically Called" Type="Folder">
 			<Item Name="ActionVIOnCompile.vi" Type="VI" URL="../ActionVIOnCompile.vi"/>
 			<Item Name="ActionVIOnLoad.vi" Type="VI" URL="../ActionVIOnLoad.vi"/>
-			<Item Name="EnableDisable RTM.vi" Type="VI" URL="../EnableDisable RTM.vi"/>
 			<Item Name="Export Configuration RTM.vi" Type="VI" URL="../Export Configuration RTM.vi"/>
 			<Item Name="Import Configuration RTM.vi" Type="VI" URL="../Import Configuration RTM.vi"/>
 			<Item Name="Initialization VI.vi" Type="VI" URL="../Initialization VI.vi"/>
 			<Item Name="Page Wrapper.vi" Type="VI" URL="../Page Wrapper.vi"/>
+			<Item Name="RunTimeMenu Custom Population.vi" Type="VI" URL="../RunTimeMenu Custom Population.vi"/>
+			<Item Name="RunTimeMenu Wrapper.vi" Type="VI" URL="../RunTimeMenu Wrapper.vi"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="Compile Asynchronous Execution Units.vi" Type="VI" URL="../Compile Asynchronous Execution Units.vi"/>
 			<Item Name="Compile Inline Execution Units.vi" Type="VI" URL="../Compile Inline Execution Units.vi"/>
 			<Item Name="Compile Shared Resources.vi" Type="VI" URL="../Compile Shared Resources.vi"/>
 			<Item Name="Get Item GUID.vi" Type="VI" URL="../Get Item GUID.vi"/>
+			<Item Name="Parse Menu Items.vi" Type="VI" URL="../Parse Menu Items.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder"/>
 	</Item>

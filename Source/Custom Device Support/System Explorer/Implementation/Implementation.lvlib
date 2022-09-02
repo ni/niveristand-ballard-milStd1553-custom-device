@@ -27,12 +27,14 @@
 		<Item Name="Status.vi" Type="VI" URL="../System Explorer/Pages/Status.vi"/>
 		<Item Name="Subaddress.vi" Type="VI" URL="../System Explorer/Pages/Subaddress.vi"/>
 		<Item Name="Terminal Status.vi" Type="VI" URL="../System Explorer/Pages/Terminal Status.vi"/>
+		<Item Name="Timing.vi" Type="VI" URL="../System Explorer/Pages/Timing.vi"/>
 		<Item Name="Trigger Channel.vi" Type="VI" URL="../System Explorer/Pages/Trigger Channel.vi"/>
 	</Item>
 	<Item Name="RTM" Type="Folder">
 		<Item Name="EnableDisable RTM.vi" Type="VI" URL="../System Explorer/RTM/EnableDisable RTM.vi"/>
 		<Item Name="Export Configuration RTM.vi" Type="VI" URL="../System Explorer/RTM/Export Configuration RTM.vi"/>
 		<Item Name="Import Configuration RTM.vi" Type="VI" URL="../System Explorer/RTM/Import Configuration RTM.vi"/>
+		<Item Name="Timing Channels RTM.vi" Type="VI" URL="../System Explorer/RTM/Timing Channels RTM.vi"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Channel Cluster to Table.vi" Type="VI" URL="../System Explorer/subVIs/Channel Cluster to Table.vi"/>

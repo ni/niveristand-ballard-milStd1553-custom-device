@@ -48,11 +48,11 @@
 	</Item>
 	<Item Name="Custom Device" Type="Folder">
 		<Item Name="Add Custom Device.vi" Type="VI" URL="../Custom Device/Add Custom Device.vi"/>
+		<Item Name="Add Status Section.vi" Type="VI" URL="../Custom Device/Add Status Section.vi"/>
 		<Item Name="Check If Custom Device Enabled.vi" Type="VI" URL="../Custom Device/Check If Custom Device Enabled.vi"/>
+		<Item Name="Check If Error Exists.vi" Type="VI" URL="../Custom Device/Check If Error Exists.vi"/>
 		<Item Name="Disable Custom Device.vi" Type="VI" URL="../Custom Device/Disable Custom Device.vi"/>
 		<Item Name="Enable Custom Device.vi" Type="VI" URL="../Custom Device/Enable Custom Device.vi"/>
-		<Item Name="Add Status Section.vi" Type="VI" URL="../Custom Device/Add Status Section.vi"/>
-		<Item Name="Check If Error Exists.vi" Type="VI" URL="../Custom Device/Check If Error Exists.vi"/>
 		<Item Name="Export Custom Device.vi" Type="VI" URL="../Custom Device/Export Custom Device.vi"/>
 		<Item Name="Find All Ballard MIL-STD-1553 Custom Devices.vi" Type="VI" URL="../Custom Device/Find All Ballard MIL-STD-1553 Custom Devices.vi"/>
 		<Item Name="Find Ballard MIL-STD-1553 Custom Device.vi" Type="VI" URL="../Custom Device/Find Ballard MIL-STD-1553 Custom Device.vi"/>
@@ -147,6 +147,15 @@
 		<Item Name="Set Terminal Address.vi" Type="VI" URL="../Remote Terminal/Set Terminal Address.vi"/>
 		<Item Name="Set Terminal Name.vi" Type="VI" URL="../Remote Terminal/Set Terminal Name.vi"/>
 		<Item Name="Set Terminal Subaddress.vi" Type="VI" URL="../Remote Terminal/Set Terminal Subaddress.vi"/>
+	</Item>
+	<Item Name="Timing" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">3</Property>
+		<Item Name="Add Timing Section.vi" Type="VI" URL="../Configuration Files/Add Timing Section.vi"/>
+		<Item Name="Get Timing Section.vi" Type="VI" URL="../Timing Channels/Get Timing Section.vi"/>
+		<Item Name="Get Address Based Execution Time.vi" Type="VI" URL="../Timing Channels/Get Address Based Execution Time.vi"/>
+		<Item Name="Get Logging Execution Time.vi" Type="VI" URL="../Timing Channels/Get Logging Execution Time.vi"/>
+		<Item Name="Get Rx Execution Time.vi" Type="VI" URL="../Timing Channels/Get Rx Execution Time.vi"/>
+		<Item Name="Get Tx Execution Time.vi" Type="VI" URL="../Timing Channels/Get Tx Execution Time.vi"/>
 	</Item>
 	<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
 </Library>
