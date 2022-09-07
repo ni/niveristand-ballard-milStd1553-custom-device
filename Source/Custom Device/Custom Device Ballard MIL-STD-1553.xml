@@ -63,42 +63,20 @@
 			</Item2Launch>
 			<RunTimeMenu>
 				<MenuItem>
-					<GUID>FC4134F5-F6E1-498E-BE2C-70048666CD6C</GUID>
-					<Type>Action</Type>
+					<GUID>5FF42902-C783-4304-B588-1D2F1CA49C45</GUID>
+					<Type>Custom</Type>
 					<Name>
-						<eng>Disable</eng>
-						<loc>Disable</loc>
+						<eng />
+						<loc />
 					</Name>
 					<Item2Launch>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Ballard\MIL-STD-1553\Windows\Ballard MIL-STD-1553 Configuration.llb\EnableDisable RTM.vi</Path>
+						<Path>Custom Devices\Ballard\MIL-STD-1553\Windows\Ballard MIL-STD-1553 Configuration.llb\RunTimeMenu Wrapper.vi</Path>
 					</Item2Launch>
-				</MenuItem>
-				<MenuItem>
-					<GUID>578CC3A5-244C-451B-B5DE-59D8A0593F48</GUID>
-					<Type>Action</Type>
-					<Execution>silent</Execution>
-					<Name>
-						<eng>Export Configuration</eng>
-						<loc>Export Configuration</loc>
-					</Name>
-					<Item2Launch>
+					<CustomPopulation>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Ballard\MIL-STD-1553\Windows\Ballard MIL-STD-1553 Configuration.llb\Export Configuration RTM.vi</Path>
-					</Item2Launch>
-				</MenuItem>
-				<MenuItem>
-					<GUID>1138C7C9-33B0-4D4F-A2A8-5116F8B4F20E</GUID>
-					<Type>Action</Type>
-					<Execution>silent</Execution>
-					<Name>
-						<eng>Import Configuration</eng>
-						<loc>Import Configuration</loc>
-					</Name>
-					<Item2Launch>
-						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Ballard\MIL-STD-1553\Windows\Ballard MIL-STD-1553 Configuration.llb\Import Configuration RTM.vi</Path>
-					</Item2Launch>
+						<Path>Custom Devices\Ballard\MIL-STD-1553\Windows\Ballard MIL-STD-1553 Configuration.llb\RunTimeMenu Custom Population.vi</Path>
+					</CustomPopulation>
 				</MenuItem>
 			</RunTimeMenu>
 			<ButtonList>
@@ -178,42 +156,20 @@
 			</Item2Launch>
 			<RunTimeMenu>
 				<MenuItem>
-					<GUID>FC4134F5-F6E1-498E-BE2C-70048666CD6C</GUID>
-					<Type>Action</Type>
+					<GUID>5FF42902-C783-4304-B588-1D2F1CA49C45</GUID>
+					<Type>Custom</Type>
 					<Name>
-						<eng>Enable</eng>
-						<loc>Enable</loc>
+						<eng />
+						<loc />
 					</Name>
 					<Item2Launch>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Ballard\MIL-STD-1553\Windows\Ballard MIL-STD-1553 Configuration.llb\EnableDisable RTM.vi</Path>
+						<Path>Custom Devices\Ballard\MIL-STD-1553\Windows\Ballard MIL-STD-1553 Configuration.llb\RunTimeMenu Wrapper.vi</Path>
 					</Item2Launch>
-				</MenuItem>
-				<MenuItem>
-					<GUID>578CC3A5-244C-451B-B5DE-59D8A0593F48</GUID>
-					<Type>Action</Type>
-					<Execution>silent</Execution>
-					<Name>
-						<eng>Export Configuration</eng>
-						<loc>Export Configuration</loc>
-					</Name>
-					<Item2Launch>
+					<CustomPopulation>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Ballard\MIL-STD-1553\Windows\Ballard MIL-STD-1553 Configuration.llb\Export Configuration RTM.vi</Path>
-					</Item2Launch>
-				</MenuItem>
-				<MenuItem>
-					<GUID>1138C7C9-33B0-4D4F-A2A8-5116F8B4F20E</GUID>
-					<Type>Action</Type>
-					<Execution>silent</Execution>
-					<Name>
-						<eng>Import Configuration</eng>
-						<loc>Import Configuration</loc>
-					</Name>
-					<Item2Launch>
-						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Ballard\MIL-STD-1553\Windows\Ballard MIL-STD-1553 Configuration.llb\Import Configuration RTM.vi</Path>
-					</Item2Launch>
+						<Path>Custom Devices\Ballard\MIL-STD-1553\Windows\Ballard MIL-STD-1553 Configuration.llb\RunTimeMenu Custom Population.vi</Path>
+					</CustomPopulation>
 				</MenuItem>
 			</RunTimeMenu>
 			<ButtonList>
@@ -560,6 +516,22 @@
 			<Glyph>
 				<Type>To Application Data Dir</Type>
 				<Path>System Explorer\Glyphs\default fpga category.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Ballard\MIL-STD-1553\Windows\Ballard MIL-STD-1553 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Timing Channels</eng>
+				<loc>Timing Channels</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<GUID>1BA5DAE3-C061-45C0-8D10-21995AB8687C</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\timing.png</Path>
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
