@@ -36,7 +36,7 @@
 	<Property Name="NI.LVClass.LowestCompatibleVersion" Type="Str">1.0.0.1</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Parent Libraries" Type="Parent Libraries">
-		<Item Name="VeriStandScriptingTestCase.lvclass" Type="Parent" URL="../../../../../../../niveristand-custom-device-testing-tools/VeriStandScriptingTestCase/VeriStandScriptingTestCase.lvclass"/>
+		<Item Name="VeriStandScriptingTestCase.lvclass" Type="Parent" URL="/&lt;vilib&gt;/NI/VeriStand Custom Device Testing Tools/VeriStandScriptingTestCase/VeriStandScriptingTestCase.lvclass"/>
 	</Item>
 	<Item Name="Create Execution Unit.ctl" Type="Class Private Data" URL="Create Execution Unit.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
