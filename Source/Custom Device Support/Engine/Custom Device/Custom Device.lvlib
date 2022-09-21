@@ -10,7 +10,7 @@
 		<Item Name="Init" Type="Folder">
 			<Item Name="Calculate Next Index.vi" Type="VI" URL="../Calculate Next Index.vi"/>
 			<Item Name="Calculate Next Rx Indexes.vi" Type="VI" URL="../Calculate Next Rx Indexes.vi"/>
-			<Item Name="Create Map from Message Indexes to Tx Write Info.vi" Type="VI" URL="../Create Map from Message Indexes to Tx Write Info.vi"/>
+			<Item Name="Create Array of Tx Message Info.vi" Type="VI" URL="../Create Array of Tx Message Info.vi"/>
 			<Item Name="Create Map from Messages to Value Indexes.vi" Type="VI" URL="../Create Map from Messages to Value Indexes.vi"/>
 			<Item Name="Create Timing Channel Array.vi" Type="VI" URL="../Create Timing Channel Array.vi"/>
 			<Item Name="Get Bus Controller and Remote Terminals Handles from BTI Channel.vi" Type="VI" URL="../Get Bus Controller and Remote Terminals Handles from BTI Channel.vi"/>
