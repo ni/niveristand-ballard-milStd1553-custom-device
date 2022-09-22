@@ -57,6 +57,7 @@
 		<Item Name="Find All Ballard MIL-STD-1553 Custom Devices.vi" Type="VI" URL="../Custom Device/Find All Ballard MIL-STD-1553 Custom Devices.vi"/>
 		<Item Name="Find Ballard MIL-STD-1553 Custom Device.vi" Type="VI" URL="../Custom Device/Find Ballard MIL-STD-1553 Custom Device.vi"/>
 		<Item Name="Get Description.vi" Type="VI" URL="../Custom Device/Get Description.vi"/>
+		<Item Name="Get Rx Async.vi" Type="VI" URL="../Custom Device/Get Rx Async.vi"/>
 		<Item Name="Import Custom Device (In Place).vi" Type="VI" URL="../Custom Device/Import Custom Device (In Place).vi"/>
 		<Item Name="Import Custom Device (New).vi" Type="VI" URL="../Custom Device/Import Custom Device (New).vi"/>
 		<Item Name="Import Custom Device.vi" Type="VI" URL="../Custom Device/Import Custom Device.vi"/>
@@ -64,6 +65,7 @@
 		<Item Name="Read Configuration.vi" Type="VI" URL="../Custom Device/Read Configuration.vi"/>
 		<Item Name="Remove Custom Device.vi" Type="VI" URL="../Custom Device/Remove Custom Device.vi"/>
 		<Item Name="Set Description.vi" Type="VI" URL="../Custom Device/Set Description.vi"/>
+		<Item Name="Set Rx Async.vi" Type="VI" URL="../Custom Device/Set Rx Async.vi"/>
 		<Item Name="Update Error.vi" Type="VI" URL="../Custom Device/Update Error.vi"/>
 		<Item Name="Write Configuration.vi" Type="VI" URL="../Custom Device/Write Configuration.vi"/>
 	</Item>
