@@ -112,15 +112,12 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../Built/Scripting Examples/Support</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E6B01708-F4E3-4DBC-A074-E3620A55A983}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{CA9388D7-5A61-4F06-98FC-703AA0A6BE83}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Build New Ballard MIL-STD-1553 Custom Device.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Support/VeriStand MIL-STD-1553 Parameters.xml</Property>
-				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Import Parameters Configuration to New Ballard MIL-STD-1553 Custom Device.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
@@ -148,11 +145,9 @@
 				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Support/Base.nivssdf</Property>
 				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[9].itemID" Type="Ref"></Property>
-				<Property Name="Source[9].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[9].sourceInclusion" Type="Str">Exclude</Property>
-				<Property Name="Source[9].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">11</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Support/VeriStand MIL-STD-1553 Parameters.xml</Property>
+				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">10</Property>
 			</Item>
 		</Item>
 	</Item>
