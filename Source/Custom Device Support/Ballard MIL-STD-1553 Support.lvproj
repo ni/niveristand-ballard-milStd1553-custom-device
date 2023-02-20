@@ -680,8 +680,11 @@
 				<Property Name="Destination[1].path" Type="Path">../Built/Scripting/data</Property>
 				<Property Name="Destination[2].destName" Type="Str">Top Level</Property>
 				<Property Name="Destination[2].path" Type="Path">../Built/Scripting</Property>
-				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{2E6826BB-AFF0-422A-AE0A-88806846BF2E}</Property>
+				<Property Name="Destination[3].destName" Type="Str">Shared</Property>
+				<Property Name="Destination[3].libraryName" Type="Str">Ballard MIL-STD 1553 Shared.lvlib</Property>
+				<Property Name="Destination[3].path" Type="Path">../Built/Scripting/Shared</Property>
+				<Property Name="DestinationCount" Type="Int">4</Property>
+				<Property Name="Source[0].itemID" Type="Str">{B38316C9-96D2-4ECC-B3E4-49037247D1BF}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Ballard MIL-STD-1553 Scripting.lvlib</Property>
@@ -695,6 +698,15 @@
 				<Property Name="Source[11].itemID" Type="Ref">/My Computer/MIL-STD 1553 Import.lvlib/Read Tag Value.vim</Property>
 				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[11].type" Type="Str">VI</Property>
+				<Property Name="Source[12].itemID" Type="Ref">/My Computer/MIL-STD 1553 Import.lvlib</Property>
+				<Property Name="Source[12].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[12].newName" Type="Str">Ballard MIL-STD 1553 Import.lvlib</Property>
+				<Property Name="Source[12].type" Type="Str">Library</Property>
+				<Property Name="Source[13].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[13].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[13].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[13].itemID" Type="Ref">/My Computer/Shared</Property>
+				<Property Name="Source[13].type" Type="Str">Container</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Ballard MIL-STD-1553 Engine.lvlib</Property>
 				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
@@ -726,7 +738,7 @@
 				<Property Name="Source[9].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Palettes/Remote Terminal.mnu</Property>
 				<Property Name="Source[9].lvfile" Type="Bool">true</Property>
-				<Property Name="SourceCount" Type="Int">12</Property>
+				<Property Name="SourceCount" Type="Int">14</Property>
 			</Item>
 		</Item>
 	</Item>
@@ -860,7 +872,6 @@
 			<Item Name="Get File MD5 Checksum.vi" Type="VI" URL="../Shared/Get File MD5 Checksum.vi"/>
 			<Item Name="Initialization Method.ctl" Type="VI" URL="../Shared/Initialization Method.ctl"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
-			<Item Name="Map of Message Indexes to Tx Write Info.ctl" Type="VI" URL="../Shared/Map of Message Indexes to Tx Write Info.ctl"/>
 			<Item Name="Map of Messages to Value Indexes.ctl" Type="VI" URL="../Shared/Map of Messages to Value Indexes.ctl"/>
 			<Item Name="Message Definition.ctl" Type="VI" URL="../Shared/Message Definition.ctl"/>
 			<Item Name="Message Map Key.ctl" Type="VI" URL="../Shared/Message Map Key.ctl"/>
