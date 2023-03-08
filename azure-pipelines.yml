@@ -67,7 +67,7 @@ stages:
 
       releaseVersion: '23.3.0'
       buildOutputLocation: 'Source\Built'
-      archiveLocation: '\\nirvana\Measurements\VeriStandAddons\prototype\ballard_mil_std_1553'
+      archiveLocation: '\\nirvana\Measurements\VeriStandAddons\ballard_mil_std_1553'
 
       packages:
         - controlFileName: 'control_custom_device'
