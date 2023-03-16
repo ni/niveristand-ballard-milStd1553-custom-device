@@ -2,7 +2,14 @@
   <xs:element name="parameters">
     <xs:complexType>
       <xs:sequence>
-        <xs:element name="channel" minOccurs="1" maxOccurs="256">
+        <xs:element name="version" minOccurs="0" maxOccurs="1">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:pattern value="[1]\.[0-1]"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+		<xs:element name="channel" minOccurs="1" maxOccurs="256">
           <xs:complexType>
             <xs:sequence>
                <xs:element name="hardwareChannel">
@@ -14,7 +21,11 @@
                   </xs:simpleType>
                </xs:element>
                <xs:element name="terminals" minOccurs="0" maxOccurs="1">
-                  <xs:complexType>
+               <xs:unique name="onlyOnebusController">
+                  <xs:selector xpath="terminal" />
+                  <xs:field xpath="busController" />
+               </xs:unique>
+				  <xs:complexType>
                      <xs:sequence>
                         <xs:element name="terminal" minOccurs="1" maxOccurs="32">
                            <xs:complexType>
@@ -28,6 +39,7 @@
                                     </xs:simpleType>
                                  </xs:element>
                                  <xs:element type="xs:string" name="terminalName" minOccurs="0" maxOccurs="1"/>
+								         <xs:element type="xs:boolean" name="busController" minOccurs="0" maxOccurs="1" />
                               </xs:sequence>
                            </xs:complexType>
                         </xs:element>
