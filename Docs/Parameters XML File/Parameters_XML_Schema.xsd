@@ -9,7 +9,7 @@
             </xs:restriction>
           </xs:simpleType>
         </xs:element>
-		<xs:element name="channel" minOccurs="1" maxOccurs="256">
+        <xs:element name="channel" minOccurs="1" maxOccurs="256">
           <xs:complexType>
             <xs:sequence>
                <xs:element name="hardwareChannel">
@@ -21,11 +21,7 @@
                   </xs:simpleType>
                </xs:element>
                <xs:element name="terminals" minOccurs="0" maxOccurs="1">
-               <xs:unique name="onlyOnebusController">
-                  <xs:selector xpath="terminal" />
-                  <xs:field xpath="busController" />
-               </xs:unique>
-				  <xs:complexType>
+                  <xs:complexType>
                      <xs:sequence>
                         <xs:element name="terminal" minOccurs="1" maxOccurs="32">
                            <xs:complexType>
@@ -39,12 +35,16 @@
                                     </xs:simpleType>
                                  </xs:element>
                                  <xs:element type="xs:string" name="terminalName" minOccurs="0" maxOccurs="1"/>
-								         <xs:element type="xs:boolean" name="busController" minOccurs="0" maxOccurs="1" />
+                                 <xs:element type="xs:boolean" name="busController" minOccurs="0" maxOccurs="1"/>
                               </xs:sequence>
                            </xs:complexType>
                         </xs:element>
                      </xs:sequence>
                   </xs:complexType>
+                  <xs:unique name="onlyOnebusController">
+                     <xs:selector xpath="terminal"/>
+                     <xs:field xpath="busController"/>
+                  </xs:unique>
                </xs:element>
                <xs:element name="acyclicFrame" minOccurs="0" maxOccurs="unbounded">
                 <xs:complexType>
