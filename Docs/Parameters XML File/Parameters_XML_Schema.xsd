@@ -106,14 +106,6 @@
                             </xs:restriction>
                         </xs:simpleType>
                      </xs:element>
-                     <xs:element name="modeCode" minOccurs="0" maxOccurs="1">
-                        <xs:simpleType>
-                           <xs:restriction base="xs:int">
-                              <xs:minInclusive value="0"/>
-                              <xs:maxInclusive value="31"/>
-                            </xs:restriction>
-                        </xs:simpleType>
-                     </xs:element>
                      <xs:element type="xs:boolean" name="createTimestampChannel" maxOccurs="1" minOccurs="0" default="false">
                         <xs:annotation>
                            <xs:documentation>Automatic creation of read-only VeriStand channel for timestamp is only supported for Rx messages/endpoints.</xs:documentation>
@@ -165,6 +157,14 @@
                               </xs:element>
                            </xs:sequence>
                         </xs:complexType>
+                     </xs:element>
+                     <xs:element name="modeCode" minOccurs="0" maxOccurs="1">
+                        <xs:simpleType>
+                           <xs:restriction base="xs:int">
+                              <xs:minInclusive value="0"/>
+                              <xs:maxInclusive value="31"/>
+                            </xs:restriction>
+                        </xs:simpleType>
                      </xs:element>
                   </xs:sequence>
                 </xs:complexType>
