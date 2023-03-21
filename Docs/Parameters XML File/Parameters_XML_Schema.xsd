@@ -2,6 +2,13 @@
   <xs:element name="parameters">
     <xs:complexType>
       <xs:sequence>
+        <xs:element name="version" minOccurs="0" maxOccurs="1">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:pattern value="[1]\.[0-1]"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
         <xs:element name="channel" minOccurs="1" maxOccurs="256">
           <xs:complexType>
             <xs:sequence>
@@ -28,11 +35,16 @@
                                     </xs:simpleType>
                                  </xs:element>
                                  <xs:element type="xs:string" name="terminalName" minOccurs="0" maxOccurs="1"/>
+                                 <xs:element type="xs:boolean" name="busController" minOccurs="0" maxOccurs="1"/>
                               </xs:sequence>
                            </xs:complexType>
                         </xs:element>
                      </xs:sequence>
                   </xs:complexType>
+                  <xs:unique name="onlyOnebusController">
+                     <xs:selector xpath="terminal"/>
+                     <xs:field xpath="busController"/>
+                  </xs:unique>
                </xs:element>
                <xs:element name="acyclicFrame" minOccurs="0" maxOccurs="unbounded">
                 <xs:complexType>
@@ -94,14 +106,6 @@
                             </xs:restriction>
                         </xs:simpleType>
                      </xs:element>
-                     <xs:element name="modeCode" minOccurs="0" maxOccurs="1">
-                        <xs:simpleType>
-                           <xs:restriction base="xs:int">
-                              <xs:minInclusive value="0"/>
-                              <xs:maxInclusive value="31"/>
-                            </xs:restriction>
-                        </xs:simpleType>
-                     </xs:element>
                      <xs:element type="xs:boolean" name="createTimestampChannel" maxOccurs="1" minOccurs="0" default="false">
                         <xs:annotation>
                            <xs:documentation>Automatic creation of read-only VeriStand channel for timestamp is only supported for Rx messages/endpoints.</xs:documentation>
@@ -153,6 +157,14 @@
                               </xs:element>
                            </xs:sequence>
                         </xs:complexType>
+                     </xs:element>
+                     <xs:element name="modeCode" minOccurs="0" maxOccurs="1">
+                        <xs:simpleType>
+                           <xs:restriction base="xs:int">
+                              <xs:minInclusive value="0"/>
+                              <xs:maxInclusive value="31"/>
+                            </xs:restriction>
+                        </xs:simpleType>
                      </xs:element>
                   </xs:sequence>
                 </xs:complexType>
