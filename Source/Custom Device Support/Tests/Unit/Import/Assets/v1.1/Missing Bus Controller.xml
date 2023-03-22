@@ -6,7 +6,6 @@
 		<terminals>
 			<terminal>
 				<terminalAddress>0</terminalAddress>
-				<busController>true</busController>
 			</terminal>
 			<terminal>
 				<terminalAddress>3</terminalAddress>

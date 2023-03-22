@@ -162,7 +162,35 @@ Notes:
 Notes:
 - The default value for VS channels for "MC 16" and "Mc 17" words will be 0.0.
 
-### Example (Terminals)
+### Example (Terminals) for Parameters File Version 1.1
+
+```xml
+<version>1.1</version>
+<channel>
+	<hardwareChannel>0</hardwareChannel>
+	<busController>
+		<simulated>True</simulated>
+	</busController>
+	<terminals>
+		<terminal>
+			<terminalAddress>0</terminalAddress>
+		</terminal>
+		<terminal>
+			<terminalAddress>1</terminalAddress>
+			<terminalName>"LRU Altimeter"</terminalName>
+		</terminal>	
+	</terminals>
+</channel>
+```
+Notes:
+- In order to use this schema in the parameters file, you need to specify <version>1.1</version> or higher
+- Defines terminals (BC and RTs) to populate.
+- Messages may refer to terminals not explicitly included in this section. It is assumed that these terminals are implemented by other software or by physical nodes connected to the 1553 hardware channel.
+- Specifying a terminal at terminalAddress = 0 creates a terminal with a default name.  Default names are defined as 'Remote Terminal <%02d>'
+- Terminal at terminalAddress = 1 is given a custom name "LRU Altimeter".
+- Subaddresses are not defined explicitly in the `terminals` definition; instead, subaddresses are implicitly defined when a message defines an endpoint on a simulated terminal. 
+
+### Example (Terminals) for Parameters File Version 1.0
 
 ```xml
 <channel>
@@ -180,9 +208,10 @@ Notes:
 ```
 
 Notes:
+- If no version is specified in the parameters file, this is what will be used
 - Defines terminals (BC and RTs) to populate.
 - Messages may refer to terminals not explicitly included in this section. It is assumed that these terminals are implemented by other software or by physical nodes connected to the 1553 hardware channel.
-- Terminal at terminalAddress = 0 is the bus controller.
+- Specifying a terminal at terminalAddress = 0 defines the bus controller.
 - Terminal at terminalAddress = 1 is given a custom name "LRU Altimeter". By default, remote terminals are named according to the terminal address-specific format: 'Remote Terminal <%02d>'
 - Subaddresses are not defined explicitly in the `terminals` definition; instead, subaddresses are implicitly defined when a message defines an endpoint on a simulated terminal. 
 
