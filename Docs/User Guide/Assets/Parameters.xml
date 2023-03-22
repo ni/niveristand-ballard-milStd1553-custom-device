@@ -4,7 +4,7 @@
 	<channel>
 		<hardwareChannel>0</hardwareChannel>
 		<busController>
-			<simulate>True</simulate>
+			<simulate>true</simulate>
 		</busController>
 		<terminals>
 			<terminal>

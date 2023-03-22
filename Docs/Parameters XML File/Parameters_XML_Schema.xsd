@@ -23,7 +23,7 @@
                <xs:element name="busController" minOccurs="0" maxOccurs="1">
                   <xs:complexType>
                      <xs:sequence>
-                        <xs:element type="xs:boolean" name="simulated" minOccurs="1" maxOccurs="1"/>
+                        <xs:element type="xs:boolean" name="simulate" minOccurs="1" maxOccurs="1"/>
                         <xs:element type="xs:string" name="terminalName" minOccurs="0" maxOccurs="1"/>
                      </xs:sequence>
                   </xs:complexType>
