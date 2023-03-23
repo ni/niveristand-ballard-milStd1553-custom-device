@@ -129,6 +129,7 @@
 		<Item Name="Find Port.vi" Type="VI" URL="../Port/Find Port.vi"/>
 		<Item Name="Get All Ports.vi" Type="VI" URL="../Port/Get All Ports.vi"/>
 		<Item Name="Get Port Number.vi" Type="VI" URL="../Port/Get Port Number.vi"/>
+		<Item Name="Read Bus Controller and Acyclic Frames.vi" Type="VI" URL="../Port/Read Bus Controller and Acyclic Frames.vi"/>
 		<Item Name="Read Remote Terminals.vi" Type="VI" URL="../Port/Read Remote Terminals.vi"/>
 		<Item Name="Remove Port.vi" Type="VI" URL="../Port/Remove Port.vi"/>
 		<Item Name="Set Port Number.vi" Type="VI" URL="../Port/Set Port Number.vi"/>
@@ -162,5 +163,4 @@
 		<Item Name="Get Tx Execution Time.vi" Type="VI" URL="../Timing Channels/Get Tx Execution Time.vi"/>
 	</Item>
 	<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
-	<Item Name="Read Bus Controller and Acyclic Frames.vi" Type="VI" URL="../Port/Read Bus Controller and Acyclic Frames.vi"/>
 </Library>
