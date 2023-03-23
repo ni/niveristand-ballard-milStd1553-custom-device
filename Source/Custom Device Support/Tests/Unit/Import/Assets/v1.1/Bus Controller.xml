@@ -3,6 +3,10 @@
 	<version>1.1</version>
 	<channel>
 		<hardwareChannel>0</hardwareChannel>
+		<busController>
+			<simulate>True</simulate>
+			<name>MyBusController</name>
+		</busController>
 		<terminals>
 			<terminal>
 				<terminalAddress>0</terminalAddress>
@@ -29,7 +33,7 @@
 		<message>
 			<name>Latitude</name>
 			<address>
-				<terminalAddress>3</terminalAddress>
+				<terminalAddress>8</terminalAddress>
 				<subAddress>7</subAddress>
 				<direction>Rx</direction>
 			</address>
