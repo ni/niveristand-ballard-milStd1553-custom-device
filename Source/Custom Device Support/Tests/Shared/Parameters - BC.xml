@@ -6,8 +6,6 @@
 		<busController>
 			<simulate>true</simulate>
 		</busController>
-		<terminals>
-		</terminals>
 		<acyclicFrame>
 			<createTriggerChannel>true</createTriggerChannel>
 			<name>acyclicFrame ID24</name>

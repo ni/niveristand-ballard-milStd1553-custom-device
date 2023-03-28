@@ -25,8 +25,8 @@ This example uses simple example Parameters and Hardware files found in the `Ass
 - `Assets/Parameters.xml`
 - `Assets/Hardware.xml`
 
-The files are configured with three simulated terminals:
-- **0**: Bus Controller
+The files are configured with a simulated bus controller and 2 simulated remote terminals:
+- **X**: Bus Controller
 - **1**: Remote Terminal 1
 - **2**: Remote Terminal 2
 
