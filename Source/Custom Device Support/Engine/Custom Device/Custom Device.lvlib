@@ -8,6 +8,8 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Engine" Type="Folder">
 		<Item Name="Init" Type="Folder">
+			<Item Name="Add Address Write Info.vi" Type="VI" URL="../Add Address Write Info.vi"/>
+			<Item Name="Add Status Lookup Data.vi" Type="VI" URL="../Add Status Lookup Data.vi"/>
 			<Item Name="Calculate Next Index.vi" Type="VI" URL="../Calculate Next Index.vi"/>
 			<Item Name="Calculate Next Rx Indexes.vi" Type="VI" URL="../Calculate Next Rx Indexes.vi"/>
 			<Item Name="Create Array of Tx Message Info.vi" Type="VI" URL="../Create Array of Tx Message Info.vi"/>

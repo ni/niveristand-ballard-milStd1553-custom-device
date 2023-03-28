@@ -1,7 +1,11 @@
 <?xml version="1.0"?>
 <parameters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<version>1.1</version>
 	<channel>
 		<hardwareChannel>0</hardwareChannel>
+		<busController>
+			<simulate>false</simulate>
+		</busController>
 		<terminals>
 			<terminal>
 				<terminalAddress>1</terminalAddress>
