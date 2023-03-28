@@ -69,6 +69,10 @@
 			</Item>
 			<Item Name="System" Type="Folder">
 				<Item Name="Deployment" Type="Folder">
+					<Item Name="Assets" Type="Folder">
+						<Item Name="Hardware - Version1.0.xml" Type="Document" URL="../Tests/System/Deployment/Assets/Hardware - Version1.0.xml"/>
+						<Item Name="Parameters - Version1.0.xml" Type="Document" URL="../Tests/System/Deployment/Assets/Parameters - Version1.0.xml"/>
+					</Item>
 					<Item Name="Deployment.lvclass" Type="LVClass" URL="../Tests/System/Deployment/Deployment.lvclass"/>
 				</Item>
 				<Item Name="Logging Loopback" Type="Folder">
