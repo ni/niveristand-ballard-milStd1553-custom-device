@@ -45,6 +45,9 @@
 			<Item Name="Finalize Inline Execution Units.vi" Type="VI" URL="../Finalize Inline Execution Units.vi"/>
 			<Item Name="Finalize Shared Resources.vi" Type="VI" URL="../Finalize Shared Resources.vi"/>
 		</Item>
+		<Item Name="Utilities" Type="Folder">
+			<Item Name="Print Error.vi" Type="VI" URL="../Print Error.vi"/>
+		</Item>
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="Asynchronous Execution Unit Compiled Information.ctl" Type="VI" URL="../Asynchronous Execution Unit Compiled Information.ctl"/>

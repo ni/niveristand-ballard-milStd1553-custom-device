@@ -62,6 +62,8 @@ LabVIEW 2020
   - Install the latest package from the [release page](https://github.com/ni/niveristand-custom-device-message-library/releases)
 - [VeriStand Custom Device Testing Tools](https://github.com/ni/niveristand-custom-device-testing-tools)
   - Install the latest package from the [release page](https://github.com/ni/niveristand-custom-device-testing-tools/releases)
+- [JKI VI Tester](https://www.vipm.io/package/jki_labs_tool_vi_tester/)
+  - Install the latest package from VIPM
 
 ## Git History & Rebasing Policy
 
