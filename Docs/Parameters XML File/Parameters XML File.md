@@ -187,7 +187,7 @@ Notes:
 - In order to use this schema in the parameters file, you need to specify `<version>1.1</version>` or higher in the xml
 - The `<busController>` element requires a property `<simulate>` which specifies whether the bus controller is simulated by the custom device not.  If simulate is false, it is assumed that a bus controller exists elsewhere on the network.
 - Messages may refer to terminals not explicitly included in this section. It is assumed that these terminals are implemented by other software or by physical nodes connected to the 1553 hardware channel.
-- Specified terminal at terminalAddress = 0- creates a terminal with a default name.  Default names are defined as 'Remote Terminal <%02d>'
+- Specified terminal at terminalAddress = 0 creates a terminal with a default name.  Default names are defined as 'Remote Terminal <%02d>'
 - Specified terminal at terminalAddress = 1 is given a custom name "LRU Altimeter".
 - Subaddresses are not defined explicitly in the `<terminals>` definition; instead, subaddresses are implicitly defined when a message defines an endpoint on a simulated terminal. 
 
