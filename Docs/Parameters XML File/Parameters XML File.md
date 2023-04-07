@@ -238,10 +238,10 @@ The following table describes the XML elements, or tags, you can use in a Parame
 |`<channel>`|Yes|complex|1/unbounded|Opening tag for a channel definition.|
 |→`<hardwareChannel>`|Yes|integer|1|Specifies the Hardware Channel used. Range is: [0:1].|
 ||||||
-|→`<busController>`|No|complex|1<sup>2</sup>|Opening tag for bus controller definition.  Required if parameter file version is 1.1 or greater. |
+|→`<busController>`|Yes|complex|1<sup>2</sup>|Opening tag for bus controller definition.  Required if parameter file version is 1.1 or greater. |
 |→→`<simulate>`|Yes|boolean|1|Specifies whether the bus controller should be simulated by the custom device.  A value of true will add a bus controller, and a value of false assumes the bus controller exists elsewhere on the network.|
 |→→`<name>`|Yes|string|0/1|Specifies the bus controller name.  If this tag is empty or not found, the default terminal name is "Bus Controller".|
-|→`<terminals>`|Yes|complex|0/1<sup>2</sup>|Opening tag for terminals (remote terminals) definition.|
+|→`<terminals>`|No|complex|0/1<sup>2</sup>|Opening tag for terminals (remote terminals) definition.|
 |→→`<terminal>`|Yes|complex|1/32|Opening tag for terminal definition.|
 |→→→`<terminalAddress>`|Yes|integer|1|Specifies the remote terminal address. Range is: [0:31]. Remote terminal will have value 0..30. Value of 31 reserved for broadcast messages.|
 |→→→`<terminalName>`|No|string|0/1|Specifies the terminal name. If this tag is empty or not found, the default terminal name is 'Remote Terminal <%02d>'.|
