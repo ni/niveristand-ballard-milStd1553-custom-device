@@ -8,7 +8,7 @@
 		</busController>
 		<terminals>
 			<terminal>
-				<terminalAddress>1</terminalAddress>
+				<terminalAddress>0</terminalAddress>
 			</terminal>
 			<terminal>
 				<terminalAddress>15</terminalAddress>
@@ -25,9 +25,9 @@
 			<name>acyclicFrame ID56</name>
 		</acyclicFrame>
 		<message>
-			<name>BC to RT 1.2</name>
+			<name>BC to RT 0.2</name>
 			<address>
-				<terminalAddress>1</terminalAddress>
+				<terminalAddress>0</terminalAddress>
 				<subAddress>2</subAddress>
 				<direction>Rx</direction>
 			</address>
@@ -144,9 +144,9 @@
 			</parameters>
 		</message>
 		<message>
-			<name>BC to RT 1.3</name>
+			<name>BC to RT 0.3</name>
 			<address>
-				<terminalAddress>1</terminalAddress>
+				<terminalAddress>0</terminalAddress>
 				<subAddress>3</subAddress>
 				<direction>Rx</direction>
 			</address>
@@ -154,9 +154,9 @@
 			<numberOfWords>4</numberOfWords>
 		</message>
 		<message>
-			<name>RT 1.5 to BC</name>
+			<name>RT 0.5 to BC</name>
 			<address>
-				<terminalAddress>1</terminalAddress>
+				<terminalAddress>0</terminalAddress>
 				<subAddress>5</subAddress>
 				<direction>Tx</direction>
 			</address>
@@ -164,9 +164,9 @@
 			<numberOfWords>6</numberOfWords>
 		</message>
 		<message>
-			<name>RT 1.6 to BC</name>
+			<name>RT 0.6 to BC</name>
 			<address>
-				<terminalAddress>1</terminalAddress>
+				<terminalAddress>0</terminalAddress>
 				<subAddress>6</subAddress>
 				<direction>Tx</direction>
 			</address>
@@ -175,9 +175,9 @@
 			<createTimestampChannel>true</createTimestampChannel>
 		</message>
 		<message>
-			<name>RT 1.20 to RT 15.20</name>
+			<name>RT 0.20 to RT 15.20</name>
 			<address>
-				<terminalAddress>1</terminalAddress>
+				<terminalAddress>0</terminalAddress>
 				<subAddress>20</subAddress>
 				<direction>Tx</direction>
 			</address>
@@ -193,7 +193,7 @@
 		<message>
 			<name>MC 16</name>
 			<address>
-				<terminalAddress>1</terminalAddress>
+				<terminalAddress>0</terminalAddress>
 				<subAddress>31</subAddress>
 				<direction>Tx</direction>
 			</address>
@@ -204,7 +204,7 @@
 		<message>
 			<name>MC 17</name>
 			<address>
-				<terminalAddress>1</terminalAddress>
+				<terminalAddress>0</terminalAddress>
 				<subAddress>31</subAddress>
 				<direction>Rx</direction>
 			</address>
