@@ -930,7 +930,7 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
+				<Property Name="TgtF_enableDebugging" Type="Bool">false</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Engine</Property>
 				<Property Name="TgtF_internalName" Type="Str">Engine</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 </Property>
