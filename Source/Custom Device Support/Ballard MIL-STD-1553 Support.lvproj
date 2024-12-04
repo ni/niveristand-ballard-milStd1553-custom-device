@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="23008000">
+<Project Type="Project" LVVersion="20008000">
 	<Property Name="CCSymbols" Type="Str">DEBUG,False;</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
@@ -127,65 +127,8 @@
 		<Item Name="MIL-STD 1553 Import.lvlib" Type="Library" URL="../Import/MIL-STD 1553 Import.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
-				<Item Name="1553 Activity Flags.ctl" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Public/Controls/1553 Activity Flags.ctl"/>
-				<Item Name="1553 BC Status.ctl" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Public/Controls/1553 BC Status.ctl"/>
-				<Item Name="1553 Message Fields Internal.ctl" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Private/Controls/1553 Message Fields Internal.ctl"/>
-				<Item Name="1553 Message Fields.ctl" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Public/Controls/1553 Message Fields.ctl"/>
-				<Item Name="1553 Record Internal.ctl" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Private/Controls/1553 Record Internal.ctl"/>
-				<Item Name="1553 Record.ctl" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Controls/1553 Record.ctl"/>
-				<Item Name="1553 RT Status.ctl" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Public/Controls/1553 RT Status.ctl"/>
-				<Item Name="1553 RT Transfer Type.ctl" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Public/Controls/1553 RT Transfer Type.ctl"/>
-				<Item Name="1553 Transfer Direction.ctl" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Public/Controls/1553 Transfer Direction.ctl"/>
-				<Item Name="BC From Channel.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Public/Channel/Configure/BC From Channel.vi"/>
-				<Item Name="BC Transmit Acyclic Frame Now.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Private/BC/Data/BC Transmit Acyclic Frame Now.vi"/>
-				<Item Name="BC Transmit Acyclic Frame.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Private/BC/Data/BC Transmit Acyclic Frame.vi"/>
-				<Item Name="BC Transmit Acyclic.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Public/BC/Data/BC Transmit Acyclic.vi"/>
 				<Item Name="BTI1553LV.lvlib" Type="Library" URL="/&lt;instrlib&gt;/BTI1553Lib/BTI1553LV.lvlib"/>
 				<Item Name="BTICardLV.lvlib" Type="Library" URL="/&lt;instrlib&gt;/BTICardLib/BTICardLV.lvlib"/>
-				<Item Name="Build Last Error Info.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Private/Utility/Build Last Error Info.vi"/>
-				<Item Name="Build Last Error Info.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Private/Utility/Build Last Error Info.vi"/>
-				<Item Name="Close.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Close.vi"/>
-				<Item Name="Configure All From Bin.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Private/Channel/Configure/Configure All From Bin.vi"/>
-				<Item Name="Configure All From XML.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Private/Channel/Configure/Configure All From XML.vi"/>
-				<Item Name="Configure All.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Public/Channel/Configure/Configure All.vi"/>
-				<Item Name="Create Reader.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Sequential Monitor/Data/Create Reader.vi"/>
-				<Item Name="Decode CWD.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Public/Utility/Decode CWD.vi"/>
-				<Item Name="Destroy Reader.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Sequential Monitor/Data/Destroy Reader.vi"/>
-				<Item Name="Error Converter (ErrCode or Status).vi" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Private/Utility/Error Converter (ErrCode or Status).vi"/>
-				<Item Name="Error Converter (ErrCode or Status).vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Private/Utility/Error Converter (ErrCode or Status).vi"/>
-				<Item Name="Error Info.ctl" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Public/Controls/Error Info.ctl"/>
-				<Item Name="Error Info.ctl" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Controls/Error Info.ctl"/>
-				<Item Name="Get Activity Fields Cluster.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Public/Utility/Get Activity Fields Cluster.vi"/>
-				<Item Name="Get BC Status.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Public/BC/Action-Status/Get BC Status.vi"/>
-				<Item Name="Get BC Xfer Handle.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Public/BC/Configure/Get BC Xfer Handle.vi"/>
-				<Item Name="Get BC Xfer Last Message Block.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Public/BC/Transfer/Data/Get BC Xfer Last Message Block.vi"/>
-				<Item Name="Get Card Product.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Card/Data/Get Card Product.vi"/>
-				<Item Name="Get Card Type.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Card/Data/Get Card Type.vi"/>
-				<Item Name="Get Next 1553 Record In Reader.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Sequential Monitor/Data/Get Next 1553 Record In Reader.vi"/>
-				<Item Name="Get RT Status.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Public/RT/Action-Status/Get RT Status.vi"/>
-				<Item Name="Get RT Xfer Handle Name.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Private/RT/Configure/Get RT Xfer Handle Name.vi"/>
-				<Item Name="Get RT Xfer Handle.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Private/RT/Configure/Get RT Xfer Handle.vi"/>
-				<Item Name="Get RT Xfer Last Message Block.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Public/RT/Transfer/Data/Get RT Xfer Last Message Block.vi"/>
-				<Item Name="Get RT Xfer.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Public/RT/Configure/Get RT Xfer.vi"/>
-				<Item Name="Initialize By Card Number and Core Number.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Private/Initialize By Card Number and Core Number.vi"/>
-				<Item Name="Initialize By Core Serial Number.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Private/Initialize By Core Serial Number.vi"/>
-				<Item Name="Initialize By Slot Number and Core Number.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Private/Initialize By Slot Number and Core Number.vi"/>
-				<Item Name="Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Initialize.vi"/>
-				<Item Name="LED Color.ctl" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Controls/LED Color.ctl"/>
-				<Item Name="Read.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Sequential Monitor/Data/Read.vi"/>
-				<Item Name="Reset.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Reset.vi"/>
-				<Item Name="RTs From Channel.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Public/Channel/Configure/RTs From Channel.vi"/>
-				<Item Name="Start All On Channel.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Public/Channel/Action-Status/Start All On Channel.vi"/>
-				<Item Name="Start BC.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Public/BC/Action-Status/Start BC.vi"/>
-				<Item Name="Start RT.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Public/RT/Action-Status/Start RT.vi"/>
-				<Item Name="Start Sequential Monitor.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Sequential Monitor/Action-Status/Start Sequential Monitor.vi"/>
-				<Item Name="Stop BC.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Public/BC/Action-Status/Stop BC.vi"/>
-				<Item Name="Stop RT.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Public/RT/Action-Status/Stop RT.vi"/>
-				<Item Name="Write BC Xfer Data Words.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Public/BC/Transfer/Data/Write BC Xfer Data Words.vi"/>
-				<Item Name="Write External LED.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Private/IO/Action-Status/Write External LED.vi"/>
-				<Item Name="Write External Status LED.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Private/IO/Action-Status/Write External Status LED.vi"/>
-				<Item Name="Write LED.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/IO/Action-Status/Write LED.vi"/>
-				<Item Name="Write RT Xfer Data Words.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Public/RT/Transfer/Data/Write RT Xfer Data Words.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Append Path to Root if Relative - Absolute or Relative Path Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Append Path to Root if Relative - Absolute or Relative Path Array__ogtk.vi"/>
@@ -216,6 +159,7 @@
 				<Item Name="Array Size(s)__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Array Size(s)__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Assert Floating-Point Numeric Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Floating-Point Numeric Type.vim"/>
 				<Item Name="Assert Integer Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Integer Type.vim"/>
+				<Item Name="Assert Unsigned Integer Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Unsigned Integer Type.vim"/>
 				<Item Name="Build Error Cluster__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Build Error Cluster__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Build Path - File Names and Paths Arrays - path__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Build Path - File Names and Paths Arrays - path__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Build Path - File Names and Paths Arrays__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Build Path - File Names and Paths Arrays__ogtk__jki_vi_tester.vi"/>
@@ -580,7 +524,6 @@
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace (String Array)__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Trim Whitespace (String Array)__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Trim Whitespace (String)__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Trim Whitespace (String)__ogtk__jki_vi_tester.vi"/>
-				<Item Name="Trim Whitespace One-Sided.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace One-Sided.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="Trim Whitespace__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Trim Whitespace__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Type Descriptor Enumeration__ogtk__jki_vi_tester.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Type Descriptor Enumeration__ogtk__jki_vi_tester.ctl"/>
@@ -858,69 +801,10 @@
 		<Item Name="Ballard MIL-STD-1553 Engine.lvlib" Type="Library" URL="../Engine/Ballard MIL-STD-1553 Engine.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
-				<Item Name="1553 Activity Flags.ctl" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Public/Controls/1553 Activity Flags.ctl"/>
-				<Item Name="1553 BC Status.ctl" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Public/Controls/1553 BC Status.ctl"/>
-				<Item Name="1553 Message Fields Internal.ctl" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Private/Controls/1553 Message Fields Internal.ctl"/>
-				<Item Name="1553 Message Fields.ctl" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Public/Controls/1553 Message Fields.ctl"/>
-				<Item Name="1553 Record Internal.ctl" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Private/Controls/1553 Record Internal.ctl"/>
-				<Item Name="1553 Record.ctl" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Controls/1553 Record.ctl"/>
-				<Item Name="1553 RT Status.ctl" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Public/Controls/1553 RT Status.ctl"/>
-				<Item Name="1553 RT Transfer Type.ctl" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Public/Controls/1553 RT Transfer Type.ctl"/>
-				<Item Name="1553 Transfer Direction.ctl" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Public/Controls/1553 Transfer Direction.ctl"/>
-				<Item Name="BC From Channel.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Public/Channel/Configure/BC From Channel.vi"/>
-				<Item Name="BC Transmit Acyclic Frame Now.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Private/BC/Data/BC Transmit Acyclic Frame Now.vi"/>
-				<Item Name="BC Transmit Acyclic Frame.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Private/BC/Data/BC Transmit Acyclic Frame.vi"/>
-				<Item Name="BC Transmit Acyclic.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Public/BC/Data/BC Transmit Acyclic.vi"/>
 				<Item Name="BTI1553LV.lvlib" Type="Library" URL="/&lt;instrlib&gt;/BTI1553Lib/BTI1553LV.lvlib"/>
 				<Item Name="BTICardLV.lvlib" Type="Library" URL="/&lt;instrlib&gt;/BTICardLib/BTICardLV.lvlib"/>
-				<Item Name="Build Last Error Info.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Private/Utility/Build Last Error Info.vi"/>
-				<Item Name="Build Last Error Info.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Private/Utility/Build Last Error Info.vi"/>
-				<Item Name="Close.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Close.vi"/>
-				<Item Name="Configure All From Bin.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Private/Channel/Configure/Configure All From Bin.vi"/>
-				<Item Name="Configure All From XML.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Private/Channel/Configure/Configure All From XML.vi"/>
-				<Item Name="Configure All.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Public/Channel/Configure/Configure All.vi"/>
-				<Item Name="Create Reader.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Sequential Monitor/Data/Create Reader.vi"/>
-				<Item Name="Decode CWD.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Public/Utility/Decode CWD.vi"/>
-				<Item Name="Destroy Reader.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Sequential Monitor/Data/Destroy Reader.vi"/>
-				<Item Name="Error Converter (ErrCode or Status).vi" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Private/Utility/Error Converter (ErrCode or Status).vi"/>
-				<Item Name="Error Converter (ErrCode or Status).vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Private/Utility/Error Converter (ErrCode or Status).vi"/>
-				<Item Name="Error Info.ctl" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Public/Controls/Error Info.ctl"/>
-				<Item Name="Error Info.ctl" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Controls/Error Info.ctl"/>
-				<Item Name="Get Activity Fields Cluster.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Public/Utility/Get Activity Fields Cluster.vi"/>
-				<Item Name="Get BC Status.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Public/BC/Action-Status/Get BC Status.vi"/>
-				<Item Name="Get BC Xfer Handle.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Public/BC/Configure/Get BC Xfer Handle.vi"/>
-				<Item Name="Get BC Xfer Last Message Block.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Public/BC/Transfer/Data/Get BC Xfer Last Message Block.vi"/>
-				<Item Name="Get Card Product.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Card/Data/Get Card Product.vi"/>
-				<Item Name="Get Card Type.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Card/Data/Get Card Type.vi"/>
-				<Item Name="Get Next 1553 Record In Reader.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Sequential Monitor/Data/Get Next 1553 Record In Reader.vi"/>
-				<Item Name="Get RT Status.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Public/RT/Action-Status/Get RT Status.vi"/>
-				<Item Name="Get RT Xfer Handle Name.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Private/RT/Configure/Get RT Xfer Handle Name.vi"/>
-				<Item Name="Get RT Xfer Handle.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Private/RT/Configure/Get RT Xfer Handle.vi"/>
-				<Item Name="Get RT Xfer Last Message Block.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Public/RT/Transfer/Data/Get RT Xfer Last Message Block.vi"/>
-				<Item Name="Get RT Xfer.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Public/RT/Configure/Get RT Xfer.vi"/>
-				<Item Name="Initialize By Card Number and Core Number.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Private/Initialize By Card Number and Core Number.vi"/>
-				<Item Name="Initialize By Core Serial Number.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Private/Initialize By Core Serial Number.vi"/>
-				<Item Name="Initialize By Slot Number and Core Number.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Private/Initialize By Slot Number and Core Number.vi"/>
-				<Item Name="Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Initialize.vi"/>
-				<Item Name="LED Color.ctl" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Controls/LED Color.ctl"/>
-				<Item Name="Read.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Sequential Monitor/Data/Read.vi"/>
-				<Item Name="Reset.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Reset.vi"/>
-				<Item Name="RTs From Channel.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Public/Channel/Configure/RTs From Channel.vi"/>
-				<Item Name="Start All On Channel.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Public/Channel/Action-Status/Start All On Channel.vi"/>
-				<Item Name="Start BC.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Public/BC/Action-Status/Start BC.vi"/>
-				<Item Name="Start RT.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Public/RT/Action-Status/Start RT.vi"/>
-				<Item Name="Start Sequential Monitor.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Sequential Monitor/Action-Status/Start Sequential Monitor.vi"/>
-				<Item Name="Stop BC.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Public/BC/Action-Status/Stop BC.vi"/>
-				<Item Name="Stop RT.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Public/RT/Action-Status/Stop RT.vi"/>
-				<Item Name="Write BC Xfer Data Words.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Public/BC/Transfer/Data/Write BC Xfer Data Words.vi"/>
-				<Item Name="Write External LED.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Private/IO/Action-Status/Write External LED.vi"/>
-				<Item Name="Write External Status LED.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Private/IO/Action-Status/Write External Status LED.vi"/>
-				<Item Name="Write LED.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/IO/Action-Status/Write LED.vi"/>
-				<Item Name="Write RT Xfer Data Words.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI1553Lib/Public/RT/Transfer/Data/Write RT Xfer Data Words.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="Assert Floating-Point Numeric Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Floating-Point Numeric Type.vim"/>
-				<Item Name="Assert Integer Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Integer Type.vim"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -955,7 +839,6 @@
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="Messaging.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/VeriStand Custom Device Messaging/Messaging.lvlib"/>
 				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
-				<Item Name="NI_XML.lvlib" Type="Library" URL="/&lt;vilib&gt;/xml/NI_XML.lvlib"/>
 				<Item Name="NIVeristand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/data/NIVeristand_DataServices.dll"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
@@ -966,7 +849,6 @@
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
-				<Item Name="Trim Whitespace One-Sided.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace One-Sided.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
@@ -981,15 +863,11 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Build Linux Log File Path.vi" Type="VI" URL="../Shared/Build Linux Log File Path.vi"/>
-			<Item Name="Check Value in Range.vim" Type="VI" URL="../Shared/Check Value in Range.vim"/>
 			<Item Name="Command Word.ctl" Type="VI" URL="../Shared/Command Word.ctl"/>
 			<Item Name="Create Parameter For Each Word.vi" Type="VI" URL="../Shared/Create Parameter For Each Word.vi"/>
 			<Item Name="Data Word Format.ctl" Type="VI" URL="../Shared/Data Word Format.ctl"/>
 			<Item Name="Device Parameters.ctl" Type="VI" URL="../Shared/Device Parameters.ctl"/>
 			<Item Name="Direction.ctl" Type="VI" URL="../Shared/Direction.ctl"/>
-			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="Error Count Channel Refs.ctl" Type="VI" URL="../Shared/Error Count Channel Refs.ctl"/>
 			<Item Name="Get File MD5 Checksum.vi" Type="VI" URL="../Shared/Get File MD5 Checksum.vi"/>
 			<Item Name="Initialization Method.ctl" Type="VI" URL="../Shared/Initialization Method.ctl"/>
@@ -998,7 +876,6 @@
 			<Item Name="Message Definition.ctl" Type="VI" URL="../Shared/Message Definition.ctl"/>
 			<Item Name="Message Map Key.ctl" Type="VI" URL="../Shared/Message Map Key.ctl"/>
 			<Item Name="Message Type.ctl" Type="VI" URL="../Shared/Message Type.ctl"/>
-			<Item Name="MIL-STD 1553 Import.lvlib" Type="Library" URL="../Import/MIL-STD 1553 Import.lvlib"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -1014,13 +891,11 @@
 			<Item Name="NI VeriStand - Set Custom Device Channel Value Table_offline.vi" Type="VI" URL="../Shared/NI VeriStand - Set Custom Device Channel Value Table_offline.vi"/>
 			<Item Name="Parameter Definition.ctl" Type="VI" URL="../Shared/Parameter Definition.ctl"/>
 			<Item Name="Rx Read Info.ctl" Type="VI" URL="../Shared/Rx Read Info.ctl"/>
-			<Item Name="String to Value.vim" Type="VI" URL="../Shared/String to Value.vim"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Terminal Endpoint.ctl" Type="VI" URL="../Shared/Terminal Endpoint.ctl"/>
 			<Item Name="Tx Write Info.ctl" Type="VI" URL="../Shared/Tx Write Info.ctl"/>
-			<Item Name="Value to String.vim" Type="VI" URL="../Shared/Value to String.vim"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine" Type="Packed Library">
@@ -1044,7 +919,7 @@
 				<Property Name="Destination[1].path" Type="Path">/Linux_x64</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{05B10BDF-5E52-4828-948A-34ED970E9331}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A25305CE-1162-4F92-ADE0-D35F5D5F0177}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/Linux x64/Ballard MIL-STD-1553 Engine.lvlib</Property>
@@ -1055,6 +930,7 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Engine</Property>
 				<Property Name="TgtF_internalName" Type="Str">Engine</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 </Property>
