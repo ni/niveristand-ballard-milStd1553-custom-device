@@ -930,7 +930,7 @@
 				<Property Name="Source[3].properties[3].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[3].properties[3].value" Type="Bool">false</Property>
 				<Property Name="Source[3].properties[4].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[3].properties[4].value" Type="Bool">false</Property>
+				<Property Name="Source[3].properties[4].value" Type="Bool">true</Property>
 				<Property Name="Source[3].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
 				<Property Name="Source[4].Container.applyProperties" Type="Bool">true</Property>
