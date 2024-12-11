@@ -414,6 +414,21 @@
 				<Item Name="Waveform Subtype Enum__ogtk__jki_vi_tester.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Waveform Subtype Enum__ogtk__jki_vi_tester.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="BTI1553LV.dll" Type="Document" URL="BTI1553LV.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="BTICardLV.dll" Type="Document" URL="BTICardLV.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="mscorlib" Type="VI" URL="mscorlib">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="NationalInstruments.VeriStand.Internal" Type="Document" URL="NationalInstruments.VeriStand.Internal">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="ActionVIOnLoad.vi" Type="VI" URL="../../../Includes/Ballard MIL-STD-1553 System Explorer.lvlibp/System Explorer/Implementation/System Explorer/Action VIs/ActionVIOnLoad.vi"/>
 			<Item Name="Asynchronous Execution Unit Compiled Information.ctl" Type="VI" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/Engine/Custom Device/Asynchronous Execution Unit Compiled Information.ctl"/>
 			<Item Name="Block Data Reference.ctl" Type="VI" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI VeriStand/Custom Device API/Block Data Reference.ctl"/>
