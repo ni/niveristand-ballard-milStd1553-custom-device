@@ -50,7 +50,7 @@
 		<Item Name="Utility" Type="Folder">
 			<Item Name="Copy .LLB to NI VeriStand dir.vi" Type="VI" URL="../Utility/Copy .LLB to NI VeriStand dir.vi"/>
 		</Item>
-		<Item Name="Ballard MIL-STD-1553 Engine.lvlib" Type="Library" URL="../Engine/Ballard MIL-STD-1553 Engine.lvlib"/>
+		<Item Name="_Ballard MIL-STD-1553 Engine.lvlib" Type="Library" URL="../Engine/_Ballard MIL-STD-1553 Engine.lvlib"/>
 		<Item Name="Ballard MIL-STD-1553 Shared.lvlib" Type="Library" URL="../Shared/Ballard MIL-STD-1553 Shared.lvlib"/>
 		<Item Name="Ballard MIL-STD-1553 System Explorer.lvlib" Type="Library" URL="../System Explorer/Ballard MIL-STD-1553 System Explorer.lvlib"/>
 		<Item Name="Custom Device Ballard MIL-STD-1553.xml" Type="Document" URL="../Custom Device Ballard MIL-STD-1553.xml"/>
@@ -598,7 +598,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{08BECEEA-C2C4-4262-8351-7D8564FF9CB1}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Ballard MIL-STD-1553 Engine.lvlib/RT Driver VI.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/_Ballard MIL-STD-1553 Engine.lvlib/RT Driver VI.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
@@ -622,7 +622,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{D089BEE7-41AC-4A2F-AC10-51B8F64F9377}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Ballard MIL-STD-1553 Engine.lvlib/RT Driver VI.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/_Ballard MIL-STD-1553 Engine.lvlib/RT Driver VI.vi</Property>
 				<Property Name="Source[1].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[1].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[1].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -718,7 +718,7 @@
 		<Item Name="NI VeriStand APIs" Type="Folder">
 			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
 		</Item>
-		<Item Name="Ballard MIL-STD-1553 Engine.lvlib" Type="Library" URL="../Engine/Ballard MIL-STD-1553 Engine.lvlib"/>
+		<Item Name="_Ballard MIL-STD-1553 Engine.lvlib" Type="Library" URL="../Engine/_Ballard MIL-STD-1553 Engine.lvlib"/>
 		<Item Name="Ballard MIL-STD-1553 Shared.lvlib" Type="Library" URL="../Shared/Ballard MIL-STD-1553 Shared.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -866,7 +866,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{0969CA23-1984-4F41-B5A3-444914C7C4F2}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/Linux x64/Ballard MIL-STD-1553 Engine.lvlib/RT Driver VI.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/Linux x64/_Ballard MIL-STD-1553 Engine.lvlib/RT Driver VI.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
@@ -893,7 +893,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{76876736-607A-4DF9-B72A-FA567C04234B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/Linux x64/Ballard MIL-STD-1553 Engine.lvlib/RT Driver VI.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/Linux x64/_Ballard MIL-STD-1553 Engine.lvlib/RT Driver VI.vi</Property>
 				<Property Name="Source[1].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[1].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[1].properties[1].type" Type="Str">Remove block diagram</Property>
