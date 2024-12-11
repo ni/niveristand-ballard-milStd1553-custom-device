@@ -416,7 +416,6 @@
 			</Item>
 			<Item Name="ActionVIOnLoad.vi" Type="VI" URL="../../../Includes/Ballard MIL-STD-1553 System Explorer.lvlibp/System Explorer/Implementation/System Explorer/Action VIs/ActionVIOnLoad.vi"/>
 			<Item Name="Asynchronous Execution Unit Compiled Information.ctl" Type="VI" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/Engine/Custom Device/Asynchronous Execution Unit Compiled Information.ctl"/>
-			<Item Name="Ballard MIL-STD-1553 Engine.lvlib" Type="Library" URL="../Engine/Ballard MIL-STD-1553 Engine.lvlib"/>
 			<Item Name="Block Data Reference.ctl" Type="VI" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI VeriStand/Custom Device API/Block Data Reference.ctl"/>
 			<Item Name="Check If Custom Device Enabled.vi" Type="VI" URL="../../../Includes/Ballard MIL-STD-1553 System Explorer.lvlibp/System Explorer/Implementation/System Explorer/subVIs/Check If Custom Device Enabled.vi"/>
 			<Item Name="Compiled.Settings.ctl" Type="VI" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/Engine/Custom Device/Compiled.Settings.ctl"/>
@@ -763,7 +762,6 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Ballard MIL-STD-1553 Engine.lvlib" Type="Library" URL="../Engine/Ballard MIL-STD-1553 Engine.lvlib"/>
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
