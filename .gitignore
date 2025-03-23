@@ -18,6 +18,7 @@
 
 # Output directory
 Built/
+Includes/
 
 # Intermediate Help Files
 *.log
