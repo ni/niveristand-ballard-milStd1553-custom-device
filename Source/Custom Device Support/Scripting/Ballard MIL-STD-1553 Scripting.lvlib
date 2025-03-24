@@ -113,7 +113,7 @@
 		<Item Name="Get Number of Words.vi" Type="VI" URL="../Message/Get Number of Words.vi"/>
 		<Item Name="Get Parameter Definition.vi" Type="VI" URL="../Message/Get Parameter Definition.vi"/>
 		<Item Name="Get Parameters.vi" Type="VI" URL="../Message/Get Parameters.vi"/>
-		<Item Name="Get Parent of Subaddress.vi" Type="VI" URL="../Message/Get Parent of Subaddress.vi"/>
+		<Item Name="Get Parent of Message.vi" Type="VI" URL="../Message/Get Parent of Message.vi"/>
 		<Item Name="Get Remote Terminal Endpoint.vi" Type="VI" URL="../Message/Get Remote Terminal Endpoint.vi"/>
 		<Item Name="Get Rx and Tx Status Channels for Message.vi" Type="VI" URL="../Message/Get Rx and Tx Status Channels for Message.vi"/>
 		<Item Name="Get Terminal Type.vi" Type="VI" URL="../Message/Get Terminal Type.vi"/>
