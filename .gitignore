@@ -19,6 +19,10 @@
 # Output directory
 Built/
 
+# Include directory
+Includes/
+!Includes/README.md
+
 # Intermediate Help Files
 *.log
 *.hhp
