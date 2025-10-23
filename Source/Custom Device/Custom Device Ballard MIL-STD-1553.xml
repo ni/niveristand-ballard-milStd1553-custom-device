@@ -5,7 +5,7 @@
 		<eng>NI::Ballard MIL-STD-1553</eng>
 		<loc>NI::Ballard MIL-STD-1553</loc>
 	</AddMenu>
-	<Version>1.0.0</Version>
+	<Version>1.1.0</Version>
 	<Type>Inline HW Interface</Type>
 	<MaxOccurrence>-1</MaxOccurrence>
 	<MainPageGUID>96479D8D-68C1-4D19-959D-E0FE38040076</MainPageGUID>
@@ -366,6 +366,23 @@
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
 				<Path>Custom Devices\Ballard\MIL-STD-1553\Windows\Ballard MIL-STD-1553 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Direction</eng>
+				<loc>Direction</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>67965ECA-4B78-469A-8D36-9D4F36AF2CBD</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\RM Folder.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Devices\Ballard\MIL-STD-1553\Windows\Ballard MIL-STD-1553 Configuration.llb\Page Wrapper.vi</Path>
 			</Item2Launch>
 		</Page>
 		<Page>
